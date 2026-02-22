@@ -1,0 +1,68 @@
+[
+    {
+        "display_name": "distroav",
+        "enabled": true,
+        "encoders": [],
+        "id": "",
+        "module_name": "distroav",
+        "outputs": [],
+        "services": [],
+        "sources": [],
+        "version": ""
+    },
+    {
+        "display_name": "",
+        "enabled": true,
+        "encoders": [],
+        "id": "",
+        "module_name": "source-record",
+        "outputs": [],
+        "services": [],
+        "sources": [],
+        "version": ""
+    },
+    {
+        "display_name": "",
+        "enabled": true,
+        "encoders": [],
+        "id": "",
+        "module_name": "obs-color-monitor",
+        "outputs": [],
+        "services": [],
+        "sources": [],
+        "version": ""
+    },
+    {
+        "display_name": "Move Transition",
+        "enabled": true,
+        "encoders": [],
+        "id": "",
+        "module_name": "move-transition",
+        "outputs": [],
+        "services": [],
+        "sources": [],
+        "version": ""
+    },
+    {
+        "display_name": "",
+        "enabled": true,
+        "encoders": [],
+        "id": "",
+        "module_name": "advanced-scene-switcher",
+        "outputs": [],
+        "services": [],
+        "sources": [],
+        "version": ""
+    },
+    {
+        "display_name": "Stream Deck (for OBS Studio)",
+        "enabled": true,
+        "encoders": [],
+        "id": "",
+        "module_name": "StreamDeckPlugin",
+        "outputs": [],
+        "services": [],
+        "sources": [],
+        "version": ""
+    }
+]
