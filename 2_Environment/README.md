@@ -63,3 +63,9 @@ Log location > C:\Users\Pexabo\AppData\Roaming\obs-studio\logs
 
 Script load location > 
 C:\Program Files\obs-studio\data\obs-plugins\frontend-tools\scripts
+
+Obs Install Location
+C:\Program Files\obs-studio\bin\64bit
+
+OBS Installed via
+Choco
