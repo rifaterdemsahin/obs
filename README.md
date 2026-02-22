@@ -1,11 +1,32 @@
-# OBS Studio Configuration & Plugins
+# OBS Studio — Infrastructure as Code
 
-A repository for managing OBS Studio configuration backups and custom plugins.
+A repository for treating OBS Studio configuration as Infrastructure-as-Code (IaC): version-controlled, reproducible, and automated.
+
+## Knowledge System
+
+The project follows a journey from _unknown problem_ → _understood solution_ → _proven result_:
+
+| Folder | Purpose |
+|--------|---------|
+| [`1_Real_Unknown`](1_Real_Unknown/) | Define the problem — OKRs, goals, questions to answer |
+| [`2_Environment`](2_Environment/) | Read the landscape — roadmap, constraints, use cases |
+| [`3_Simulation`](3_Simulation/) | Examples and mockups — what the solution could look like |
+| [`4_Formula`](4_Formula/) | Steps and guides — the recipe for building it |
+| [`5_Symbols`](5_Symbols/) | Core source code — where the formula becomes real |
+| [`6_Semblance`](6_Semblance/) | Errors and near-misses — problems, causes, fixes |
+| [`7_Testing_Known`](7_Testing_Known/) | Validation — prove it solves the original unknowns |
 
 ## Project Structure
 
 ```
 obs/
+├── 1_Real_Unknown/             # Problem definition & OKRs
+├── 2_Environment/              # Landscape, roadmap, constraints
+├── 3_Simulation/               # Workflow diagrams & mockups
+├── 4_Formula/                  # Step-by-step build guide
+├── 5_Symbols/                  # Source code documentation
+├── 6_Semblance/                # Error log & workarounds
+├── 7_Testing_Known/            # Test matrix & validation
 ├── plugins/
 │   └── projector-hotkeys.lua   # Lua plugin for fullscreen projector hotkeys
 ├── obs-config-backup/          # Backed-up OBS Studio configuration
