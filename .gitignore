@@ -1,0 +1,17 @@
+# Video files
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+
+# IDE / editor folders
+.zencoder/
+.zenflow/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
