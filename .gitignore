@@ -7,6 +7,10 @@
 *.flv
 *.webm
 
+# Large AI model files (Whisper, etc.)
+*.bin
+*.gguf
+
 # IDE / editor folders
 .zencoder/
 .zenflow/
