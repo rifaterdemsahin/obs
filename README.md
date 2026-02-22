@@ -2,6 +2,10 @@
 
 A repository for treating OBS Studio configuration as Infrastructure-as-Code (IaC): version-controlled, reproducible, and automated.
 
+> Repo : https://github.com/rifaterdemsahin/obs
+
+> Web : https://rifaterdemsahin.github.io/obs/
+
 ## Knowledge System
 
 The project follows a journey from _unknown problem_ → _understood solution_ → _proven result_:
