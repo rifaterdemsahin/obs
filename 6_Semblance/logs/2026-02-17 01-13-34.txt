@@ -1,0 +1,473 @@
+01:13:34.477: CPU Name: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+01:13:34.477: CPU Speed: 2695MHz
+01:13:34.477: Physical Cores: 32, Logical Cores: 64
+01:13:34.477: Physical Memory: 65350MB Total, 34791MB Free
+01:13:34.477: Windows Version: 10.0 Build 26200 (release: 25H2; revision: 7840; 64-bit)
+01:13:34.477: Running as administrator: false
+01:13:34.477: Windows 10/11 Gaming Features:
+01:13:34.477: 	Game DVR: On
+01:13:34.478: 	Game Mode: Off
+01:13:34.478: Sec. Software Status:
+01:13:34.480: 	Microsoft Defender Antivirus: enabled (AV)
+01:13:34.480: 	Windows Firewall: disabled (FW)
+01:13:34.481: Current Date/Time: 2026-02-17, 01:13:34
+01:13:34.481: Browser Hardware Acceleration: true
+01:13:34.482: Hide OBS windows from screen capture: false
+01:13:34.482: Qt Version: 6.8.3 (runtime), 6.8.3 (compiled)
+01:13:34.482: Portable mode: false
+01:13:34.877: OBS 32.1.0-rc1 (64-bit, windows)
+01:13:34.877: ---------------------------------
+01:13:34.901: ---------------------------------
+01:13:34.901: audio settings reset:
+01:13:34.901: 	samples per sec: 48000
+01:13:34.901: 	speakers:        2
+01:13:34.901: 	max buffering:   960 milliseconds
+01:13:34.901: 	buffering type:  dynamically increasing
+01:13:34.904: ---------------------------------
+01:13:34.904: Initializing D3D11...
+01:13:34.904: Available Video Adapters: 
+01:13:34.918: 	Adapter 0: AMD Radeon RX 6900 XT
+01:13:34.918: 	  Dedicated VRAM: 17131868160 (16.0 GiB)
+01:13:34.918: 	  Shared VRAM:    34262315008 (31.9 GiB)
+01:13:34.918: 	  PCI ID:         1002:73bf
+01:13:34.918: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+01:13:34.918: 	  Driver Version: 32.0.21041.1000
+01:13:34.919: 	  output 0:
+01:13:34.919: 	    name=LG HDR 4K
+01:13:34.919: 	    pos={0, 0}
+01:13:34.919: 	    size={3840, 2160}
+01:13:34.919: 	    attached=true
+01:13:34.919: 	    refresh=59
+01:13:34.919: 	    bits_per_color=8
+01:13:34.919: 	    space=RGB_FULL_G22_NONE_P709
+01:13:34.919: 	    primaries=[r=(0.680664, 0.311523), g=(0.267578, 0.663086), b=(0.150391, 0.048828), wp=(0.312500, 0.329102)]
+01:13:34.919: 	    relative_gamut_area=[709=1.316109, P3=0.970197, 2020=0.696052]
+01:13:34.919: 	    sdr_white_nits=80
+01:13:34.919: 	    nit_range=[min=0.355400, max=343.000000, max_full_frame=343.000000]
+01:13:34.919: 	    dpi=120 (125%)
+01:13:34.919: 	    id=\\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+01:13:34.919: 	    alt_id=\\.\DISPLAY2
+01:13:34.920: 	  output 1:
+01:13:34.920: 	    name=ASUS VP28U
+01:13:34.920: 	    pos={3840, -1706}
+01:13:34.920: 	    size={2160, 3840}
+01:13:34.920: 	    attached=true
+01:13:34.920: 	    refresh=60
+01:13:34.920: 	    bits_per_color=10
+01:13:34.920: 	    space=RGB_FULL_G22_NONE_P709
+01:13:34.920: 	    primaries=[r=(0.632812, 0.339844), g=(0.310547, 0.632812), b=(0.158203, 0.060547), wp=(0.313477, 0.329102)]
+01:13:34.920: 	    relative_gamut_area=[709=1.022104, P3=0.753465, 2020=0.540561]
+01:13:34.920: 	    sdr_white_nits=80
+01:13:34.920: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+01:13:34.920: 	    dpi=120 (125%)
+01:13:34.920: 	    id=\\?\DISPLAY#AUS28B1#7&68fe642&0&UID260#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+01:13:34.920: 	    alt_id=\\.\DISPLAY1
+01:13:34.921: 	  output 2:
+01:13:34.921: 	    name=Kamvas 13
+01:13:34.921: 	    pos={4864, 2134}
+01:13:34.921: 	    size={1920, 1080}
+01:13:34.921: 	    attached=true
+01:13:34.921: 	    refresh=59
+01:13:34.921: 	    bits_per_color=10
+01:13:34.921: 	    space=RGB_FULL_G22_NONE_P709
+01:13:34.921: 	    primaries=[r=(0.679688, 0.309570), g=(0.206055, 0.693359), b=(0.151367, 0.054688), wp=(0.313477, 0.329102)]
+01:13:34.921: 	    relative_gamut_area=[709=1.443482, P3=1.064093, 2020=0.763416]
+01:13:34.921: 	    sdr_white_nits=80
+01:13:34.921: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+01:13:34.921: 	    dpi=120 (125%)
+01:13:34.921: 	    id=\\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+01:13:34.921: 	    alt_id=\\.\DISPLAY4
+01:13:34.921: 	  output 3:
+01:13:34.921: 	    name=Elgato Prom.
+01:13:34.921: 	    pos={3840, 2134}
+01:13:34.921: 	    size={1024, 600}
+01:13:34.921: 	    attached=true
+01:13:34.921: 	    refresh=60
+01:13:34.921: 	    bits_per_color=8
+01:13:34.921: 	    space=RGB_FULL_G22_NONE_P709
+01:13:34.921: 	    primaries=[r=(0.629883, 0.339844), g=(0.309570, 0.629883), b=(0.139648, 0.059570), wp=(0.269531, 0.330078)]
+01:13:34.921: 	    relative_gamut_area=[709=1.035083, P3=0.763034, 2020=0.547425]
+01:13:34.921: 	    sdr_white_nits=80
+01:13:34.921: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+01:13:34.921: 	    dpi=120 (125%)
+01:13:34.921: 	    id=\\?\DISPLAY#IDI3311#a&3717ab59&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+01:13:34.921: 	    alt_id=\\.\DISPLAY8
+01:13:34.921: 	Adapter 1: AMD Radeon RX 6900 XT
+01:13:34.921: 	  Dedicated VRAM: 17131868160 (16.0 GiB)
+01:13:34.921: 	  Shared VRAM:    34262315008 (31.9 GiB)
+01:13:34.921: 	  PCI ID:         1002:73bf
+01:13:34.922: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+01:13:34.922: 	  Driver Version: 32.0.21041.1000
+01:13:34.922: Loading up D3D11 on adapter AMD Radeon RX 6900 XT (0)
+01:13:34.971: D3D11 loaded successfully, feature level used: b000
+01:13:34.971: DXGI increase maximum frame latency success
+01:13:34.971: D3D11 GPU priority setup failed (not admin?)
+01:13:35.089: ---------------------------------
+01:13:35.089: video settings reset:
+01:13:35.089: 	base resolution:   1920x1080
+01:13:35.089: 	output resolution: 1920x1080
+01:13:35.089: 	downscale filter:  Bicubic
+01:13:35.089: 	fps:               60/1
+01:13:35.089: 	format:            NV12
+01:13:35.089: 	YUV mode:          Rec. 709/Partial
+01:13:35.089: NV12 texture support enabled
+01:13:35.089: P010 texture support not available
+01:13:35.090: Audio monitoring device:
+01:13:35.090: 	name: Default
+01:13:35.090: 	id: default
+01:13:35.104: ---------------------------------
+01:13:35.106: No AJA devices found, skipping loading AJA UI plugin
+01:13:35.106: Failed to initialize module 'aja-output-ui.dll'
+01:13:35.108: No AJA devices found, skipping loading AJA plugin
+01:13:35.108: Failed to initialize module 'aja.dll'
+01:13:35.108: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+01:13:35.121: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+01:13:35.122: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+01:13:35.123: Failed to load 'en-US' text for module: 'decklink-output-ui.dll'
+01:13:35.127: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+01:13:35.127: Failed to initialize module 'decklink.dll'
+01:13:35.136: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+01:13:35.136: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+01:13:35.136: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+01:13:35.137: [NVIDIA Audio Effects:] NVIDIA denoiser disabled, redistributable not found or could not be loaded.
+01:13:35.139: Failed to get NVVideoEffects.dll version info size
+01:13:35.141: [NVIDIA VIDEO FX]: FX disabled, redistributable not found or could not be loaded.
+01:13:35.172: [obs-browser]: Version 2.26.7
+01:13:35.172: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.145.7+g2b7d20b+chromium-127.0.6533.120 (compiled)
+01:13:35.370: LoadLibrary failed for 'nvEncodeAPI64.dll': The specified module could not be found.
+01:13:35.370:  (126)
+01:13:35.370: NVENC not supported
+01:13:35.370: Failed to initialize module 'obs-nvenc.dll'
+01:13:35.437: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+01:13:35.437: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.3 | Qt version (run-time): 6.8.3
+01:13:35.437: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+01:13:35.443: [obs-websocket] [obs_module_load] Module loaded.
+01:13:35.452: [vlc-video]: VLC 3.0.23 Vetinari found, VLC video source enabled
+01:13:35.480: Failed to load 'en-GB' text for module: 'StreamDeckPlugin.dll'
+01:13:35.480: <StreamDeck> Plugin version 5.5.4.2
+01:13:35.480: ---------------------------------
+01:13:35.480:   Loaded Modules:
+01:13:35.480:     StreamDeckPlugin.dll
+01:13:35.480:     win-wasapi.dll
+01:13:35.480:     win-dshow.dll
+01:13:35.480:     win-capture.dll
+01:13:35.480:     vlc-video.dll
+01:13:35.480:     text-freetype2.dll
+01:13:35.480:     rtmp-services.dll
+01:13:35.480:     obs-x264.dll
+01:13:35.480:     obs-websocket.dll
+01:13:35.480:     obs-webrtc.dll
+01:13:35.480:     obs-vst.dll
+01:13:35.480:     obs-transitions.dll
+01:13:35.480:     obs-text.dll
+01:13:35.480:     obs-qsv11.dll
+01:13:35.480:     obs-outputs.dll
+01:13:35.480:     obs-filters.dll
+01:13:35.480:     obs-ffmpeg.dll
+01:13:35.480:     obs-browser.dll
+01:13:35.480:     nv-filters.dll
+01:13:35.480:     image-source.dll
+01:13:35.480:     frontend-tools.dll
+01:13:35.480:     decklink-output-ui.dll
+01:13:35.480:     decklink-captions.dll
+01:13:35.480:     coreaudio-encoder.dll
+01:13:35.480: ---------------------------------
+01:13:35.480: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+01:13:35.480: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+01:13:35.481: <StreamDeck> [Server] Listening on '127.0.0.1:28186'.
+01:13:35.481: [obs-websocket] [WebSocketServer::ServerRunner] IO thread started.
+01:13:35.489: [obs-websocket] [WebSocketServer::Start] Server started successfully on port 4455. Possible connect address: 10.202.0.2
+01:13:35.489: ---------------------------------
+01:13:35.489: Available Encoders:
+01:13:35.489:   Video Encoders:
+01:13:35.489: 	- ffmpeg_svt_av1 (SVT-AV1)
+01:13:35.489: 	- ffmpeg_aom_av1 (AOM AV1)
+01:13:35.489: 	- h264_texture_amf (AMD HW H.264 (AVC))
+01:13:35.489: 	- h265_texture_amf (AMD HW H.265 (HEVC))
+01:13:35.489: 	- obs_x264 (x264)
+01:13:35.489:   Audio Encoders:
+01:13:35.489: 	- CoreAudio_AAC (CoreAudio AAC)
+01:13:35.489: 	- ffmpeg_aac (FFmpeg AAC)
+01:13:35.489: 	- ffmpeg_opus (FFmpeg Opus)
+01:13:35.489: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+01:13:35.489: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+01:13:35.490: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+01:13:35.490: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+01:13:35.490: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+01:13:35.490: ==== Startup complete ===============================================
+01:13:35.544: All scene data cleared
+01:13:35.544: ------------------------------------------------
+01:13:35.548: [win-wasapi: 'xlr'] update settings:
+01:13:35.548: 	device id: {0.0.1.00000000}.{c1deda98-992f-4c83-bd70-2227a1e9b6be}
+01:13:35.548: 	use device timing: 0
+01:13:35.549: [Loaded global audio device]: 'xlr'
+01:13:35.553: [duplicator-monitor-capture: 'SamsungTV'] update settings:
+01:13:35.553: 	display: Kamvas 13 (1920x1080)
+01:13:35.553: 	cursor: true
+01:13:35.553: 	method: DXGI
+01:13:35.553: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+01:13:35.553: 	alt_id: \\.\DISPLAY4
+01:13:35.553: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+01:13:35.553: 	force SDR: false
+01:13:35.561: [duplicator-monitor-capture: 'prompter'] update settings:
+01:13:35.561: 	display: Elgato Prom. (1024x600)
+01:13:35.561: 	cursor: true
+01:13:35.561: 	method: DXGI
+01:13:35.561: 	id: \\?\DISPLAY#IDI3311#a&3717ab59&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+01:13:35.561: 	alt_id: \\.\DISPLAY8
+01:13:35.561: 	setting_id: \\?\DISPLAY#IDI3311#a&3717ab59&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+01:13:35.561: 	force SDR: false
+01:13:35.562: Source ID 'source_record_filter' not found
+01:13:35.562: Failed to create source 'Source Record'!
+01:13:35.564: [duplicator-monitor-capture: 'lg'] update settings:
+01:13:35.564: 	display: LG HDR 4K (3840x2160)
+01:13:35.564: 	cursor: true
+01:13:35.564: 	method: DXGI
+01:13:35.564: 	id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+01:13:35.564: 	alt_id: \\.\DISPLAY2
+01:13:35.564: 	setting_id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+01:13:35.564: 	force SDR: false
+01:13:35.660: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' [48000 Hz] initialized (source: xlr)
+01:13:35.665: [Media Source 'Media Source']: settings:
+01:13:35.665: 	input:                   C:/projects/obs/loop_obs_ship_2025-06-03_10-03-19.mp4
+01:13:35.665: 	input_format:            (null)
+01:13:35.665: 	speed:                   100
+01:13:35.665: 	is_looping:              yes
+01:13:35.665: 	is_linear_alpha:         no
+01:13:35.665: 	is_hw_decoding:          yes
+01:13:35.665: 	is_clear_on_media_end:   yes
+01:13:35.665: 	restart_on_activate:     yes
+01:13:35.665: 	close_when_inactive:     no
+01:13:35.665: 	full_decode:             no
+01:13:35.665: 	ffmpeg_options:          
+01:13:35.668: [duplicator-monitor-capture: 'down'] update settings:
+01:13:35.668: 	display: Kamvas 13 (1920x1080)
+01:13:35.668: 	cursor: true
+01:13:35.668: 	method: DXGI
+01:13:35.668: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+01:13:35.668: 	alt_id: \\.\DISPLAY4
+01:13:35.668: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+01:13:35.668: 	force SDR: true
+01:13:35.669: error:   Cannot load nvcuda.dll
+01:13:35.669: error:   Could not dynamically load CUDA
+01:13:35.677: [win-wasapi: 'Audio Output Capture 2'] update settings:
+01:13:35.677: 	device id: {0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}
+01:13:35.677: 	use device timing: 1
+01:13:35.677: [WASAPISource::TryInitialize]:[{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}] Failed to enumerate device: 80070490
+01:13:35.677: WASAPI: Device '{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}' failed to start (source: Audio Output Capture 2)
+01:13:35.677: [win-wasapi: 'elgato'] update settings:
+01:13:35.677: 	device id: {0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}
+01:13:35.677: 	use device timing: 0
+01:13:35.678: [win-wasapi: 'Window Capture (Audio)'] update settings:
+01:13:35.678: 	executable: chrome.exe
+01:13:35.678: 	title: Instagram - Google Chrome
+01:13:35.678: 	class: Chrome_WidgetWin_1
+01:13:35.678: 	priority: 0
+01:13:35.678: [window-capture: 'Window Capture'] update settings:
+01:13:35.678: 	executable: chrome.exe
+01:13:35.678: 	method selected: Automatic
+01:13:35.678: 	method chosen: WGC
+01:13:35.678: 	force SDR: false
+01:13:35.685: Source ID 'source_record_filter' not found
+01:13:35.685: Failed to create source 'Source Record'!
+01:13:35.686: Source ID 'net.nagater.obs-color-monitor.falsecolor_filter' not found
+01:13:35.686: Failed to create source 'False Color'!
+01:13:35.708: Switched to scene 'facecam'
+01:13:35.709: ------------------------------------------------
+01:13:35.709: Loaded scenes:
+01:13:35.709: - scene 'facecam':
+01:13:35.709:     - source: 'fc' (dshow_input)
+01:13:35.709:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+01:13:35.709: - scene 'zv1 not cut':
+01:13:35.709:     - source: 'zv1-sony' (dshow_input)
+01:13:35.709:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+01:13:35.709: - scene 'brio':
+01:13:35.709:     - source: 'sony brio' (dshow_input)
+01:13:35.709: - scene 'windowCapture':
+01:13:35.709:     - source: 'Window Capture' (window_capture)
+01:13:35.709: - scene '1080 draw':
+01:13:35.709:     - source: 'down' (monitor_capture)
+01:13:35.709:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+01:13:35.709:     - source: 'elgato' (wasapi_input_capture)
+01:13:35.709: - scene 'zv1 clean':
+01:13:35.709:     - source: 'zv1-sony' (dshow_input)
+01:13:35.709:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+01:13:35.709:     - source: 'Audio Output Capture 2' (wasapi_output_capture)
+01:13:35.709: - scene 'video player':
+01:13:35.709:     - source: 'Media Source' (ffmpeg_source)
+01:13:35.709: - scene 'green_screenscheck_false_color':
+01:13:35.709:     - source: 'zv1-sony' (dshow_input)
+01:13:35.709:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+01:13:35.709:     - filter: 'False Color' (net.nagater.obs-color-monitor.falsecolor_filter)
+01:13:35.709: - scene 'Samsung':
+01:13:35.709:     - source: 'SamsungTV' (monitor_capture)
+01:13:35.709:     - filter: 'Source Record' (source_record_filter)
+01:13:35.709: - scene 'Prompter':
+01:13:35.709:     - source: 'prompter' (monitor_capture)
+01:13:35.709:         - filter: 'Source Record' (source_record_filter)
+01:13:35.709: - scene 'blank':
+01:13:35.709: - scene 'Blan':
+01:13:35.709:     - source: 'blan' (dshow_input)
+01:13:35.709: - scene 'Paw':
+01:13:35.709:     - source: 'paw' (dshow_input)
+01:13:35.709:     - source: 'Text (GDI+)' (text_gdiplus_v3)
+01:13:35.709: - scene 'LG':
+01:13:35.709:     - source: 'lg' (monitor_capture)
+01:13:35.709: - scene 'phone apple tv wireless':
+01:13:35.709:     - source: 'phoneiphone' (dshow_input)
+01:13:35.709:         - monitoring: monitor only
+01:13:35.709: - scene 'iphone obs camera':
+01:13:35.709:     - source: 'Video Capture Device' (dshow_input)
+01:13:35.709: - scene 'vdopninja':
+01:13:35.709:     - source: 'Browser' (browser_source)
+01:13:35.709: - scene 'epoccam':
+01:13:35.709:     - source: 'Video Capture Device 2' (dshow_input)
+01:13:35.709: ------------------------------------------------
+01:13:35.710: WASAPI: Device 'Mic In (Elgato Wave:3)' [48000 Hz] initialized (source: elgato)
+01:13:35.715: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: xlr)
+01:13:35.715: 
+01:13:35.740: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+01:13:35.740: WASAPI: Device '' failed to start (source: Window Capture (Audio))
+01:13:37.244: fc: data.GetDevice failed
+01:13:37.244: fc: Video configuration failed
+01:13:38.121: ---------------------------------
+01:13:38.121: [DShow Device: 'paw'] settings updated: 
+01:13:38.121: 	video device: Cam Link Pro HDMI-4
+01:13:38.121: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03404000226}
+01:13:38.121: 	resolution: 1920x1080
+01:13:38.121: 	flip: 0
+01:13:38.121: 	fps: 60.00 (interval: 166666)
+01:13:38.121: 	format: YUY2
+01:13:38.121: 	buffering: disabled
+01:13:38.121: 	hardware decode: disabled
+01:13:38.142: 	using video device audio: no
+01:13:38.142: 	separate audio filter
+01:13:38.142: 	sample rate: 48000
+01:13:38.142: 	channels: 2
+01:13:38.142: 	audio type: Capture
+01:13:38.154: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+01:13:38.212: ---------------------------------
+01:13:38.213: [DShow Device: 'blan'] settings updated: 
+01:13:38.213: 	video device: Cam Link Pro HDMI-3
+01:13:38.213: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03403000226}
+01:13:38.213: 	resolution: 1920x1080
+01:13:38.213: 	flip: 0
+01:13:38.213: 	fps: 30.00 (interval: 333333)
+01:13:38.213: 	format: YUY2
+01:13:38.213: 	buffering: disabled
+01:13:38.213: 	hardware decode: disabled
+01:13:38.236: 	using video device audio: no
+01:13:38.236: 	separate audio filter
+01:13:38.236: 	sample rate: 48000
+01:13:38.236: 	channels: 2
+01:13:38.236: 	audio type: Capture
+01:13:38.287: ---------------------------------
+01:13:38.287: [DShow Device: 'zv1-sony'] settings updated: 
+01:13:38.287: 	video device: Cam Link Pro HDMI-1 / Multiview
+01:13:38.287: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03401000226}
+01:13:38.287: 	resolution: 1920x1080
+01:13:38.287: 	flip: 0
+01:13:38.287: 	fps: 50.00 (interval: 200000)
+01:13:38.287: 	format: YUY2
+01:13:38.287: 	buffering: disabled
+01:13:38.287: 	hardware decode: disabled
+01:13:38.311: 	using video device audio: no
+01:13:38.311: 	separate audio filter
+01:13:38.311: 	sample rate: 48000
+01:13:38.311: 	channels: 2
+01:13:38.311: 	audio type: Capture
+01:13:38.313: ---------------------------------
+01:13:38.313: [DShow Device: 'phoneiphone'] settings updated: 
+01:13:38.313: 	video device: Cam Link Pro HDMI-2
+01:13:38.313: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03402000226}
+01:13:38.313: 	resolution: 1920x1080
+01:13:38.313: 	flip: 0
+01:13:38.313: 	fps: 50.00 (interval: 200000)
+01:13:38.313: 	format: YUY2
+01:13:38.313: 	buffering: disabled
+01:13:38.313: 	hardware decode: disabled
+01:13:38.337: 	using video device audio: no
+01:13:38.337: 	separate audio filter
+01:13:38.337: 	sample rate: 48000
+01:13:38.337: 	channels: 2
+01:13:38.337: 	audio type: Capture
+01:13:38.465: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+01:13:38.492: ---------------------------------
+01:13:38.492: [DShow Device: 'sony brio'] settings updated: 
+01:13:38.492: 	video device: BRIO 4K Stream Edition
+01:13:38.492: 	video path: \\?\usb#vid_046d&pid_086b&mi_00#8&23a1b4d2&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+01:13:38.492: 	resolution: 640x480
+01:13:38.492: 	flip: 0
+01:13:38.492: 	fps: 30.00 (interval: 333333)
+01:13:38.492: 	format: YUY2
+01:13:38.492: 	buffering: disabled
+01:13:38.492: 	hardware decode: disabled
+01:13:38.564: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+01:13:38.649: ---------------------------------
+01:13:38.649: [DShow Device: 'Video Capture Device'] settings updated: 
+01:13:38.649: 	video device: NDI Webcam Video 1
+01:13:38.649: 	video path: \\?\root#media#0003#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\vidsource0
+01:13:38.649: 	resolution: 1920x1080
+01:13:38.649: 	flip: 0
+01:13:38.649: 	fps: 29.97 (interval: 333667)
+01:13:38.649: 	format: YUY2
+01:13:38.649: 	buffering: disabled
+01:13:38.649: 	hardware decode: disabled
+01:13:38.662: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+01:13:38.784: ---------------------------------
+01:13:38.784: [DShow Device: 'Video Capture Device 2'] settings updated: 
+01:13:38.784: 	video device: EƖgato Virtual Camera
+01:13:38.784: 	video path: \\?\root#media#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{45ab5b3b-2e15-4452-a2cb-87e5fdd026fb}
+01:13:38.784: 	resolution: 1920x1080
+01:13:38.784: 	flip: 0
+01:13:38.784: 	fps: 60.00 (interval: 166666)
+01:13:38.784: 	format: NV12
+01:13:38.784: 	buffering: disabled
+01:13:38.784: 	hardware decode: disabled
+01:13:40.406: User switched to scene 'LG'
+01:13:42.421: [texture-amf-h264: 'advanced_video_recording'] settings:
+01:13:42.421: 	rate_control: CBR
+01:13:42.421: 	bitrate:      6000
+01:13:42.421: 	cqp:          20
+01:13:42.421: 	keyint:       250
+01:13:42.421: 	preset:       quality
+01:13:42.421: 	profile:      high
+01:13:42.421: 	level:        4.2
+01:13:42.421: 	b-frames:     2
+01:13:42.421: 	width:        1920
+01:13:42.421: 	height:       1080
+01:13:42.421: 	pre-analysis: false
+01:13:42.421: 	params:       (none)
+01:13:42.434: [CoreAudio AAC: 'Track1']: settings:
+01:13:42.434: 	mode:          AAC
+01:13:42.434: 	bitrate:       160
+01:13:42.434: 	sample rate:   48000
+01:13:42.434: 	cbr:           on
+01:13:42.434: 	output buffer: 1536
+01:13:42.451: ==== Recording Start ===============================================
+01:13:42.451: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file 'F:/recordings/2026-02-17/2026-02-17-01-13.mp4'...
+01:16:00.144: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+01:16:00.145: [mp4 muxer: 'adv_file_output'] Number of fragments: 33
+01:16:00.146: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+01:16:00.146: [mp4 muxer: 'adv_file_output'] Final mdat size: 103527 KiB
+01:16:00.146: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+01:16:00.148: [mp4 output: 'adv_file_output'] File split complete. Finalization took 4 ms.
+01:16:00.148: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-17\2026-02-17-01-16.mp4'
+01:16:00.149: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+01:16:57.161: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+01:16:57.162: [mp4 muxer: 'adv_file_output'] Number of fragments: 15
+01:16:57.162: [mp4 muxer: 'adv_file_output'] Full moov size: 43 KiB
+01:16:57.162: [mp4 muxer: 'adv_file_output'] Final mdat size: 42988 KiB
+01:16:57.162: Output 'adv_file_output': stopping
+01:16:57.162: Output 'adv_file_output': Total frames output: 11676
+01:16:57.162: Output 'adv_file_output': Total drawn frames: 11683
+01:16:57.162: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+01:16:57.163: ==== Recording Stop ================================================
+01:16:57.163: [mp4 output: 'adv_file_output'] File output complete. Finalization took 2 ms.
+01:21:57.273: ==== Shutting down ==================================================
+01:21:57.306: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' Terminated
+01:21:57.357: WASAPI: Device '' Terminated
+01:21:57.416: WASAPI: Device 'Mic In (Elgato Wave:3)' Terminated
+01:21:58.038: WASAPI: Device '[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]' Terminated
+01:21:58.055: All scene data cleared
+01:21:58.055: ------------------------------------------------

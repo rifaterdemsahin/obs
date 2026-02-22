@@ -57,3 +57,6 @@
 - [ ] Machine-specific path remapping on restore
 - [ ] GitHub Actions to validate scene JSON on push
 - [ ] Documentation for cross-machine portability
+
+
+Log location > C:\Users\Pexabo\AppData\Roaming\obs-studio\logs

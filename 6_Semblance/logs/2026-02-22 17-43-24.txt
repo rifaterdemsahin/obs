@@ -1,0 +1,1886 @@
+17:43:24.829: CPU Name: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+17:43:24.829: CPU Speed: 2695MHz
+17:43:24.829: Physical Cores: 32, Logical Cores: 64
+17:43:24.829: Physical Memory: 65350MB Total, 19336MB Free
+17:43:24.829: Windows Version: 10.0 Build 26200 (release: 25H2; revision: 7840; 64-bit)
+17:43:24.829: Running as administrator: false
+17:43:24.829: Windows 10/11 Gaming Features:
+17:43:24.829: 	Game DVR: On
+17:43:24.829: 	Game Mode: Off
+17:43:24.830: Sec. Software Status:
+17:43:24.831: 	Microsoft Defender Antivirus: enabled (AV)
+17:43:24.832: 	Windows Firewall: disabled (FW)
+17:43:24.833: Current Date/Time: 2026-02-22, 17:43:24
+17:43:24.833: Browser Hardware Acceleration: true
+17:43:24.833: Hide OBS windows from screen capture: false
+17:43:24.833: Qt Version: 6.8.3 (runtime), 6.8.3 (compiled)
+17:43:24.833: Portable mode: false
+17:43:25.161: OBS 32.1.0-rc1 (64-bit, windows)
+17:43:25.161: ---------------------------------
+17:43:25.171: ---------------------------------
+17:43:25.171: audio settings reset:
+17:43:25.171: 	samples per sec: 48000
+17:43:25.171: 	speakers:        2
+17:43:25.171: 	max buffering:   960 milliseconds
+17:43:25.171: 	buffering type:  dynamically increasing
+17:43:25.174: ---------------------------------
+17:43:25.174: Initializing D3D11...
+17:43:25.174: Available Video Adapters: 
+17:43:25.188: 	Adapter 0: AMD Radeon RX 6900 XT
+17:43:25.188: 	  Dedicated VRAM: 17131868160 (16.0 GiB)
+17:43:25.188: 	  Shared VRAM:    34262315008 (31.9 GiB)
+17:43:25.188: 	  PCI ID:         1002:73bf
+17:43:25.188: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+17:43:25.189: 	  Driver Version: 32.0.21041.1000
+17:43:25.191: 	  output 0:
+17:43:25.191: 	    name=LG HDR 4K
+17:43:25.191: 	    pos={0, 0}
+17:43:25.191: 	    size={3840, 2160}
+17:43:25.191: 	    attached=true
+17:43:25.191: 	    refresh=59
+17:43:25.191: 	    bits_per_color=8
+17:43:25.191: 	    space=RGB_FULL_G22_NONE_P709
+17:43:25.191: 	    primaries=[r=(0.680664, 0.311523), g=(0.267578, 0.663086), b=(0.150391, 0.048828), wp=(0.312500, 0.329102)]
+17:43:25.191: 	    relative_gamut_area=[709=1.316109, P3=0.970197, 2020=0.696052]
+17:43:25.191: 	    sdr_white_nits=80
+17:43:25.191: 	    nit_range=[min=0.355400, max=343.000000, max_full_frame=343.000000]
+17:43:25.191: 	    dpi=120 (125%)
+17:43:25.191: 	    id=\\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:43:25.191: 	    alt_id=\\.\DISPLAY2
+17:43:25.192: 	  output 1:
+17:43:25.192: 	    name=ASUS VP28U
+17:43:25.192: 	    pos={3840, -405}
+17:43:25.192: 	    size={2160, 3840}
+17:43:25.192: 	    attached=true
+17:43:25.192: 	    refresh=60
+17:43:25.192: 	    bits_per_color=10
+17:43:25.192: 	    space=RGB_FULL_G22_NONE_P709
+17:43:25.192: 	    primaries=[r=(0.632812, 0.339844), g=(0.310547, 0.632812), b=(0.158203, 0.060547), wp=(0.313477, 0.329102)]
+17:43:25.192: 	    relative_gamut_area=[709=1.022104, P3=0.753465, 2020=0.540561]
+17:43:25.192: 	    sdr_white_nits=80
+17:43:25.192: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+17:43:25.192: 	    dpi=120 (125%)
+17:43:25.192: 	    id=\\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:43:25.192: 	    alt_id=\\.\DISPLAY1
+17:43:25.193: 	  output 2:
+17:43:25.193: 	    name=Kamvas 13
+17:43:25.193: 	    pos={6000, 1034}
+17:43:25.193: 	    size={1920, 1080}
+17:43:25.193: 	    attached=true
+17:43:25.193: 	    refresh=59
+17:43:25.193: 	    bits_per_color=10
+17:43:25.193: 	    space=RGB_FULL_G22_NONE_P709
+17:43:25.193: 	    primaries=[r=(0.679688, 0.309570), g=(0.206055, 0.693359), b=(0.151367, 0.054688), wp=(0.313477, 0.329102)]
+17:43:25.193: 	    relative_gamut_area=[709=1.443482, P3=1.064093, 2020=0.763416]
+17:43:25.193: 	    sdr_white_nits=80
+17:43:25.193: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+17:43:25.193: 	    dpi=120 (125%)
+17:43:25.193: 	    id=\\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:43:25.193: 	    alt_id=\\.\DISPLAY3
+17:43:25.194: 	Adapter 1: AMD Radeon RX 6900 XT
+17:43:25.194: 	  Dedicated VRAM: 17131868160 (16.0 GiB)
+17:43:25.194: 	  Shared VRAM:    34262315008 (31.9 GiB)
+17:43:25.194: 	  PCI ID:         1002:73bf
+17:43:25.194: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+17:43:25.194: 	  Driver Version: 32.0.21041.1000
+17:43:25.195: Loading up D3D11 on adapter AMD Radeon RX 6900 XT (0)
+17:43:25.245: D3D11 loaded successfully, feature level used: b000
+17:43:25.245: DXGI increase maximum frame latency success
+17:43:25.245: D3D11 GPU priority setup failed (not admin?)
+17:43:25.374: ---------------------------------
+17:43:25.374: video settings reset:
+17:43:25.374: 	base resolution:   1920x1080
+17:43:25.374: 	output resolution: 1920x1080
+17:43:25.374: 	downscale filter:  Bicubic
+17:43:25.374: 	fps:               60/1
+17:43:25.374: 	format:            NV12
+17:43:25.374: 	YUV mode:          Rec. 709/Partial
+17:43:25.374: NV12 texture support enabled
+17:43:25.374: P010 texture support not available
+17:43:25.375: Audio monitoring device:
+17:43:25.375: 	name: Default
+17:43:25.375: 	id: default
+17:43:25.390: ---------------------------------
+17:43:25.392: No AJA devices found, skipping loading AJA UI plugin
+17:43:25.392: Failed to initialize module 'aja-output-ui.dll'
+17:43:25.394: No AJA devices found, skipping loading AJA plugin
+17:43:25.394: Failed to initialize module 'aja.dll'
+17:43:25.394: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+17:43:25.408: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+17:43:25.409: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+17:43:25.410: Failed to load 'en-US' text for module: 'decklink-output-ui.dll'
+17:43:25.415: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+17:43:25.415: Failed to initialize module 'decklink.dll'
+17:43:25.427: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+17:43:25.427: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+17:43:25.427: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+17:43:25.428: [NVIDIA Audio Effects:] NVIDIA denoiser disabled, redistributable not found or could not be loaded.
+17:43:25.429: Failed to get NVVideoEffects.dll version info size
+17:43:25.432: [NVIDIA VIDEO FX]: FX disabled, redistributable not found or could not be loaded.
+17:43:25.461: [obs-browser]: Version 2.26.7
+17:43:25.461: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.145.7+g2b7d20b+chromium-127.0.6533.120 (compiled)
+17:43:25.712: LoadLibrary failed for 'nvEncodeAPI64.dll': The specified module could not be found.
+17:43:25.712:  (126)
+17:43:25.712: NVENC not supported
+17:43:25.712: Failed to initialize module 'obs-nvenc.dll'
+17:43:25.782: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+17:43:25.782: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.3 | Qt version (run-time): 6.8.3
+17:43:25.782: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+17:43:25.792: [obs-websocket] [obs_module_load] Module loaded.
+17:43:25.801: [vlc-video]: VLC 3.0.23 Vetinari found, VLC video source enabled
+17:43:25.835: Failed to load 'en-GB' text for module: 'StreamDeckPlugin.dll'
+17:43:25.835: <StreamDeck> Plugin version 5.5.4.2
+17:43:25.836: ---------------------------------
+17:43:25.836:   Loaded Modules:
+17:43:25.836:     StreamDeckPlugin.dll
+17:43:25.836:     win-wasapi.dll
+17:43:25.836:     win-dshow.dll
+17:43:25.836:     win-capture.dll
+17:43:25.836:     vlc-video.dll
+17:43:25.836:     text-freetype2.dll
+17:43:25.836:     rtmp-services.dll
+17:43:25.836:     obs-x264.dll
+17:43:25.836:     obs-websocket.dll
+17:43:25.836:     obs-webrtc.dll
+17:43:25.836:     obs-vst.dll
+17:43:25.836:     obs-transitions.dll
+17:43:25.836:     obs-text.dll
+17:43:25.836:     obs-qsv11.dll
+17:43:25.836:     obs-outputs.dll
+17:43:25.836:     obs-filters.dll
+17:43:25.836:     obs-ffmpeg.dll
+17:43:25.836:     obs-browser.dll
+17:43:25.836:     nv-filters.dll
+17:43:25.836:     image-source.dll
+17:43:25.836:     frontend-tools.dll
+17:43:25.836:     decklink-output-ui.dll
+17:43:25.836:     decklink-captions.dll
+17:43:25.836:     coreaudio-encoder.dll
+17:43:25.836: ---------------------------------
+17:43:25.836: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+17:43:25.836: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+17:43:25.836: <StreamDeck> [Server] Listening on '127.0.0.1:28186'.
+17:43:25.836: [obs-websocket] [WebSocketServer::ServerRunner] IO thread started.
+17:43:25.844: [obs-websocket] [WebSocketServer::Start] Server started successfully on port 4455. Possible connect address: 172.16.0.1
+17:43:25.845: ---------------------------------
+17:43:25.845: Available Encoders:
+17:43:25.845:   Video Encoders:
+17:43:25.845: 	- ffmpeg_svt_av1 (SVT-AV1)
+17:43:25.845: 	- ffmpeg_aom_av1 (AOM AV1)
+17:43:25.845: 	- h264_texture_amf (AMD HW H.264 (AVC))
+17:43:25.845: 	- h265_texture_amf (AMD HW H.265 (HEVC))
+17:43:25.845: 	- obs_x264 (x264)
+17:43:25.845:   Audio Encoders:
+17:43:25.845: 	- CoreAudio_AAC (CoreAudio AAC)
+17:43:25.845: 	- ffmpeg_aac (FFmpeg AAC)
+17:43:25.845: 	- ffmpeg_opus (FFmpeg Opus)
+17:43:25.845: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+17:43:25.845: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+17:43:25.845: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+17:43:25.845: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+17:43:25.845: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+17:43:25.845: ==== Startup complete ===============================================
+17:43:25.900: All scene data cleared
+17:43:25.900: ------------------------------------------------
+17:43:25.908: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+17:43:25.908: Deduplication logic is being applied to all monitored sources.
+17:43:25.908: [win-wasapi: 'Desktop Audio'] update settings:
+17:43:25.908: 	device id: default
+17:43:25.908: 	use device timing: 1
+17:43:25.908: [Loaded global audio device]: 'Desktop Audio'
+17:43:25.909: [win-wasapi: 'xlr'] update settings:
+17:43:25.909: 	device id: {0.0.1.00000000}.{c1deda98-992f-4c83-bd70-2227a1e9b6be}
+17:43:25.909: 	use device timing: 0
+17:43:25.909: [Loaded global audio device]: 'xlr'
+17:43:25.909: [win-wasapi: 'elgatoMicRight'] update settings:
+17:43:25.909: 	device id: {0.0.1.00000000}.{e85ac5b4-719b-4713-bd22-4e795f5def86}
+17:43:25.909: 	use device timing: 0
+17:43:25.909: [Loaded global audio device]: 'elgatoMicRight'
+17:43:25.912: [duplicator-monitor-capture: 'SamsungTV'] update settings:
+17:43:25.912: 	display: ASUS VP28U (2160x3840)
+17:43:25.912: 	cursor: true
+17:43:25.912: 	method: DXGI
+17:43:25.912: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:43:25.912: 	alt_id: \\.\DISPLAY1
+17:43:25.912: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:43:25.912: 	force SDR: false
+17:43:25.920: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+17:43:25.920: Deduplication logic is being applied to all monitored sources.
+17:43:25.920: [duplicator-monitor-capture: 'prompter'] update settings:
+17:43:25.920: 	display:  (0x0)
+17:43:25.920: 	cursor: true
+17:43:25.920: 	method: WGC
+17:43:25.920: 	id: 
+17:43:25.920: 	alt_id: 
+17:43:25.920: 	setting_id: \\?\DISPLAY#IDI3311#a&3717ab59&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:43:25.920: 	force SDR: false
+17:43:25.921: Source ID 'source_record_filter' not found
+17:43:25.921: Failed to create source 'Source Record'!
+17:43:25.927: [duplicator-monitor-capture: 'lg'] update settings:
+17:43:25.927: 	display: LG HDR 4K (3840x2160)
+17:43:25.927: 	cursor: true
+17:43:25.927: 	method: DXGI
+17:43:25.927: 	id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:43:25.927: 	alt_id: \\.\DISPLAY2
+17:43:25.927: 	setting_id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:43:25.927: 	force SDR: false
+17:43:26.151: WASAPI: Device 'Mic In (Elgato Wave:3)' [48000 Hz] initialized (source: elgatoMicRight)
+17:43:26.153: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' [48000 Hz] initialized (source: xlr)
+17:43:26.160: [Media Source 'Media Source']: settings:
+17:43:26.160: 	input:                   C:/projects/obs/loop_obs_ship_2025-06-03_10-03-19.mp4
+17:43:26.160: 	input_format:            (null)
+17:43:26.160: 	speed:                   100
+17:43:26.160: 	is_looping:              yes
+17:43:26.160: 	is_linear_alpha:         no
+17:43:26.160: 	is_hw_decoding:          yes
+17:43:26.160: 	is_clear_on_media_end:   yes
+17:43:26.160: 	restart_on_activate:     yes
+17:43:26.160: 	close_when_inactive:     no
+17:43:26.160: 	full_decode:             no
+17:43:26.160: 	ffmpeg_options:          
+17:43:26.163: [duplicator-monitor-capture: 'down'] update settings:
+17:43:26.163: 	display: ASUS VP28U (2160x3840)
+17:43:26.163: 	cursor: true
+17:43:26.163: 	method: DXGI
+17:43:26.163: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:43:26.163: 	alt_id: \\.\DISPLAY1
+17:43:26.163: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:43:26.163: 	force SDR: true
+17:43:26.166: error:   Cannot load nvcuda.dll
+17:43:26.166: error:   Could not dynamically load CUDA
+17:43:26.170: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+17:43:26.175: [win-wasapi: 'Audio Output Capture 2'] update settings:
+17:43:26.175: 	device id: {0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}
+17:43:26.175: 	use device timing: 1
+17:43:26.175: [WASAPISource::TryInitialize]:[{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}] Failed to enumerate device: 80070490
+17:43:26.175: WASAPI: Device '{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}' failed to start (source: Audio Output Capture 2)
+17:43:26.175: [win-wasapi: 'elgato'] update settings:
+17:43:26.175: 	device id: {0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}
+17:43:26.175: 	use device timing: 0
+17:43:26.176: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}] Failed to enumerate device: 80070490
+17:43:26.176: WASAPI: Device '{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}' failed to start (source: elgato)
+17:43:26.176: [win-wasapi: 'Window Capture (Audio)'] update settings:
+17:43:26.176: 	executable: chrome.exe
+17:43:26.176: 	title: Instagram - Google Chrome
+17:43:26.176: 	class: Chrome_WidgetWin_1
+17:43:26.176: 	priority: 0
+17:43:26.176: [window-capture: 'Window Capture'] update settings:
+17:43:26.176: 	executable: chrome.exe
+17:43:26.176: 	method selected: Automatic
+17:43:26.176: 	method chosen: WGC
+17:43:26.176: 	force SDR: false
+17:43:26.181: Source ID 'source_record_filter' not found
+17:43:26.181: Failed to create source 'Source Record'!
+17:43:26.182: Source ID 'net.nagater.obs-color-monitor.falsecolor_filter' not found
+17:43:26.182: Failed to create source 'False Color'!
+17:43:26.209: Switched to scene 'LG'
+17:43:26.209: ------------------------------------------------
+17:43:26.209: Loaded scenes:
+17:43:26.209: - scene 'insta':
+17:43:26.209:     - source: 'insta360' (dshow_input)
+17:43:26.209: - scene 'facecam':
+17:43:26.209:     - source: 'fc' (dshow_input)
+17:43:26.209:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:43:26.209: - scene 'zv1 not cut':
+17:43:26.209:     - source: 'zv1-sony' (dshow_input)
+17:43:26.209:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:43:26.209: - scene 'brio':
+17:43:26.209:     - source: 'sony brio' (dshow_input)
+17:43:26.209: - scene 'windowCapture':
+17:43:26.209:     - source: 'Window Capture' (window_capture)
+17:43:26.209: - scene '1080 draw':
+17:43:26.209:     - source: 'down' (monitor_capture)
+17:43:26.209:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:43:26.209:     - source: 'elgato' (wasapi_input_capture)
+17:43:26.209: - scene 'zv1 clean':
+17:43:26.209:     - source: 'zv1-sony' (dshow_input)
+17:43:26.209:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:43:26.209:     - source: 'Audio Output Capture 2' (wasapi_output_capture)
+17:43:26.209: - scene 'video player':
+17:43:26.209:     - source: 'Media Source' (ffmpeg_source)
+17:43:26.209: - scene 'green_screenscheck_false_color':
+17:43:26.209:     - source: 'zv1-sony' (dshow_input)
+17:43:26.209:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:43:26.209:     - filter: 'False Color' (net.nagater.obs-color-monitor.falsecolor_filter)
+17:43:26.209: - scene 'Samsung':
+17:43:26.209:     - source: 'SamsungTV' (monitor_capture)
+17:43:26.209:     - filter: 'Source Record' (source_record_filter)
+17:43:26.209: - scene 'Prompter':
+17:43:26.209:     - source: 'prompter' (monitor_capture)
+17:43:26.209:         - filter: 'Source Record' (source_record_filter)
+17:43:26.209: - scene 'blank':
+17:43:26.209: - scene 'Blan':
+17:43:26.209:     - source: 'blan' (dshow_input)
+17:43:26.209: - scene 'Paw':
+17:43:26.209:     - source: 'paw' (dshow_input)
+17:43:26.209:     - source: 'Text (GDI+)' (text_gdiplus_v3)
+17:43:26.209: - scene 'LG':
+17:43:26.209:     - source: 'lg' (monitor_capture)
+17:43:26.209: - scene 'phone apple tv wireless':
+17:43:26.209:     - source: 'phoneiphone' (dshow_input)
+17:43:26.209:         - monitoring: monitor only
+17:43:26.209: - scene 'iphone obs camera':
+17:43:26.209:     - source: 'Video Capture Device' (dshow_input)
+17:43:26.209: - scene 'vdopninja':
+17:43:26.209:     - source: 'Browser' (browser_source)
+17:43:26.209: - scene 'epoccam':
+17:43:26.209:     - source: 'Video Capture Device 2' (dshow_input)
+17:43:26.209: ------------------------------------------------
+17:43:26.244: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+17:43:26.244: WASAPI: Device '' failed to start (source: Window Capture (Audio))
+17:43:30.362: ---------------------------------
+17:43:30.362: [DShow Device: 'paw'] settings updated: 
+17:43:30.362: 	video device: Cam Link Pro HDMI-4
+17:43:30.362: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03404000226}
+17:43:30.362: 	resolution: 1920x1080
+17:43:30.362: 	flip: 0
+17:43:30.362: 	fps: 50.00 (interval: 200000)
+17:43:30.362: 	format: YUY2
+17:43:30.362: 	buffering: disabled
+17:43:30.362: 	hardware decode: disabled
+17:43:30.387: 	using video device audio: no
+17:43:30.387: 	separate audio filter
+17:43:30.387: 	sample rate: 48000
+17:43:30.387: 	channels: 2
+17:43:30.387: 	audio type: Capture
+17:43:30.458: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:43:30.465: ---------------------------------
+17:43:30.465: [DShow Device: 'blan'] settings updated: 
+17:43:30.465: 	video device: Cam Link Pro HDMI-3
+17:43:30.465: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03403000226}
+17:43:30.465: 	resolution: 1920x1080
+17:43:30.465: 	flip: 0
+17:43:30.465: 	fps: 50.00 (interval: 200000)
+17:43:30.465: 	format: YUY2
+17:43:30.465: 	buffering: disabled
+17:43:30.465: 	hardware decode: disabled
+17:43:30.491: 	using video device audio: no
+17:43:30.491: 	separate audio filter
+17:43:30.491: 	sample rate: 48000
+17:43:30.491: 	channels: 2
+17:43:30.491: 	audio type: Capture
+17:43:30.551: ---------------------------------
+17:43:30.551: [DShow Device: 'zv1-sony'] settings updated: 
+17:43:30.551: 	video device: Cam Link Pro HDMI-1 / Multiview
+17:43:30.551: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03401000226}
+17:43:30.551: 	resolution: 1920x1080
+17:43:30.551: 	flip: 0
+17:43:30.551: 	fps: 50.00 (interval: 200000)
+17:43:30.551: 	format: YUY2
+17:43:30.551: 	buffering: disabled
+17:43:30.551: 	hardware decode: disabled
+17:43:30.584: 	using video device audio: no
+17:43:30.584: 	separate audio filter
+17:43:30.584: 	sample rate: 48000
+17:43:30.584: 	channels: 2
+17:43:30.584: 	audio type: Capture
+17:43:30.587: ---------------------------------
+17:43:30.587: [DShow Device: 'phoneiphone'] settings updated: 
+17:43:30.587: 	video device: Cam Link Pro HDMI-2
+17:43:30.587: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03402000226}
+17:43:30.587: 	resolution: 1920x1080
+17:43:30.587: 	flip: 0
+17:43:30.587: 	fps: 50.00 (interval: 200000)
+17:43:30.587: 	format: YUY2
+17:43:30.587: 	buffering: disabled
+17:43:30.587: 	hardware decode: disabled
+17:43:30.635: 	using video device audio: no
+17:43:30.635: 	separate audio filter
+17:43:30.635: 	sample rate: 48000
+17:43:30.635: 	channels: 2
+17:43:30.635: 	audio type: Capture
+17:43:30.788: ---------------------------------
+17:43:30.788: [DShow Device: 'fc'] settings updated: 
+17:43:30.788: 	video device: Elgato Facecam
+17:43:30.788: 	video path: \\?\usb#vid_0fd9&pid_0078&mi_00#8&994727b&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:43:30.788: 	resolution: 1920x1080
+17:43:30.788: 	flip: 0
+17:43:30.788: 	fps: 60.00 (interval: 166666)
+17:43:30.788: 	format: UYVY
+17:43:30.788: 	buffering: disabled
+17:43:30.788: 	hardware decode: disabled
+17:43:30.856: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:43:30.953: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:43:30.977: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:43:31.048: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:43:31.128: ---------------------------------
+17:43:31.128: [DShow Device: 'sony brio'] settings updated: 
+17:43:31.128: 	video device: BRIO 4K Stream Edition
+17:43:31.128: 	video path: \\?\usb#vid_046d&pid_086b&mi_00#8&23a1b4d2&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:43:31.128: 	resolution: 640x480
+17:43:31.128: 	flip: 0
+17:43:31.128: 	fps: 30.00 (interval: 333333)
+17:43:31.128: 	format: YUY2
+17:43:31.128: 	buffering: disabled
+17:43:31.128: 	hardware decode: disabled
+17:43:31.337: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:43:31.397: ---------------------------------
+17:43:31.397: [DShow Device: 'Video Capture Device'] settings updated: 
+17:43:31.397: 	video device: NDI Webcam Video 1
+17:43:31.397: 	video path: \\?\root#media#0003#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\vidsource0
+17:43:31.397: 	resolution: 1920x1080
+17:43:31.397: 	flip: 0
+17:43:31.397: 	fps: 29.97 (interval: 333667)
+17:43:31.397: 	format: YUY2
+17:43:31.397: 	buffering: disabled
+17:43:31.397: 	hardware decode: disabled
+17:43:31.582: ---------------------------------
+17:43:31.582: [DShow Device: 'Video Capture Device 2'] settings updated: 
+17:43:31.582: 	video device: EƖgato Virtual Camera
+17:43:31.582: 	video path: \\?\root#media#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{45ab5b3b-2e15-4452-a2cb-87e5fdd026fb}
+17:43:31.582: 	resolution: 1920x1080
+17:43:31.582: 	flip: 0
+17:43:31.582: 	fps: 60.00 (interval: 166666)
+17:43:31.582: 	format: NV12
+17:43:31.582: 	buffering: disabled
+17:43:31.582: 	hardware decode: disabled
+17:43:31.586: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:43:31.837: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:43:31.861: ---------------------------------
+17:43:31.861: [DShow Device: 'insta360'] settings updated: 
+17:43:31.861: 	video device: Insta360 Link
+17:43:31.861: 	video path: \\?\usb#vid_2e1a&pid_4c01&mi_00#7&3a8eb504&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:43:31.861: 	resolution: 1920x1080
+17:43:31.861: 	flip: 0
+17:43:31.861: 	fps: 30.00 (interval: 333333)
+17:43:31.861: 	format: MJPEG
+17:43:31.861: 	buffering: disabled
+17:43:31.861: 	hardware decode: disabled
+17:43:32.017: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:45:55.075: Deduplication logic stopped.
+17:45:55.075: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' Terminated
+17:45:55.310: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' Terminated
+17:45:55.921: WASAPI: Device 'Mic In (Elgato Wave:3)' Terminated
+17:45:55.994: WASAPI: Device '' Terminated
+17:45:56.085: WASAPI: Device '' Terminated
+17:45:59.281: WASAPI: Device '[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]' Terminated
+17:45:59.282: Tried to sort VolumeControl for 'xlr' but source is null
+17:45:59.282: Tried to sort VolumeControl for 'elgatoMicRight' but source is null
+17:45:59.313: All scene data cleared
+17:45:59.313: ------------------------------------------------
+17:45:59.321: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+17:45:59.321: Deduplication logic is being applied to all monitored sources.
+17:45:59.321: [win-wasapi: 'Desktop Audio'] update settings:
+17:45:59.321: 	device id: default
+17:45:59.321: 	use device timing: 1
+17:45:59.321: [Loaded global audio device]: 'Desktop Audio'
+17:45:59.322: [win-wasapi: 'xlr'] update settings:
+17:45:59.322: 	device id: {0.0.1.00000000}.{c1deda98-992f-4c83-bd70-2227a1e9b6be}
+17:45:59.322: 	use device timing: 0
+17:45:59.322: [Loaded global audio device]: 'xlr'
+17:45:59.322: [win-wasapi: 'elgatoMicRight'] update settings:
+17:45:59.322: 	device id: {0.0.1.00000000}.{e85ac5b4-719b-4713-bd22-4e795f5def86}
+17:45:59.322: 	use device timing: 0
+17:45:59.323: [Loaded global audio device]: 'elgatoMicRight'
+17:45:59.326: [duplicator-monitor-capture: 'SamsungTV'] update settings:
+17:45:59.326: 	display: ASUS VP28U (2160x3840)
+17:45:59.326: 	cursor: true
+17:45:59.326: 	method: DXGI
+17:45:59.326: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:45:59.326: 	alt_id: \\.\DISPLAY1
+17:45:59.326: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:45:59.326: 	force SDR: false
+17:45:59.334: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+17:45:59.334: Deduplication logic is being applied to all monitored sources.
+17:45:59.334: [duplicator-monitor-capture: 'prompter'] update settings:
+17:45:59.334: 	display:  (0x0)
+17:45:59.334: 	cursor: true
+17:45:59.334: 	method: WGC
+17:45:59.334: 	id: 
+17:45:59.334: 	alt_id: 
+17:45:59.334: 	setting_id: \\?\DISPLAY#IDI3311#a&3717ab59&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:45:59.334: 	force SDR: false
+17:45:59.335: Source ID 'source_record_filter' not found
+17:45:59.336: Failed to create source 'Source Record'!
+17:45:59.342: [duplicator-monitor-capture: 'lg'] update settings:
+17:45:59.342: 	display: LG HDR 4K (3840x2160)
+17:45:59.342: 	cursor: true
+17:45:59.342: 	method: DXGI
+17:45:59.342: 	id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:45:59.342: 	alt_id: \\.\DISPLAY2
+17:45:59.342: 	setting_id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:45:59.342: 	force SDR: false
+17:45:59.347: WASAPI: Device 'Mic In (Elgato Wave:3)' [48000 Hz] initialized (source: elgatoMicRight)
+17:45:59.374: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' [48000 Hz] initialized (source: xlr)
+17:45:59.381: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+17:45:59.389: [Media Source 'Media Source']: settings:
+17:45:59.389: 	input:                   C:/projects/obs/loop_obs_ship_2025-06-03_10-03-19.mp4
+17:45:59.389: 	input_format:            (null)
+17:45:59.389: 	speed:                   100
+17:45:59.389: 	is_looping:              yes
+17:45:59.389: 	is_linear_alpha:         no
+17:45:59.389: 	is_hw_decoding:          yes
+17:45:59.389: 	is_clear_on_media_end:   yes
+17:45:59.389: 	restart_on_activate:     yes
+17:45:59.389: 	close_when_inactive:     no
+17:45:59.389: 	full_decode:             no
+17:45:59.389: 	ffmpeg_options:          
+17:45:59.392: [duplicator-monitor-capture: 'down'] update settings:
+17:45:59.392: 	display: ASUS VP28U (2160x3840)
+17:45:59.392: 	cursor: true
+17:45:59.392: 	method: DXGI
+17:45:59.392: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:45:59.392: 	alt_id: \\.\DISPLAY1
+17:45:59.392: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:45:59.392: 	force SDR: true
+17:45:59.394: error:   Cannot load nvcuda.dll
+17:45:59.394: error:   Could not dynamically load CUDA
+17:45:59.402: [win-wasapi: 'Audio Output Capture 2'] update settings:
+17:45:59.402: 	device id: {0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}
+17:45:59.402: 	use device timing: 1
+17:45:59.402: [WASAPISource::TryInitialize]:[{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}] Failed to enumerate device: 80070490
+17:45:59.403: WASAPI: Device '{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}' failed to start (source: Audio Output Capture 2)
+17:45:59.403: [win-wasapi: 'elgato'] update settings:
+17:45:59.403: 	device id: {0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}
+17:45:59.403: 	use device timing: 0
+17:45:59.403: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}] Failed to enumerate device: 80070490
+17:45:59.403: WASAPI: Device '{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}' failed to start (source: elgato)
+17:45:59.404: [win-wasapi: 'Window Capture (Audio)'] update settings:
+17:45:59.404: 	executable: chrome.exe
+17:45:59.404: 	title: Instagram - Google Chrome
+17:45:59.404: 	class: Chrome_WidgetWin_1
+17:45:59.404: 	priority: 0
+17:45:59.405: [window-capture: 'Window Capture'] update settings:
+17:45:59.405: 	executable: chrome.exe
+17:45:59.405: 	method selected: Automatic
+17:45:59.405: 	method chosen: WGC
+17:45:59.405: 	force SDR: false
+17:45:59.411: Source ID 'source_record_filter' not found
+17:45:59.411: Failed to create source 'Source Record'!
+17:45:59.412: Source ID 'net.nagater.obs-color-monitor.falsecolor_filter' not found
+17:45:59.412: Failed to create source 'False Color'!
+17:45:59.414: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: xlr)
+17:45:59.414: 
+17:45:59.437: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+17:45:59.437: WASAPI: Device '' failed to start (source: Window Capture (Audio))
+17:45:59.448: Switched to scene 'LG'
+17:45:59.449: ------------------------------------------------
+17:45:59.449: Loaded scenes:
+17:45:59.449: - scene 'insta':
+17:45:59.449:     - source: 'insta360' (dshow_input)
+17:45:59.449: - scene 'facecam':
+17:45:59.449:     - source: 'fc' (dshow_input)
+17:45:59.449:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:45:59.449: - scene 'zv1 not cut':
+17:45:59.449:     - source: 'zv1-sony' (dshow_input)
+17:45:59.449:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:45:59.449: - scene 'brio':
+17:45:59.449:     - source: 'sony brio' (dshow_input)
+17:45:59.449: - scene 'windowCapture':
+17:45:59.449:     - source: 'Window Capture' (window_capture)
+17:45:59.449: - scene '1080 draw':
+17:45:59.449:     - source: 'down' (monitor_capture)
+17:45:59.449:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:45:59.449:     - source: 'elgato' (wasapi_input_capture)
+17:45:59.449: - scene 'zv1 clean':
+17:45:59.449:     - source: 'zv1-sony' (dshow_input)
+17:45:59.449:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:45:59.449:     - source: 'Audio Output Capture 2' (wasapi_output_capture)
+17:45:59.449: - scene 'video player':
+17:45:59.449:     - source: 'Media Source' (ffmpeg_source)
+17:45:59.449: - scene 'green_screenscheck_false_color':
+17:45:59.449:     - source: 'zv1-sony' (dshow_input)
+17:45:59.449:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:45:59.449:     - filter: 'False Color' (net.nagater.obs-color-monitor.falsecolor_filter)
+17:45:59.449: - scene 'Samsung':
+17:45:59.449:     - source: 'SamsungTV' (monitor_capture)
+17:45:59.449:     - filter: 'Source Record' (source_record_filter)
+17:45:59.449: - scene 'Prompter':
+17:45:59.449:     - source: 'prompter' (monitor_capture)
+17:45:59.449:         - filter: 'Source Record' (source_record_filter)
+17:45:59.449: - scene 'blank':
+17:45:59.449: - scene 'Blan':
+17:45:59.449:     - source: 'blan' (dshow_input)
+17:45:59.449: - scene 'Paw':
+17:45:59.449:     - source: 'paw' (dshow_input)
+17:45:59.449:     - source: 'Text (GDI+)' (text_gdiplus_v3)
+17:45:59.449: - scene 'LG':
+17:45:59.449:     - source: 'lg' (monitor_capture)
+17:45:59.449: - scene 'phone apple tv wireless':
+17:45:59.449:     - source: 'phoneiphone' (dshow_input)
+17:45:59.449:         - monitoring: monitor only
+17:45:59.449: - scene 'iphone obs camera':
+17:45:59.449:     - source: 'Video Capture Device' (dshow_input)
+17:45:59.449: - scene 'vdopninja':
+17:45:59.449:     - source: 'Browser' (browser_source)
+17:45:59.449: - scene 'epoccam':
+17:45:59.449:     - source: 'Video Capture Device 2' (dshow_input)
+17:45:59.449: ------------------------------------------------
+17:45:59.458: Removed scene collection 'NationalGrid' (NationalGrid.json)
+17:45:59.458: ------------------------------------------------
+17:45:59.458: Renamed scene collection 'NationalGrid' to 'Contract' (Contract.json)
+17:45:59.458: ------------------------------------------------
+17:46:04.005: ---------------------------------
+17:46:04.005: [DShow Device: 'paw'] settings updated: 
+17:46:04.005: 	video device: Cam Link Pro HDMI-4
+17:46:04.005: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03404000226}
+17:46:04.005: 	resolution: 1920x1080
+17:46:04.005: 	flip: 0
+17:46:04.005: 	fps: 50.00 (interval: 200000)
+17:46:04.005: 	format: YUY2
+17:46:04.005: 	buffering: disabled
+17:46:04.005: 	hardware decode: disabled
+17:46:04.058: 	using video device audio: no
+17:46:04.059: 	separate audio filter
+17:46:04.059: 	sample rate: 48000
+17:46:04.059: 	channels: 2
+17:46:04.059: 	audio type: Capture
+17:46:04.069: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:46:04.148: ---------------------------------
+17:46:04.148: [DShow Device: 'blan'] settings updated: 
+17:46:04.148: 	video device: Cam Link Pro HDMI-3
+17:46:04.148: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03403000226}
+17:46:04.148: 	resolution: 1920x1080
+17:46:04.148: 	flip: 0
+17:46:04.148: 	fps: 50.00 (interval: 200000)
+17:46:04.148: 	format: YUY2
+17:46:04.148: 	buffering: disabled
+17:46:04.148: 	hardware decode: disabled
+17:46:04.172: 	using video device audio: no
+17:46:04.172: 	separate audio filter
+17:46:04.172: 	sample rate: 48000
+17:46:04.172: 	channels: 2
+17:46:04.172: 	audio type: Capture
+17:46:04.227: ---------------------------------
+17:46:04.227: [DShow Device: 'zv1-sony'] settings updated: 
+17:46:04.227: 	video device: Cam Link Pro HDMI-1 / Multiview
+17:46:04.227: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03401000226}
+17:46:04.227: 	resolution: 1920x1080
+17:46:04.227: 	flip: 0
+17:46:04.227: 	fps: 50.00 (interval: 200000)
+17:46:04.227: 	format: YUY2
+17:46:04.227: 	buffering: disabled
+17:46:04.227: 	hardware decode: disabled
+17:46:04.255: 	using video device audio: no
+17:46:04.255: 	separate audio filter
+17:46:04.255: 	sample rate: 48000
+17:46:04.255: 	channels: 2
+17:46:04.255: 	audio type: Capture
+17:46:04.257: ---------------------------------
+17:46:04.257: [DShow Device: 'phoneiphone'] settings updated: 
+17:46:04.257: 	video device: Cam Link Pro HDMI-2
+17:46:04.257: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03402000226}
+17:46:04.257: 	resolution: 1920x1080
+17:46:04.257: 	flip: 0
+17:46:04.257: 	fps: 50.00 (interval: 200000)
+17:46:04.257: 	format: YUY2
+17:46:04.257: 	buffering: disabled
+17:46:04.257: 	hardware decode: disabled
+17:46:04.300: 	using video device audio: no
+17:46:04.301: 	separate audio filter
+17:46:04.301: 	sample rate: 48000
+17:46:04.301: 	channels: 2
+17:46:04.301: 	audio type: Capture
+17:46:04.468: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:46:04.484: ---------------------------------
+17:46:04.484: [DShow Device: 'fc'] settings updated: 
+17:46:04.484: 	video device: Elgato Facecam
+17:46:04.484: 	video path: \\?\usb#vid_0fd9&pid_0078&mi_00#8&994727b&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:46:04.484: 	resolution: 1920x1080
+17:46:04.484: 	flip: 0
+17:46:04.484: 	fps: 60.00 (interval: 166666)
+17:46:04.484: 	format: UYVY
+17:46:04.484: 	buffering: disabled
+17:46:04.484: 	hardware decode: disabled
+17:46:04.564: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:46:04.661: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:46:04.714: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:46:04.873: ---------------------------------
+17:46:04.873: [DShow Device: 'sony brio'] settings updated: 
+17:46:04.873: 	video device: BRIO 4K Stream Edition
+17:46:04.873: 	video path: \\?\usb#vid_046d&pid_086b&mi_00#8&23a1b4d2&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:46:04.873: 	resolution: 640x480
+17:46:04.873: 	flip: 0
+17:46:04.873: 	fps: 30.00 (interval: 333333)
+17:46:04.873: 	format: YUY2
+17:46:04.873: 	buffering: disabled
+17:46:04.873: 	hardware decode: disabled
+17:46:05.097: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:46:05.230: ---------------------------------
+17:46:05.230: [DShow Device: 'Video Capture Device'] settings updated: 
+17:46:05.230: 	video device: NDI Webcam Video 1
+17:46:05.230: 	video path: \\?\root#media#0003#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\vidsource0
+17:46:05.230: 	resolution: 1920x1080
+17:46:05.230: 	flip: 0
+17:46:05.230: 	fps: 29.97 (interval: 333667)
+17:46:05.230: 	format: YUY2
+17:46:05.230: 	buffering: disabled
+17:46:05.230: 	hardware decode: disabled
+17:46:05.442: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:46:05.442: ---------------------------------
+17:46:05.442: [DShow Device: 'Video Capture Device 2'] settings updated: 
+17:46:05.442: 	video device: EƖgato Virtual Camera
+17:46:05.442: 	video path: \\?\root#media#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{45ab5b3b-2e15-4452-a2cb-87e5fdd026fb}
+17:46:05.442: 	resolution: 1920x1080
+17:46:05.442: 	flip: 0
+17:46:05.442: 	fps: 60.00 (interval: 166666)
+17:46:05.442: 	format: NV12
+17:46:05.442: 	buffering: disabled
+17:46:05.442: 	hardware decode: disabled
+17:46:05.700: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:46:05.771: ---------------------------------
+17:46:05.771: [DShow Device: 'insta360'] settings updated: 
+17:46:05.771: 	video device: Insta360 Link
+17:46:05.771: 	video path: \\?\usb#vid_2e1a&pid_4c01&mi_00#7&3a8eb504&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:46:05.771: 	resolution: 1920x1080
+17:46:05.771: 	flip: 0
+17:46:05.771: 	fps: 30.00 (interval: 333333)
+17:46:05.771: 	format: MJPEG
+17:46:05.771: 	buffering: disabled
+17:46:05.771: 	hardware decode: disabled
+17:46:05.973: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:46:39.548: ---------------------------------
+17:46:39.548: video settings reset:
+17:46:39.548: 	base resolution:   1920x1080
+17:46:39.548: 	output resolution: 1920x1080
+17:46:39.548: 	downscale filter:  Bicubic
+17:46:39.548: 	fps:               60/1
+17:46:39.548: 	format:            NV12
+17:46:39.548: 	YUV mode:          Rec. 709/Partial
+17:46:39.548: NV12 texture support enabled
+17:46:39.548: P010 texture support not available
+17:46:39.555: Audio monitoring device:
+17:46:39.555: 	name: Default
+17:46:39.555: 	id: default
+17:46:39.557: Switched to profile 'onlyhd' (onlyhd)
+17:46:39.557: ------------------------------------------------
+17:46:50.003: adding 21 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: zv1-sony)
+17:46:50.003: 
+17:46:55.463: ---------------------------------
+17:46:55.463: video settings reset:
+17:46:55.463: 	base resolution:   1920x1080
+17:46:55.463: 	output resolution: 1920x1080
+17:46:55.463: 	downscale filter:  Bicubic
+17:46:55.463: 	fps:               60/1
+17:46:55.463: 	format:            NV12
+17:46:55.463: 	YUV mode:          Rec. 709/Partial
+17:46:55.464: NV12 texture support enabled
+17:46:55.464: P010 texture support not available
+17:46:55.468: Audio monitoring device:
+17:46:55.468: 	name: Default
+17:46:55.468: 	id: default
+17:46:55.469: Switched to profile 'only cam' (only_cam)
+17:46:55.469: ------------------------------------------------
+17:47:04.611: ---------------------------------
+17:47:04.611: video settings reset:
+17:47:04.611: 	base resolution:   1920x1080
+17:47:04.611: 	output resolution: 1280x720
+17:47:04.611: 	downscale filter:  Bicubic
+17:47:04.611: 	fps:               30/1
+17:47:04.611: 	format:            NV12
+17:47:04.611: 	YUV mode:          Rec. 709/Partial
+17:47:04.612: NV12 texture support enabled
+17:47:04.612: P010 texture support not available
+17:47:04.620: Audio monitoring device:
+17:47:04.620: 	name: Default
+17:47:04.620: 	id: default
+17:47:04.621: Switched to profile 'Main' (Main)
+17:47:04.621: ------------------------------------------------
+17:47:08.581: adding 64 milliseconds of audio buffering, total audio buffering is now 128 milliseconds (source: zv1-sony)
+17:47:08.581: 
+17:47:12.612: ---------------------------------
+17:47:12.612: video settings reset:
+17:47:12.612: 	base resolution:   1920x1080
+17:47:12.612: 	output resolution: 1920x1080
+17:47:12.612: 	downscale filter:  Bicubic
+17:47:12.612: 	fps:               60/1
+17:47:12.612: 	format:            NV12
+17:47:12.612: 	YUV mode:          Rec. 709/Partial
+17:47:12.612: NV12 texture support enabled
+17:47:12.612: P010 texture support not available
+17:47:12.637: Audio monitoring device:
+17:47:12.637: 	name: Default
+17:47:12.637: 	id: default
+17:47:12.640: Switched to profile 'Complex' (Complex)
+17:47:12.640: ------------------------------------------------
+17:47:34.863: Deduplication logic stopped.
+17:47:34.863: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' Terminated
+17:47:35.093: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' Terminated
+17:47:35.128: WASAPI: Device 'Mic In (Elgato Wave:3)' Terminated
+17:47:35.363: WASAPI: Device '' Terminated
+17:47:35.483: WASAPI: Device '' Terminated
+17:47:39.067: WASAPI: Device '[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]' Terminated
+17:47:39.068: Tried to sort VolumeControl for 'xlr' but source is null
+17:47:39.068: Tried to sort VolumeControl for 'elgatoMicRight' but source is null
+17:47:39.089: All scene data cleared
+17:47:39.089: ------------------------------------------------
+17:47:39.092: [win-wasapi: 'XLR'] update settings:
+17:47:39.092: 	device id: {0.0.1.00000000}.{fc9bed91-1065-4e1c-8af2-b63712adad6b}
+17:47:39.092: 	use device timing: 0
+17:47:39.093: [Loaded global audio device]: 'XLR'
+17:47:39.093: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{fc9bed91-1065-4e1c-8af2-b63712adad6b}] Failed to enumerate device: 80070490
+17:47:39.093: WASAPI: Device '{0.0.1.00000000}.{fc9bed91-1065-4e1c-8af2-b63712adad6b}' failed to start (source: XLR)
+17:47:39.096: [duplicator-monitor-capture: 'Display CaptureTV'] update settings:
+17:47:39.096: 	display:  (0x0)
+17:47:39.096: 	cursor: true
+17:47:39.096: 	method: WGC
+17:47:39.096: 	id: 
+17:47:39.096: 	alt_id: 
+17:47:39.096: 	setting_id: \\?\DISPLAY#SAM0F0B#7&1343a6a2&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:47:39.096: 	force SDR: false
+17:47:39.103: [duplicator-monitor-capture: 'WritingTablet'] update settings:
+17:47:39.103: 	display:  (0x0)
+17:47:39.103: 	cursor: false
+17:47:39.103: 	method: WGC
+17:47:39.103: 	id: 
+17:47:39.103: 	alt_id: 
+17:47:39.103: 	setting_id: \\?\DISPLAY#HAT1333#7&1343a6a2&0&UID265#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:47:39.103: 	force SDR: false
+17:47:39.117: [win-wasapi: 'cablea'] update settings:
+17:47:39.117: 	device id: {0.0.0.00000000}.{999d6d0e-6444-4b31-864c-f4b8e8347c77}
+17:47:39.117: 	use device timing: 1
+17:47:39.117: [WASAPISource::TryInitialize]:[{0.0.0.00000000}.{999d6d0e-6444-4b31-864c-f4b8e8347c77}] Failed to enumerate device: 80070490
+17:47:39.117: WASAPI: Device '{0.0.0.00000000}.{999d6d0e-6444-4b31-864c-f4b8e8347c77}' failed to start (source: cablea)
+17:47:39.124: [duplicator-monitor-capture: 'Display CaptureLG'] update settings:
+17:47:39.124: 	display:  (0x0)
+17:47:39.124: 	cursor: true
+17:47:39.124: 	method: WGC
+17:47:39.124: 	id: 
+17:47:39.124: 	alt_id: 
+17:47:39.124: 	setting_id: \\?\DISPLAY#GSM774F#7&1343a6a2&0&UID260#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:47:39.124: 	force SDR: false
+17:47:39.125: Source ID 'source_record_filter' not found
+17:47:39.125: Failed to create source 'Source Record'!
+17:47:39.126: Source ID 'ndi_source' not found
+17:47:39.126: Failed to create source 'NDI® Source'!
+17:47:39.126: [win-wasapi: 'bluetoothHub'] update settings:
+17:47:39.126: 	device id: {0.0.1.00000000}.{23bcdaa9-4000-46ad-a7b3-5d8492edb34d}
+17:47:39.126: 	use device timing: 0
+17:47:39.127: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{23bcdaa9-4000-46ad-a7b3-5d8492edb34d}] Failed to enumerate device: 80070490
+17:47:39.127: WASAPI: Device '{0.0.1.00000000}.{23bcdaa9-4000-46ad-a7b3-5d8492edb34d}' failed to start (source: bluetoothHub)
+17:47:39.127: [win-wasapi: 'Audio Input Capture'] update settings:
+17:47:39.127: 	device id: {0.0.1.00000000}.{f5a5185c-d53e-4731-ac42-4e6fa6d4553f}
+17:47:39.127: 	use device timing: 0
+17:47:39.127: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{f5a5185c-d53e-4731-ac42-4e6fa6d4553f}] Failed to enumerate device: 80070490
+17:47:39.127: WASAPI: Device '{0.0.1.00000000}.{f5a5185c-d53e-4731-ac42-4e6fa6d4553f}' failed to start (source: Audio Input Capture)
+17:47:39.128: [win-wasapi: 'wave'] update settings:
+17:47:39.128: 	device id: {0.0.1.00000000}.{2e58ee5b-48e8-4c3b-b389-9876e9120166}
+17:47:39.128: 	use device timing: 0
+17:47:39.129: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{2e58ee5b-48e8-4c3b-b389-9876e9120166}] Failed to enumerate device: 80070490
+17:47:39.129: WASAPI: Device '{0.0.1.00000000}.{2e58ee5b-48e8-4c3b-b389-9876e9120166}' failed to start (source: wave)
+17:47:39.130: [Media Source 'sun']: settings:
+17:47:39.130: 	input:                   C:/Users/Pexabo/Downloads/Untitled design.mp4
+17:47:39.130: 	input_format:            (null)
+17:47:39.130: 	speed:                   100
+17:47:39.130: 	is_looping:              yes
+17:47:39.130: 	is_linear_alpha:         no
+17:47:39.130: 	is_hw_decoding:          no
+17:47:39.130: 	is_clear_on_media_end:   yes
+17:47:39.130: 	restart_on_activate:     yes
+17:47:39.130: 	close_when_inactive:     no
+17:47:39.130: 	full_decode:             no
+17:47:39.130: 	ffmpeg_options:          
+17:47:39.131: MP: Failed to open media: 'C:/Users/Pexabo/Downloads/Untitled design.mp4'
+17:47:39.131: [Media Source 'glow']: settings:
+17:47:39.131: 	input:                   C:/Users/Pexabo/Downloads/obs artifacts (1).mp4
+17:47:39.131: 	input_format:            (null)
+17:47:39.131: 	speed:                   100
+17:47:39.131: 	is_looping:              yes
+17:47:39.131: 	is_linear_alpha:         no
+17:47:39.131: 	is_hw_decoding:          no
+17:47:39.131: 	is_clear_on_media_end:   yes
+17:47:39.131: 	restart_on_activate:     yes
+17:47:39.131: 	close_when_inactive:     no
+17:47:39.131: 	full_decode:             no
+17:47:39.131: 	ffmpeg_options:          
+17:47:39.132: MP: Failed to open media: 'C:/Users/Pexabo/Downloads/obs artifacts (1).mp4'
+17:47:39.191: Failed to open file 'C:/Users/Pexabo/Downloads/obs direct (1).png': No such file or directory
+17:47:39.192: WIC: Failed to create IWICBitmapDecoder from file: C:/Users/Pexabo/Downloads/obs direct (1).png
+17:47:39.192: gs_image_file_init_internal: Failed to load file 'C:/Users/Pexabo/Downloads/obs direct (1).png'
+17:47:39.192: [image_source: 'Image'] failed to load texture 'C:/Users/Pexabo/Downloads/obs direct (1).png'
+17:47:39.194: Source ID 'source_record_filter' not found
+17:47:39.194: Failed to create source 'Source Record'!
+17:47:39.211: [duplicator-monitor-capture: 'PROMPTER'] update settings:
+17:47:39.211: 	display:  (0x0)
+17:47:39.211: 	cursor: true
+17:47:39.211: 	method: WGC
+17:47:39.211: 	id: 
+17:47:39.211: 	alt_id: 
+17:47:39.211: 	setting_id: \\?\DISPLAY#IDI3311#a&3717ab59&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:47:39.211: 	force SDR: false
+17:47:39.212: Source ID 'source_record_filter' not found
+17:47:39.212: Failed to create source 'Source Record'!
+17:47:39.213: Source ID 'source_record_filter' not found
+17:47:39.214: Failed to create source 'Source Record'!
+17:47:39.214: [window-capture: 'Window Capture'] update settings:
+17:47:39.214: 	executable: chrome.exe
+17:47:39.214: 	method selected: Automatic
+17:47:39.214: 	method chosen: WGC
+17:47:39.214: 	force SDR: false
+17:47:39.217: Failed to open file 'C:/Users/Pexabo/Downloads/Lus-Adarch_MALE-STOCK.webp': No such file or directory
+17:47:39.217: WIC: Failed to create IWICBitmapDecoder from file: C:/Users/Pexabo/Downloads/Lus-Adarch_MALE-STOCK.webp
+17:47:39.217: gs_image_file_init_internal: Failed to load file 'C:/Users/Pexabo/Downloads/Lus-Adarch_MALE-STOCK.webp'
+17:47:39.217: [image_source: 'Image 2'] failed to load texture 'C:/Users/Pexabo/Downloads/Lus-Adarch_MALE-STOCK.webp'
+17:47:39.219: [win-wasapi: 'Audio Input Capture 2'] update settings:
+17:47:39.219: 	device id: {0.0.1.00000000}.{343fce53-b7e1-4b17-9384-63afb25b01bc}
+17:47:39.219: 	use device timing: 0
+17:47:39.219: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{343fce53-b7e1-4b17-9384-63afb25b01bc}] Failed to enumerate device: 80070490
+17:47:39.219: WASAPI: Device '{0.0.1.00000000}.{343fce53-b7e1-4b17-9384-63afb25b01bc}' failed to start (source: Audio Input Capture 2)
+17:47:39.227: [duplicator-monitor-capture: 'vertical'] update settings:
+17:47:39.227: 	display:  (0x0)
+17:47:39.227: 	cursor: true
+17:47:39.227: 	method: WGC
+17:47:39.227: 	id: 
+17:47:39.227: 	alt_id: 
+17:47:39.227: 	setting_id: \\?\DISPLAY#AUS28B1#7&1343a6a2&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:47:39.227: 	force SDR: false
+17:47:39.228: Source ID 'source_record_filter' not found
+17:47:39.228: Failed to create source 'Source Record'!
+17:47:39.248: Switched to scene '🖥️3-Paw'
+17:47:39.248: ------------------------------------------------
+17:47:39.248: Loaded scenes:
+17:47:39.248: - scene '🧱wall-Brio':
+17:47:39.248:     - source: 'brio' (dshow_input)
+17:47:39.248:     - source: 'bluetoothHub' (wasapi_input_capture)
+17:47:39.248:     - source: 'Image 2' (image_source)
+17:47:39.248: - scene '🧰Scene-Switcher🧰':
+17:47:39.248:     - source: '🖥️1-windows screen' (scene)
+17:47:39.248:         - filter: 'Source Record' (source_record_filter)
+17:47:39.248:     - source: '🖥️2-Blan' (scene)
+17:47:39.248:     - source: '🖥️3-Paw' (scene)
+17:47:39.248:     - source: '📱Wifi/Ndi/Mobile' (scene)
+17:47:39.248:     - source: 'Audio Input Capture' (wasapi_input_capture)
+17:47:39.248:     - source: 'Audio Input Capture 2' (wasapi_input_capture)
+17:47:39.248: - scene '📹ZV1-Divide':
+17:47:39.248:     - source: 'sun' (ffmpeg_source)
+17:47:39.248:     - source: 'zv1-4' (dshow_input)
+17:47:39.248:     - source: 'wave' (wasapi_input_capture)
+17:47:39.248: - scene '🧑‍💼👩‍💼Interview-FC':
+17:47:39.248:     - source: 'facecam' (dshow_input)
+17:47:39.248:     - source: 'notes' (text_gdiplus_v3)
+17:47:39.248:     - source: 'Image' (image_source)
+17:47:39.248:     - source: 'cablea' (wasapi_output_capture)
+17:47:39.248:     - source: 'wave' (wasapi_input_capture)
+17:47:39.248: - scene '✍️WritingTable':
+17:47:39.248:     - source: 'WritingTablet' (monitor_capture)
+17:47:39.248: - scene '🪟Window-Frame':
+17:47:39.248:     - source: 'vertical' (monitor_capture)
+17:47:39.248:         - filter: 'Source Record' (source_record_filter)
+17:47:39.248: - scene 'zv1-4-move':
+17:47:39.248:     - source: 'zv1-4' (dshow_input)
+17:47:39.248: - scene '📱Wifi/Ndi/Mobile':
+17:47:39.249:     - source: 'WifiElgato(mobwificheck)' (dshow_input)
+17:47:39.249:     - source: 'cablea' (wasapi_output_capture)
+17:47:39.249:     - source: 'NDI® Source' (ndi_source)
+17:47:39.249: - scene '🔳LG-Square':
+17:47:39.249:     - source: 'Display CaptureLG' (monitor_capture)
+17:47:39.249:         - filter: 'Source Record' (source_record_filter)
+17:47:39.249: - scene '🍏Appletv/Mirro':
+17:47:39.249:     - source: 'v1' (dshow_input)
+17:47:39.249:     - source: 'Text (GDI+)' (text_gdiplus_v3)
+17:47:39.249: - scene '📺 📺 Mix4📺 📺':
+17:47:39.249:     - source: '🧱wall-Brio' (scene)
+17:47:39.249:     - source: '🤹📷Insta' (scene)
+17:47:39.249:     - source: '🔝zv1-prompter' (scene)
+17:47:39.249:     - source: 'Desktop' (scene)
+17:47:39.249: - scene '🟣📹Circle Box Glow-zv1':
+17:47:39.249:     - source: 'zv1-v4' (dshow_input)
+17:47:39.249:     - source: 'glow' (ffmpeg_source)
+17:47:39.249:         - filter: 'Crop/Pad' (crop_filter)
+17:47:39.249:     - source: 'zv1-v4' (dshow_input)
+17:47:39.249:     - source: 'wave' (wasapi_input_capture)
+17:47:39.249: - scene '📹Vertical Zv1📱':
+17:47:39.249:     - source: 'zv1-v4' (dshow_input)
+17:47:39.249: - scene '🤹📷Insta':
+17:47:39.249:     - source: 'insta' (dshow_input)
+17:47:39.249:     - source: 'cablea' (wasapi_output_capture)
+17:47:39.249: - scene '📺vdoninja📡':
+17:47:39.249:     - source: 'vdoninjaroom' (browser_source)
+17:47:39.249: - scene 'Desktop':
+17:47:39.249:     - source: 'Display CaptureTV' (monitor_capture)
+17:47:39.249:     - source: 'cablea' (wasapi_output_capture)
+17:47:39.249: - scene 'Prompter':
+17:47:39.249:     - source: 'PROMPTER' (monitor_capture)
+17:47:39.249:     - source: 'wave' (wasapi_input_capture)
+17:47:39.249:     - filter: 'Source Record' (source_record_filter)
+17:47:39.249: - scene 'PresentationSource':
+17:47:39.249:     - source: 'wave' (wasapi_input_capture)
+17:47:39.249:     - source: 'Window Capture' (window_capture)
+17:47:39.249:     - filter: 'Source Record' (source_record_filter)
+17:47:39.249: - scene '🖥️2-Blan':
+17:47:39.249:     - source: 'laptopblan' (dshow_input)
+17:47:39.249:     - source: 'Text (GDI+) 2' (text_gdiplus_v3)
+17:47:39.249: - scene '🖥️3-Paw':
+17:47:39.249:     - source: 'PawDevice' (dshow_input)
+17:47:39.249: - scene '🖥️1-windows screen':
+17:47:39.249:     - source: 'Display CaptureTV' (monitor_capture)
+17:47:39.249:     - source: 'XLR' (wasapi_input_capture)
+17:47:39.249:     - source: 'wave' (wasapi_input_capture)
+17:47:39.249:     - source: 'cablea' (wasapi_output_capture)
+17:47:39.249:     - filter: 'Source Record' (source_record_filter)
+17:47:39.249: - scene 'Facecam':
+17:47:39.249:     - source: 'facecam' (dshow_input)
+17:47:39.249: - scene '🔝zv1-prompter':
+17:47:39.249:     - source: 'zv1-v4' (dshow_input)
+17:47:39.249:     - source: 'Audio Input Capture' (wasapi_input_capture)
+17:47:39.249:     - source: 'PROMPTER' (monitor_capture)
+17:47:39.249: - scene '🔝zv1':
+17:47:39.249:     - source: 'zv1-v4' (dshow_input)
+17:47:39.249:     - source: 'Audio Input Capture' (wasapi_input_capture)
+17:47:39.249: ------------------------------------------------
+17:47:39.254: Switched to scene collection 'All-Devices' (AllDevices.json)
+17:47:39.254: ------------------------------------------------
+17:47:39.701: v1: data.GetDevice failed
+17:47:39.701: v1: Video configuration failed
+17:47:40.270: laptopblan: data.GetDevice failed
+17:47:40.270: laptopblan: Video configuration failed
+17:47:40.803: PawDevice: data.GetDevice failed
+17:47:40.803: PawDevice: Video configuration failed
+17:47:41.659: ---------------------------------
+17:47:41.659: [DShow Device: 'brio'] settings updated: 
+17:47:41.659: 	video device: BRIO 4K Stream Edition
+17:47:41.659: 	video path: \\?\usb#vid_046d&pid_086b&mi_00#8&23a1b4d2&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:47:41.659: 	resolution: 640x480
+17:47:41.659: 	flip: 0
+17:47:41.659: 	fps: 30.00 (interval: 333333)
+17:47:41.659: 	format: YUY2
+17:47:41.659: 	buffering: disabled
+17:47:41.659: 	hardware decode: disabled
+17:47:41.863: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:47:42.838: zv1-4: data.GetDevice failed
+17:47:42.838: zv1-4: Video configuration failed
+17:47:43.445: zv1-v4: data.GetDevice failed
+17:47:43.445: zv1-v4: Video configuration failed
+17:47:43.893: insta: data.GetDevice failed
+17:47:43.893: insta: Video configuration failed
+17:47:44.079: ---------------------------------
+17:47:44.079: [DShow Device: 'facecam'] settings updated: 
+17:47:44.079: 	video device: Elgato Facecam
+17:47:44.079: 	video path: \\?\usb#vid_0fd9&pid_0078&mi_00#8&994727b&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:47:44.079: 	resolution: 1920x1080
+17:47:44.079: 	flip: 0
+17:47:44.079: 	fps: 60.00 (interval: 166666)
+17:47:44.079: 	format: UYVY
+17:47:44.079: 	buffering: disabled
+17:47:44.079: 	hardware decode: disabled
+17:47:44.267: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:47:54.104: WASAPI: Device '' Terminated
+17:47:56.488: WASAPI: Device '' Terminated
+17:47:56.494: WASAPI: Device '' Terminated
+17:47:56.495: WASAPI: Device '' Terminated
+17:47:56.496: WASAPI: Device '' Terminated
+17:47:56.506: WASAPI: Device '' Terminated
+17:47:56.507: Tried to sort VolumeControl for 'sun' but source is null
+17:47:56.538: All scene data cleared
+17:47:56.538: ------------------------------------------------
+17:47:56.546: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+17:47:56.546: Deduplication logic is being applied to all monitored sources.
+17:47:56.546: [win-wasapi: 'Desktop Audio'] update settings:
+17:47:56.546: 	device id: default
+17:47:56.546: 	use device timing: 1
+17:47:56.547: [Loaded global audio device]: 'Desktop Audio'
+17:47:56.547: [win-wasapi: 'xlr'] update settings:
+17:47:56.547: 	device id: {0.0.1.00000000}.{c1deda98-992f-4c83-bd70-2227a1e9b6be}
+17:47:56.547: 	use device timing: 0
+17:47:56.548: [Loaded global audio device]: 'xlr'
+17:47:56.548: [win-wasapi: 'elgatoMicRight'] update settings:
+17:47:56.548: 	device id: {0.0.1.00000000}.{e85ac5b4-719b-4713-bd22-4e795f5def86}
+17:47:56.548: 	use device timing: 0
+17:47:56.548: [Loaded global audio device]: 'elgatoMicRight'
+17:47:56.552: [duplicator-monitor-capture: 'SamsungTV'] update settings:
+17:47:56.552: 	display: ASUS VP28U (2160x3840)
+17:47:56.552: 	cursor: true
+17:47:56.552: 	method: DXGI
+17:47:56.552: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:47:56.552: 	alt_id: \\.\DISPLAY1
+17:47:56.552: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:47:56.552: 	force SDR: false
+17:47:56.557: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+17:47:56.557: Deduplication logic is being applied to all monitored sources.
+17:47:56.560: [duplicator-monitor-capture: 'prompter'] update settings:
+17:47:56.560: 	display:  (0x0)
+17:47:56.560: 	cursor: true
+17:47:56.560: 	method: WGC
+17:47:56.560: 	id: 
+17:47:56.560: 	alt_id: 
+17:47:56.560: 	setting_id: \\?\DISPLAY#IDI3311#a&3717ab59&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:47:56.560: 	force SDR: false
+17:47:56.561: Source ID 'source_record_filter' not found
+17:47:56.561: Failed to create source 'Source Record'!
+17:47:56.567: [duplicator-monitor-capture: 'lg'] update settings:
+17:47:56.567: 	display: LG HDR 4K (3840x2160)
+17:47:56.567: 	cursor: true
+17:47:56.567: 	method: DXGI
+17:47:56.567: 	id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:47:56.567: 	alt_id: \\.\DISPLAY2
+17:47:56.567: 	setting_id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:47:56.567: 	force SDR: false
+17:47:56.781: WASAPI: Device 'Mic In (Elgato Wave:3)' [48000 Hz] initialized (source: elgatoMicRight)
+17:47:56.783: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' [48000 Hz] initialized (source: xlr)
+17:47:56.820: [Media Source 'Media Source']: settings:
+17:47:56.820: 	input:                   C:/projects/obs/loop_obs_ship_2025-06-03_10-03-19.mp4
+17:47:56.820: 	input_format:            (null)
+17:47:56.820: 	speed:                   100
+17:47:56.820: 	is_looping:              yes
+17:47:56.820: 	is_linear_alpha:         no
+17:47:56.820: 	is_hw_decoding:          yes
+17:47:56.820: 	is_clear_on_media_end:   yes
+17:47:56.820: 	restart_on_activate:     yes
+17:47:56.820: 	close_when_inactive:     no
+17:47:56.820: 	full_decode:             no
+17:47:56.820: 	ffmpeg_options:          
+17:47:56.823: [duplicator-monitor-capture: 'down'] update settings:
+17:47:56.823: 	display: ASUS VP28U (2160x3840)
+17:47:56.823: 	cursor: true
+17:47:56.823: 	method: DXGI
+17:47:56.823: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:47:56.823: 	alt_id: \\.\DISPLAY1
+17:47:56.823: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:47:56.823: 	force SDR: true
+17:47:56.826: error:   Cannot load nvcuda.dll
+17:47:56.826: error:   Could not dynamically load CUDA
+17:47:56.833: [win-wasapi: 'Audio Output Capture 2'] update settings:
+17:47:56.833: 	device id: {0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}
+17:47:56.833: 	use device timing: 1
+17:47:56.833: [WASAPISource::TryInitialize]:[{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}] Failed to enumerate device: 80070490
+17:47:56.833: WASAPI: Device '{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}' failed to start (source: Audio Output Capture 2)
+17:47:56.834: [win-wasapi: 'elgato'] update settings:
+17:47:56.834: 	device id: {0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}
+17:47:56.834: 	use device timing: 0
+17:47:56.834: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}] Failed to enumerate device: 80070490
+17:47:56.834: WASAPI: Device '{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}' failed to start (source: elgato)
+17:47:56.835: [win-wasapi: 'Window Capture (Audio)'] update settings:
+17:47:56.835: 	executable: chrome.exe
+17:47:56.835: 	title: Instagram - Google Chrome
+17:47:56.835: 	class: Chrome_WidgetWin_1
+17:47:56.835: 	priority: 0
+17:47:56.835: [window-capture: 'Window Capture'] update settings:
+17:47:56.835: 	executable: chrome.exe
+17:47:56.835: 	method selected: Automatic
+17:47:56.835: 	method chosen: WGC
+17:47:56.835: 	force SDR: false
+17:47:56.841: Source ID 'source_record_filter' not found
+17:47:56.841: Failed to create source 'Source Record'!
+17:47:56.842: Source ID 'net.nagater.obs-color-monitor.falsecolor_filter' not found
+17:47:56.842: Failed to create source 'False Color'!
+17:47:56.842: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+17:47:56.864: Switched to scene 'LG'
+17:47:56.864: ------------------------------------------------
+17:47:56.864: Loaded scenes:
+17:47:56.864: - scene 'insta':
+17:47:56.864:     - source: 'insta360' (dshow_input)
+17:47:56.864: - scene 'facecam':
+17:47:56.864:     - source: 'fc' (dshow_input)
+17:47:56.864:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:47:56.865: - scene 'zv1 not cut':
+17:47:56.865:     - source: 'zv1-sony' (dshow_input)
+17:47:56.865:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:47:56.865: - scene 'brio':
+17:47:56.865:     - source: 'sony brio' (dshow_input)
+17:47:56.865: - scene 'windowCapture':
+17:47:56.865:     - source: 'Window Capture' (window_capture)
+17:47:56.865: - scene '1080 draw':
+17:47:56.865:     - source: 'down' (monitor_capture)
+17:47:56.865:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:47:56.865:     - source: 'elgato' (wasapi_input_capture)
+17:47:56.865: - scene 'zv1 clean':
+17:47:56.865:     - source: 'zv1-sony' (dshow_input)
+17:47:56.865:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:47:56.865:     - source: 'Audio Output Capture 2' (wasapi_output_capture)
+17:47:56.865: - scene 'video player':
+17:47:56.865:     - source: 'Media Source' (ffmpeg_source)
+17:47:56.865: - scene 'green_screenscheck_false_color':
+17:47:56.865:     - source: 'zv1-sony' (dshow_input)
+17:47:56.865:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:47:56.865:     - filter: 'False Color' (net.nagater.obs-color-monitor.falsecolor_filter)
+17:47:56.865: - scene 'Samsung':
+17:47:56.865:     - source: 'SamsungTV' (monitor_capture)
+17:47:56.865:     - filter: 'Source Record' (source_record_filter)
+17:47:56.865: - scene 'Prompter':
+17:47:56.865:     - source: 'prompter' (monitor_capture)
+17:47:56.865:         - filter: 'Source Record' (source_record_filter)
+17:47:56.865: - scene 'blank':
+17:47:56.865: - scene 'Blan':
+17:47:56.865:     - source: 'blan' (dshow_input)
+17:47:56.865: - scene 'Paw':
+17:47:56.865:     - source: 'paw' (dshow_input)
+17:47:56.865:     - source: 'Text (GDI+)' (text_gdiplus_v3)
+17:47:56.865: - scene 'LG':
+17:47:56.865:     - source: 'lg' (monitor_capture)
+17:47:56.865: - scene 'phone apple tv wireless':
+17:47:56.865:     - source: 'phoneiphone' (dshow_input)
+17:47:56.865:         - monitoring: monitor only
+17:47:56.865: - scene 'iphone obs camera':
+17:47:56.865:     - source: 'Video Capture Device' (dshow_input)
+17:47:56.865: - scene 'vdopninja':
+17:47:56.865:     - source: 'Browser' (browser_source)
+17:47:56.865: - scene 'epoccam':
+17:47:56.865:     - source: 'Video Capture Device 2' (dshow_input)
+17:47:56.865: ------------------------------------------------
+17:47:56.870: Switched to scene collection 'Contract' (Contract.json)
+17:47:56.870: ------------------------------------------------
+17:47:56.895: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+17:47:56.895: WASAPI: Device '' failed to start (source: Window Capture (Audio))
+17:47:58.027: ---------------------------------
+17:47:58.027: [DShow Device: 'zv1-sony'] settings updated: 
+17:47:58.027: 	video device: Cam Link Pro HDMI-1 / Multiview
+17:47:58.027: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03401000226}
+17:47:58.027: 	resolution: 1920x1080
+17:47:58.027: 	flip: 0
+17:47:58.027: 	fps: 50.00 (interval: 200000)
+17:47:58.027: 	format: YUY2
+17:47:58.027: 	buffering: disabled
+17:47:58.027: 	hardware decode: disabled
+17:47:58.067: 	using video device audio: no
+17:47:58.067: 	separate audio filter
+17:47:58.067: 	sample rate: 48000
+17:47:58.067: 	channels: 2
+17:47:58.067: 	audio type: Capture
+17:47:58.116: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:48:00.563: ---------------------------------
+17:48:00.563: [DShow Device: 'Video Capture Device'] settings updated: 
+17:48:00.563: 	video device: NDI Webcam Video 1
+17:48:00.563: 	video path: \\?\root#media#0003#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\vidsource0
+17:48:00.563: 	resolution: 1920x1080
+17:48:00.563: 	flip: 0
+17:48:00.563: 	fps: 29.97 (interval: 333667)
+17:48:00.563: 	format: YUY2
+17:48:00.563: 	buffering: disabled
+17:48:00.563: 	hardware decode: disabled
+17:48:00.752: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:48:02.147: ---------------------------------
+17:48:02.147: [DShow Device: 'paw'] settings updated: 
+17:48:02.147: 	video device: Cam Link Pro HDMI-4
+17:48:02.147: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03404000226}
+17:48:02.147: 	resolution: 1920x1080
+17:48:02.147: 	flip: 0
+17:48:02.147: 	fps: 50.00 (interval: 200000)
+17:48:02.147: 	format: YUY2
+17:48:02.147: 	buffering: disabled
+17:48:02.147: 	hardware decode: disabled
+17:48:02.375: 	using video device audio: no
+17:48:02.375: 	separate audio filter
+17:48:02.375: 	sample rate: 48000
+17:48:02.375: 	channels: 2
+17:48:02.375: 	audio type: Capture
+17:48:02.468: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:48:02.572: ---------------------------------
+17:48:02.572: [DShow Device: 'blan'] settings updated: 
+17:48:02.572: 	video device: Cam Link Pro HDMI-3
+17:48:02.572: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03403000226}
+17:48:02.572: 	resolution: 1920x1080
+17:48:02.572: 	flip: 0
+17:48:02.572: 	fps: 50.00 (interval: 200000)
+17:48:02.572: 	format: YUY2
+17:48:02.572: 	buffering: disabled
+17:48:02.572: 	hardware decode: disabled
+17:48:02.649: 	using video device audio: no
+17:48:02.649: 	separate audio filter
+17:48:02.649: 	sample rate: 48000
+17:48:02.649: 	channels: 2
+17:48:02.649: 	audio type: Capture
+17:48:02.696: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:48:04.447: ---------------------------------
+17:48:04.447: [DShow Device: 'fc'] settings updated: 
+17:48:04.447: 	video device: Elgato Facecam
+17:48:04.447: 	video path: \\?\usb#vid_0fd9&pid_0078&mi_00#8&994727b&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:48:04.447: 	resolution: 1920x1080
+17:48:04.447: 	flip: 0
+17:48:04.447: 	fps: 60.00 (interval: 166666)
+17:48:04.447: 	format: UYVY
+17:48:04.447: 	buffering: disabled
+17:48:04.447: 	hardware decode: disabled
+17:48:04.697: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:48:04.933: ---------------------------------
+17:48:04.933: [DShow Device: 'sony brio'] settings updated: 
+17:48:04.933: 	video device: BRIO 4K Stream Edition
+17:48:04.933: 	video path: \\?\usb#vid_046d&pid_086b&mi_00#8&23a1b4d2&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:48:04.933: 	resolution: 640x480
+17:48:04.933: 	flip: 0
+17:48:04.933: 	fps: 30.00 (interval: 333333)
+17:48:04.933: 	format: YUY2
+17:48:04.933: 	buffering: disabled
+17:48:04.933: 	hardware decode: disabled
+17:48:05.220: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:48:05.932: ---------------------------------
+17:48:05.932: [DShow Device: 'insta360'] settings updated: 
+17:48:05.932: 	video device: Insta360 Link
+17:48:05.932: 	video path: \\?\usb#vid_2e1a&pid_4c01&mi_00#7&3a8eb504&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:48:05.932: 	resolution: 1920x1080
+17:48:05.932: 	flip: 0
+17:48:05.932: 	fps: 30.00 (interval: 333333)
+17:48:05.932: 	format: MJPEG
+17:48:05.932: 	buffering: disabled
+17:48:05.932: 	hardware decode: disabled
+17:48:05.994: ---------------------------------
+17:48:05.994: [DShow Device: 'phoneiphone'] settings updated: 
+17:48:05.994: 	video device: Cam Link Pro HDMI-2
+17:48:05.994: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03402000226}
+17:48:05.994: 	resolution: 1920x1080
+17:48:05.994: 	flip: 0
+17:48:05.994: 	fps: 50.00 (interval: 200000)
+17:48:05.994: 	format: YUY2
+17:48:05.994: 	buffering: disabled
+17:48:05.994: 	hardware decode: disabled
+17:48:06.064: 	using video device audio: no
+17:48:06.064: 	separate audio filter
+17:48:06.064: 	sample rate: 48000
+17:48:06.064: 	channels: 2
+17:48:06.064: 	audio type: Capture
+17:48:06.077: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:48:06.174: Deduplication logic stopped.
+17:48:06.174: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' Terminated
+17:48:06.211: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:48:06.265: ---------------------------------
+17:48:06.265: [DShow Device: 'Video Capture Device 2'] settings updated: 
+17:48:06.265: 	video device: EƖgato Virtual Camera
+17:48:06.265: 	video path: \\?\root#media#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{45ab5b3b-2e15-4452-a2cb-87e5fdd026fb}
+17:48:06.265: 	resolution: 1920x1080
+17:48:06.265: 	flip: 0
+17:48:06.265: 	fps: 60.00 (interval: 166666)
+17:48:06.265: 	format: NV12
+17:48:06.265: 	buffering: disabled
+17:48:06.265: 	hardware decode: disabled
+17:48:06.433: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:48:06.751: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' Terminated
+17:48:07.384: WASAPI: Device 'Mic In (Elgato Wave:3)' Terminated
+17:48:07.463: WASAPI: Device '' Terminated
+17:48:07.571: WASAPI: Device '' Terminated
+17:48:11.025: WASAPI: Device '[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]' Terminated
+17:48:11.026: Tried to sort VolumeControl for 'xlr' but source is null
+17:48:11.026: Tried to sort VolumeControl for 'elgatoMicRight' but source is null
+17:48:11.046: All scene data cleared
+17:48:11.046: ------------------------------------------------
+17:48:11.049: [win-wasapi: 'Mic/Aux'] update settings:
+17:48:11.049: 	device id: {0.0.1.00000000}.{c1deda98-992f-4c83-bd70-2227a1e9b6be}
+17:48:11.049: 	use device timing: 0
+17:48:11.050: [Loaded global audio device]: 'Mic/Aux'
+17:48:11.055: [duplicator-monitor-capture: 'Display Capture 2'] update settings:
+17:48:11.055: 	display:  (0x0)
+17:48:11.055: 	cursor: true
+17:48:11.055: 	method: WGC
+17:48:11.055: 	id: 
+17:48:11.055: 	alt_id: 
+17:48:11.055: 	setting_id: \\?\DISPLAY#HAT1333#7&1343a6a2&0&UID265#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:48:11.055: 	force SDR: false
+17:48:11.059: [window-capture: 'Window Capture'] update settings:
+17:48:11.059: 	executable: chrome.exe
+17:48:11.059: 	method selected: Automatic
+17:48:11.059: 	method chosen: WGC
+17:48:11.059: 	force SDR: false
+17:48:11.070: Switched to scene 'GreenScreen'
+17:48:11.071: ------------------------------------------------
+17:48:11.071: Loaded scenes:
+17:48:11.071: - scene 'Slides-Screencast-CanvaDraw':
+17:48:11.071:     - source: 'Display Capture 2' (monitor_capture)
+17:48:11.071: - scene 'GreenScreen':
+17:48:11.071:     - source: 'zv1' (dshow_input)
+17:48:11.071:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:48:11.071: - scene 'Indexer':
+17:48:11.071:     - source: 'Text (GDI+)' (text_gdiplus_v3)
+17:48:11.071:     - source: 'Window Capture' (window_capture)
+17:48:11.071: ------------------------------------------------
+17:48:11.074: Switched to scene collection 'CourseEra' (CourseEra.json)
+17:48:11.074: ------------------------------------------------
+17:48:11.272: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Mic/Aux)
+17:48:11.568: zv1: data.GetDevice failed
+17:48:11.568: zv1: Video configuration failed
+17:48:21.570: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' Terminated
+17:48:21.752: All scene data cleared
+17:48:21.752: ------------------------------------------------
+17:48:21.755: [win-wasapi: 'Mic/Aux'] update settings:
+17:48:21.755: 	device id: {0.0.1.00000000}.{6b59912c-ed2f-40e5-bb9c-71cd9318bd27}
+17:48:21.755: 	use device timing: 0
+17:48:21.756: [Loaded global audio device]: 'Mic/Aux'
+17:48:21.756: [win-wasapi: 'Mic/Aux 2'] update settings:
+17:48:21.756: 	device id: {0.0.1.00000000}.{1d73eebb-3272-458d-bb6a-d054504c2798}
+17:48:21.756: 	use device timing: 0
+17:48:21.756: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{6b59912c-ed2f-40e5-bb9c-71cd9318bd27}] Failed to enumerate device: 80070490
+17:48:21.756: WASAPI: Device '{0.0.1.00000000}.{6b59912c-ed2f-40e5-bb9c-71cd9318bd27}' failed to start (source: Mic/Aux)
+17:48:21.756: [Loaded global audio device]: 'Mic/Aux 2'
+17:48:21.756: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{1d73eebb-3272-458d-bb6a-d054504c2798}] Failed to enumerate device: 80070490
+17:48:21.756: WASAPI: Device '{0.0.1.00000000}.{1d73eebb-3272-458d-bb6a-d054504c2798}' failed to start (source: Mic/Aux 2)
+17:48:21.758: Failed to open file 'C:/Users/Pexabo/Downloads/obs background chroma keys .jpg': No such file or directory
+17:48:21.758: WIC: Failed to create IWICBitmapDecoder from file: C:/Users/Pexabo/Downloads/obs background chroma keys .jpg
+17:48:21.758: gs_image_file_init_internal: Failed to load file 'C:/Users/Pexabo/Downloads/obs background chroma keys .jpg'
+17:48:21.758: [image_source: 'Image'] failed to load texture 'C:/Users/Pexabo/Downloads/obs background chroma keys .jpg'
+17:48:21.766: [duplicator-monitor-capture: 'lg'] update settings:
+17:48:21.766: 	display:  (0x0)
+17:48:21.766: 	cursor: true
+17:48:21.766: 	method: WGC
+17:48:21.766: 	id: 
+17:48:21.766: 	alt_id: 
+17:48:21.766: 	setting_id: \\?\DISPLAY#GSM774F#7&1343a6a2&0&UID260#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:48:21.766: 	force SDR: false
+17:48:21.774: [duplicator-monitor-capture: 'samsung'] update settings:
+17:48:21.774: 	display:  (0x0)
+17:48:21.774: 	cursor: true
+17:48:21.774: 	method: WGC
+17:48:21.774: 	id: 
+17:48:21.774: 	alt_id: 
+17:48:21.774: 	setting_id: \\?\DISPLAY#SAM0F0B#7&1343a6a2&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:48:21.774: 	force SDR: false
+17:48:21.780: [duplicator-monitor-capture: 'huion'] update settings:
+17:48:21.780: 	display:  (0x0)
+17:48:21.780: 	cursor: true
+17:48:21.780: 	method: WGC
+17:48:21.780: 	id: 
+17:48:21.780: 	alt_id: 
+17:48:21.780: 	setting_id: \\?\DISPLAY#HAT1333#7&1343a6a2&0&UID265#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:48:21.780: 	force SDR: false
+17:48:21.782: Source ID 'move_transition' not found
+17:48:21.782: Failed to create source 'Move'!
+17:48:21.792: Switched to scene 'TopCam-show'
+17:48:21.792: ------------------------------------------------
+17:48:21.792: Loaded scenes:
+17:48:21.792: - scene 'GreenScreen-tell':
+17:48:21.792:     - source: 'Image' (image_source)
+17:48:21.792:     - source: 'Video Capture Device' (dshow_input)
+17:48:21.792:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:48:21.792: - scene 'Samsung-show':
+17:48:21.792:     - source: 'samsung' (monitor_capture)
+17:48:21.792: - scene 'TopCam-show':
+17:48:21.792:     - source: 'brio' (dshow_input)
+17:48:21.792: - scene 'LG-do':
+17:48:21.792:     - source: 'lg' (monitor_capture)
+17:48:21.792: - scene 'huion-apply':
+17:48:21.792:     - source: 'huion' (monitor_capture)
+17:48:21.792: ------------------------------------------------
+17:48:21.799: Switched to scene collection 'Interview' (Interview.json)
+17:48:21.799: ------------------------------------------------
+17:48:22.305: Video Capture Device: data.GetDevice failed
+17:48:22.305: Video Capture Device: Video configuration failed
+17:48:23.152: ---------------------------------
+17:48:23.152: [DShow Device: 'brio'] settings updated: 
+17:48:23.152: 	video device: BRIO 4K Stream Edition
+17:48:23.152: 	video path: \\?\usb#vid_046d&pid_086b&mi_00#8&23a1b4d2&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:48:23.152: 	resolution: 640x480
+17:48:23.152: 	flip: 0
+17:48:23.152: 	fps: 30.00 (interval: 333333)
+17:48:23.152: 	format: YUY2
+17:48:23.152: 	buffering: disabled
+17:48:23.152: 	hardware decode: disabled
+17:48:23.286: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:48:37.427: WASAPI: Device '' Terminated
+17:48:37.428: WASAPI: Device '' Terminated
+17:48:37.773: Tried to sort VolumeControl for 'Mic/Aux 2' but source is null
+17:48:37.796: All scene data cleared
+17:48:37.796: ------------------------------------------------
+17:48:37.799: [win-wasapi: 'Mic/Aux'] update settings:
+17:48:37.799: 	device id: {0.0.1.00000000}.{fc9bed91-1065-4e1c-8af2-b63712adad6b}
+17:48:37.799: 	use device timing: 0
+17:48:37.800: [Loaded global audio device]: 'Mic/Aux'
+17:48:37.800: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{fc9bed91-1065-4e1c-8af2-b63712adad6b}] Failed to enumerate device: 80070490
+17:48:37.800: WASAPI: Device '{0.0.1.00000000}.{fc9bed91-1065-4e1c-8af2-b63712adad6b}' failed to start (source: Mic/Aux)
+17:48:37.811: Switched to scene 'Scene'
+17:48:37.811: ------------------------------------------------
+17:48:37.811: Loaded scenes:
+17:48:37.811: - scene 'Scene':
+17:48:37.811:     - source: 'Browser' (browser_source)
+17:48:37.811:     - source: 'Video Capture Device' (dshow_input)
+17:48:37.811:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:48:37.811: ------------------------------------------------
+17:48:37.819: Switched to scene collection 'Marp' (Marp.json)
+17:48:37.819: ------------------------------------------------
+17:48:38.334: Video Capture Device: data.GetDevice failed
+17:48:38.334: Video Capture Device: Video configuration failed
+17:48:50.889: WASAPI: Device '' Terminated
+17:48:50.914: All scene data cleared
+17:48:50.914: ------------------------------------------------
+17:48:50.918: [win-wasapi: 'xlr'] update settings:
+17:48:50.918: 	device id: {0.0.1.00000000}.{fc9bed91-1065-4e1c-8af2-b63712adad6b}
+17:48:50.918: 	use device timing: 0
+17:48:50.919: [Loaded global audio device]: 'xlr'
+17:48:50.919: [win-wasapi: 'voicemeeter'] update settings:
+17:48:50.919: 	device id: {0.0.1.00000000}.{343fce53-b7e1-4b17-9384-63afb25b01bc}
+17:48:50.919: 	use device timing: 0
+17:48:50.919: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{fc9bed91-1065-4e1c-8af2-b63712adad6b}] Failed to enumerate device: 80070490
+17:48:50.919: WASAPI: Device '{0.0.1.00000000}.{fc9bed91-1065-4e1c-8af2-b63712adad6b}' failed to start (source: xlr)
+17:48:50.919: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{343fce53-b7e1-4b17-9384-63afb25b01bc}] Failed to enumerate device: 80070490
+17:48:50.919: WASAPI: Device '{0.0.1.00000000}.{343fce53-b7e1-4b17-9384-63afb25b01bc}' failed to start (source: voicemeeter)
+17:48:50.919: [Loaded global audio device]: 'voicemeeter'
+17:48:50.923: [duplicator-monitor-capture: 'Display Capture'] update settings:
+17:48:50.923: 	display:  (0x0)
+17:48:50.923: 	cursor: true
+17:48:50.923: 	method: WGC
+17:48:50.923: 	id: 
+17:48:50.923: 	alt_id: 
+17:48:50.923: 	setting_id: \\?\DISPLAY#SAM0F0B#7&1343a6a2&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:48:50.923: 	force SDR: false
+17:48:50.924: [win-wasapi: 'Audio Input Capture'] update settings:
+17:48:50.924: 	device id: {0.0.1.00000000}.{f5a5185c-d53e-4731-ac42-4e6fa6d4553f}
+17:48:50.924: 	use device timing: 0
+17:48:50.924: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{f5a5185c-d53e-4731-ac42-4e6fa6d4553f}] Failed to enumerate device: 80070490
+17:48:50.924: WASAPI: Device '{0.0.1.00000000}.{f5a5185c-d53e-4731-ac42-4e6fa6d4553f}' failed to start (source: Audio Input Capture)
+17:48:50.928: [duplicator-monitor-capture: 'Display Capture 2'] update settings:
+17:48:50.928: 	display:  (0x0)
+17:48:50.928: 	cursor: true
+17:48:50.928: 	method: WGC
+17:48:50.928: 	id: 
+17:48:50.928: 	alt_id: 
+17:48:50.928: 	setting_id: \\?\DISPLAY#IDI3311#a&3717ab59&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:48:50.928: 	force SDR: false
+17:48:50.932: [duplicator-monitor-capture: 'Display Capture 3'] update settings:
+17:48:50.932: 	display:  (0x0)
+17:48:50.932: 	cursor: true
+17:48:50.932: 	method: WGC
+17:48:50.932: 	id: 
+17:48:50.932: 	alt_id: 
+17:48:50.932: 	setting_id: \\?\DISPLAY#GSM774F#7&1343a6a2&0&UID260#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:48:50.932: 	force SDR: false
+17:48:50.936: [duplicator-monitor-capture: 'Display Capture 4'] update settings:
+17:48:50.936: 	display:  (0x0)
+17:48:50.936: 	cursor: true
+17:48:50.936: 	method: WGC
+17:48:50.936: 	id: 
+17:48:50.936: 	alt_id: 
+17:48:50.936: 	setting_id: \\?\DISPLAY#HAT1333#7&1343a6a2&0&UID265#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:48:50.936: 	force SDR: false
+17:48:50.939: Switched to scene 'prompter'
+17:48:50.939: ------------------------------------------------
+17:48:50.939: Loaded scenes:
+17:48:50.939: - scene 'samsung':
+17:48:50.939:     - source: 'Display Capture' (monitor_capture)
+17:48:50.939:     - source: 'Audio Input Capture' (wasapi_input_capture)
+17:48:50.939: - scene 'lg':
+17:48:50.939:     - source: 'Display Capture 3' (monitor_capture)
+17:48:50.939: - scene 'prompter':
+17:48:50.939:     - source: 'Display Capture 2' (monitor_capture)
+17:48:50.939: - scene 'Kamvas':
+17:48:50.939:     - source: 'Display Capture 4' (monitor_capture)
+17:48:50.939: ------------------------------------------------
+17:48:50.943: Switched to scene collection 'simpleScreen' (simpleScreen.json)
+17:48:50.943: ------------------------------------------------
+17:48:59.324: WASAPI: Device '' Terminated
+17:48:59.325: WASAPI: Device '' Terminated
+17:48:59.326: WASAPI: Device '' Terminated
+17:48:59.340: Tried to sort VolumeControl for 'voicemeeter' but source is null
+17:48:59.340: All scene data cleared
+17:48:59.340: ------------------------------------------------
+17:48:59.343: [win-wasapi: 'Mic/Aux'] update settings:
+17:48:59.343: 	device id: {0.0.1.00000000}.{fc9bed91-1065-4e1c-8af2-b63712adad6b}
+17:48:59.343: 	use device timing: 0
+17:48:59.344: [Loaded global audio device]: 'Mic/Aux'
+17:48:59.344: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{fc9bed91-1065-4e1c-8af2-b63712adad6b}] Failed to enumerate device: 80070490
+17:48:59.344: WASAPI: Device '{0.0.1.00000000}.{fc9bed91-1065-4e1c-8af2-b63712adad6b}' failed to start (source: Mic/Aux)
+17:48:59.346: Source ID 'move_source_filter' not found
+17:48:59.346: Failed to create source 'Move Source'!
+17:48:59.346: Source ID 'move_transition' not found
+17:48:59.346: Failed to create source 'Move left'!
+17:48:59.360: Switched to scene 'side cam'
+17:48:59.360: ------------------------------------------------
+17:48:59.360: Loaded scenes:
+17:48:59.360: - scene 'Scene':
+17:48:59.360:     - source: 'iphones' (dshow_input)
+17:48:59.360:     - source: 'purpose' (text_gdiplus_v3)
+17:48:59.360:         - filter: 'Move Source' (move_source_filter)
+17:48:59.360: - scene 'side cam':
+17:48:59.360:     - source: 'Video Capture Device' (dshow_input)
+17:48:59.360: ------------------------------------------------
+17:48:59.364: Switched to scene collection 'test' (test.json)
+17:48:59.364: ------------------------------------------------
+17:48:59.787: iphones: data.GetDevice failed
+17:48:59.787: iphones: Video configuration failed
+17:49:00.199: Video Capture Device: data.GetDevice failed
+17:49:00.199: Video Capture Device: Video configuration failed
+17:49:11.729: WASAPI: Device '' Terminated
+17:49:11.756: All scene data cleared
+17:49:11.756: ------------------------------------------------
+17:49:11.767: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+17:49:11.767: Deduplication logic is being applied to all monitored sources.
+17:49:11.767: [win-wasapi: 'Desktop Audio'] update settings:
+17:49:11.767: 	device id: default
+17:49:11.767: 	use device timing: 1
+17:49:11.767: [Loaded global audio device]: 'Desktop Audio'
+17:49:11.768: [win-wasapi: 'Mic/Aux'] update settings:
+17:49:11.768: 	device id: default
+17:49:11.768: 	use device timing: 0
+17:49:11.768: [Loaded global audio device]: 'Mic/Aux'
+17:49:11.771: Switched to scene 'Scene'
+17:49:11.771: ------------------------------------------------
+17:49:11.771: Loaded scenes:
+17:49:11.771: - scene 'Scene':
+17:49:11.771: ------------------------------------------------
+17:49:11.772: Switched to scene collection 'Untitled' (Untitled.json)
+17:49:11.772: ------------------------------------------------
+17:49:11.782: WASAPI: Device 'Mic In (Elgato Wave:3)' [48000 Hz] initialized (source: Mic/Aux)
+17:49:11.789: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+17:49:11.789: Deduplication logic is being applied to all monitored sources.
+17:49:11.793: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+17:51:55.283: ---------------------------------
+17:51:55.283: video settings reset:
+17:51:55.283: 	base resolution:   1920x1080
+17:51:55.283: 	output resolution: 1280x720
+17:51:55.283: 	downscale filter:  Bicubic
+17:51:55.283: 	fps:               30/1
+17:51:55.283: 	format:            NV12
+17:51:55.283: 	YUV mode:          Rec. 709/Partial
+17:51:55.283: NV12 texture support enabled
+17:51:55.283: P010 texture support not available
+17:51:55.287: Audio monitoring device:
+17:51:55.287: 	name: Default
+17:51:55.287: 	id: default
+17:51:55.288: Switched to profile 'Main' (Main)
+17:51:55.288: ------------------------------------------------
+17:51:58.266: Deduplication logic stopped.
+17:51:58.267: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' Terminated
+17:51:58.287: WASAPI: Device 'Mic In (Elgato Wave:3)' Terminated
+17:51:58.305: All scene data cleared
+17:51:58.305: ------------------------------------------------
+17:51:58.318: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+17:51:58.318: Deduplication logic is being applied to all monitored sources.
+17:51:58.319: [win-wasapi: 'Desktop Audio'] update settings:
+17:51:58.319: 	device id: default
+17:51:58.319: 	use device timing: 1
+17:51:58.319: [Loaded global audio device]: 'Desktop Audio'
+17:51:58.320: [win-wasapi: 'xlr'] update settings:
+17:51:58.320: 	device id: {0.0.1.00000000}.{c1deda98-992f-4c83-bd70-2227a1e9b6be}
+17:51:58.320: 	use device timing: 0
+17:51:58.321: [Loaded global audio device]: 'xlr'
+17:51:58.321: [win-wasapi: 'elgatoMicRight'] update settings:
+17:51:58.321: 	device id: {0.0.1.00000000}.{e85ac5b4-719b-4713-bd22-4e795f5def86}
+17:51:58.321: 	use device timing: 0
+17:51:58.322: [Loaded global audio device]: 'elgatoMicRight'
+17:51:58.325: [duplicator-monitor-capture: 'SamsungTV'] update settings:
+17:51:58.325: 	display: ASUS VP28U (2160x3840)
+17:51:58.325: 	cursor: true
+17:51:58.325: 	method: DXGI
+17:51:58.325: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:51:58.325: 	alt_id: \\.\DISPLAY1
+17:51:58.325: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:51:58.325: 	force SDR: false
+17:51:58.329: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+17:51:58.329: Deduplication logic is being applied to all monitored sources.
+17:51:58.332: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' [48000 Hz] initialized (source: xlr)
+17:51:58.332: WASAPI: Device 'Mic In (Elgato Wave:3)' [48000 Hz] initialized (source: elgatoMicRight)
+17:51:58.333: [duplicator-monitor-capture: 'prompter'] update settings:
+17:51:58.333: 	display:  (0x0)
+17:51:58.333: 	cursor: true
+17:51:58.333: 	method: WGC
+17:51:58.333: 	id: 
+17:51:58.333: 	alt_id: 
+17:51:58.333: 	setting_id: \\?\DISPLAY#IDI3311#a&3717ab59&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:51:58.333: 	force SDR: false
+17:51:58.333: Source ID 'source_record_filter' not found
+17:51:58.333: Failed to create source 'Source Record'!
+17:51:58.335: [duplicator-monitor-capture: 'lg'] update settings:
+17:51:58.335: 	display: LG HDR 4K (3840x2160)
+17:51:58.335: 	cursor: true
+17:51:58.335: 	method: DXGI
+17:51:58.335: 	id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:51:58.335: 	alt_id: \\.\DISPLAY2
+17:51:58.335: 	setting_id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:51:58.335: 	force SDR: false
+17:51:58.351: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+17:51:58.354: [Media Source 'Media Source']: settings:
+17:51:58.354: 	input:                   C:/projects/obs/loop_obs_ship_2025-06-03_10-03-19.mp4
+17:51:58.354: 	input_format:            (null)
+17:51:58.354: 	speed:                   100
+17:51:58.354: 	is_looping:              yes
+17:51:58.354: 	is_linear_alpha:         no
+17:51:58.354: 	is_hw_decoding:          yes
+17:51:58.354: 	is_clear_on_media_end:   yes
+17:51:58.354: 	restart_on_activate:     yes
+17:51:58.354: 	close_when_inactive:     no
+17:51:58.354: 	full_decode:             no
+17:51:58.354: 	ffmpeg_options:          
+17:51:58.358: [duplicator-monitor-capture: 'down'] update settings:
+17:51:58.358: 	display: ASUS VP28U (2160x3840)
+17:51:58.358: 	cursor: true
+17:51:58.358: 	method: DXGI
+17:51:58.358: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:51:58.358: 	alt_id: \\.\DISPLAY1
+17:51:58.358: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+17:51:58.358: 	force SDR: true
+17:51:58.358: error:   Cannot load nvcuda.dll
+17:51:58.358: error:   Could not dynamically load CUDA
+17:51:58.365: [win-wasapi: 'Audio Output Capture 2'] update settings:
+17:51:58.365: 	device id: {0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}
+17:51:58.365: 	use device timing: 1
+17:51:58.365: [WASAPISource::TryInitialize]:[{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}] Failed to enumerate device: 80070490
+17:51:58.365: WASAPI: Device '{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}' failed to start (source: Audio Output Capture 2)
+17:51:58.366: [win-wasapi: 'elgato'] update settings:
+17:51:58.366: 	device id: {0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}
+17:51:58.366: 	use device timing: 0
+17:51:58.366: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}] Failed to enumerate device: 80070490
+17:51:58.366: WASAPI: Device '{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}' failed to start (source: elgato)
+17:51:58.366: [win-wasapi: 'Window Capture (Audio)'] update settings:
+17:51:58.366: 	executable: chrome.exe
+17:51:58.366: 	title: Instagram - Google Chrome
+17:51:58.366: 	class: Chrome_WidgetWin_1
+17:51:58.366: 	priority: 0
+17:51:58.367: [window-capture: 'Window Capture'] update settings:
+17:51:58.367: 	executable: chrome.exe
+17:51:58.367: 	method selected: Automatic
+17:51:58.367: 	method chosen: WGC
+17:51:58.367: 	force SDR: false
+17:51:58.371: Source ID 'source_record_filter' not found
+17:51:58.371: Failed to create source 'Source Record'!
+17:51:58.372: Source ID 'net.nagater.obs-color-monitor.falsecolor_filter' not found
+17:51:58.372: Failed to create source 'False Color'!
+17:51:58.392: Switched to scene 'LG'
+17:51:58.399: ------------------------------------------------
+17:51:58.399: Loaded scenes:
+17:51:58.399: - scene 'insta':
+17:51:58.399:     - source: 'insta360' (dshow_input)
+17:51:58.399: - scene 'facecam':
+17:51:58.399:     - source: 'fc' (dshow_input)
+17:51:58.399:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:51:58.399: - scene 'zv1 not cut':
+17:51:58.399:     - source: 'zv1-sony' (dshow_input)
+17:51:58.399:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:51:58.399: - scene 'brio':
+17:51:58.399:     - source: 'sony brio' (dshow_input)
+17:51:58.399: - scene 'windowCapture':
+17:51:58.399:     - source: 'Window Capture' (window_capture)
+17:51:58.399: - scene '1080 draw':
+17:51:58.399:     - source: 'down' (monitor_capture)
+17:51:58.399:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:51:58.399:     - source: 'elgato' (wasapi_input_capture)
+17:51:58.399: - scene 'zv1 clean':
+17:51:58.399:     - source: 'zv1-sony' (dshow_input)
+17:51:58.399:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:51:58.399:     - source: 'Audio Output Capture 2' (wasapi_output_capture)
+17:51:58.399: - scene 'video player':
+17:51:58.399:     - source: 'Media Source' (ffmpeg_source)
+17:51:58.399: - scene 'green_screenscheck_false_color':
+17:51:58.399:     - source: 'zv1-sony' (dshow_input)
+17:51:58.399:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+17:51:58.399:     - filter: 'False Color' (net.nagater.obs-color-monitor.falsecolor_filter)
+17:51:58.399: - scene 'Samsung':
+17:51:58.399:     - source: 'SamsungTV' (monitor_capture)
+17:51:58.399:     - filter: 'Source Record' (source_record_filter)
+17:51:58.399: - scene 'Prompter':
+17:51:58.399:     - source: 'prompter' (monitor_capture)
+17:51:58.399:         - filter: 'Source Record' (source_record_filter)
+17:51:58.399: - scene 'blank':
+17:51:58.399: - scene 'Blan':
+17:51:58.399:     - source: 'blan' (dshow_input)
+17:51:58.399: - scene 'Paw':
+17:51:58.399:     - source: 'paw' (dshow_input)
+17:51:58.399:     - source: 'Text (GDI+)' (text_gdiplus_v3)
+17:51:58.400: - scene 'LG':
+17:51:58.400:     - source: 'lg' (monitor_capture)
+17:51:58.400: - scene 'phone apple tv wireless':
+17:51:58.400:     - source: 'phoneiphone' (dshow_input)
+17:51:58.400:         - monitoring: monitor only
+17:51:58.400: - scene 'iphone obs camera':
+17:51:58.400:     - source: 'Video Capture Device' (dshow_input)
+17:51:58.400: - scene 'vdopninja':
+17:51:58.400:     - source: 'Browser' (browser_source)
+17:51:58.400: - scene 'epoccam':
+17:51:58.400:     - source: 'Video Capture Device 2' (dshow_input)
+17:51:58.400: ------------------------------------------------
+17:51:58.408: Switched to scene collection 'Contract' (Contract.json)
+17:51:58.408: ------------------------------------------------
+17:51:58.428: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+17:51:58.428: WASAPI: Device '' failed to start (source: Window Capture (Audio))
+17:52:02.180: ---------------------------------
+17:52:02.180: [DShow Device: 'paw'] settings updated: 
+17:52:02.180: 	video device: Cam Link Pro HDMI-4
+17:52:02.180: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03404000226}
+17:52:02.180: 	resolution: 1920x1080
+17:52:02.180: 	flip: 0
+17:52:02.180: 	fps: 50.00 (interval: 200000)
+17:52:02.180: 	format: YUY2
+17:52:02.180: 	buffering: disabled
+17:52:02.180: 	hardware decode: disabled
+17:52:02.204: 	using video device audio: no
+17:52:02.204: 	separate audio filter
+17:52:02.204: 	sample rate: 48000
+17:52:02.204: 	channels: 2
+17:52:02.204: 	audio type: Capture
+17:52:02.243: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:52:02.282: ---------------------------------
+17:52:02.282: [DShow Device: 'blan'] settings updated: 
+17:52:02.282: 	video device: Cam Link Pro HDMI-3
+17:52:02.282: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03403000226}
+17:52:02.282: 	resolution: 1920x1080
+17:52:02.282: 	flip: 0
+17:52:02.282: 	fps: 50.00 (interval: 200000)
+17:52:02.282: 	format: YUY2
+17:52:02.282: 	buffering: disabled
+17:52:02.282: 	hardware decode: disabled
+17:52:02.314: 	using video device audio: no
+17:52:02.314: 	separate audio filter
+17:52:02.314: 	sample rate: 48000
+17:52:02.314: 	channels: 2
+17:52:02.314: 	audio type: Capture
+17:52:02.372: ---------------------------------
+17:52:02.373: [DShow Device: 'zv1-sony'] settings updated: 
+17:52:02.373: 	video device: Cam Link Pro HDMI-1 / Multiview
+17:52:02.373: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03401000226}
+17:52:02.373: 	resolution: 1920x1080
+17:52:02.373: 	flip: 0
+17:52:02.373: 	fps: 50.00 (interval: 200000)
+17:52:02.373: 	format: YUY2
+17:52:02.373: 	buffering: disabled
+17:52:02.373: 	hardware decode: disabled
+17:52:02.406: 	using video device audio: no
+17:52:02.406: 	separate audio filter
+17:52:02.406: 	sample rate: 48000
+17:52:02.406: 	channels: 2
+17:52:02.406: 	audio type: Capture
+17:52:02.410: ---------------------------------
+17:52:02.410: [DShow Device: 'phoneiphone'] settings updated: 
+17:52:02.410: 	video device: Cam Link Pro HDMI-2
+17:52:02.410: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03402000226}
+17:52:02.410: 	resolution: 1920x1080
+17:52:02.410: 	flip: 0
+17:52:02.410: 	fps: 50.00 (interval: 200000)
+17:52:02.410: 	format: YUY2
+17:52:02.410: 	buffering: disabled
+17:52:02.410: 	hardware decode: disabled
+17:52:02.449: 	using video device audio: no
+17:52:02.449: 	separate audio filter
+17:52:02.449: 	sample rate: 48000
+17:52:02.449: 	channels: 2
+17:52:02.449: 	audio type: Capture
+17:52:02.594: ---------------------------------
+17:52:02.594: [DShow Device: 'fc'] settings updated: 
+17:52:02.594: 	video device: Elgato Facecam
+17:52:02.594: 	video path: \\?\usb#vid_0fd9&pid_0078&mi_00#8&994727b&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:52:02.594: 	resolution: 1920x1080
+17:52:02.594: 	flip: 0
+17:52:02.594: 	fps: 60.00 (interval: 166666)
+17:52:02.594: 	format: UYVY
+17:52:02.594: 	buffering: disabled
+17:52:02.594: 	hardware decode: disabled
+17:52:02.640: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:52:02.735: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:52:02.821: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:52:02.831: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+17:52:02.991: ---------------------------------
+17:52:02.991: [DShow Device: 'sony brio'] settings updated: 
+17:52:02.991: 	video device: BRIO 4K Stream Edition
+17:52:02.991: 	video path: \\?\usb#vid_046d&pid_086b&mi_00#8&23a1b4d2&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:52:02.991: 	resolution: 640x480
+17:52:02.991: 	flip: 0
+17:52:02.991: 	fps: 30.00 (interval: 333333)
+17:52:02.991: 	format: YUY2
+17:52:02.991: 	buffering: disabled
+17:52:02.991: 	hardware decode: disabled
+17:52:03.171: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:52:03.255: ---------------------------------
+17:52:03.255: [DShow Device: 'Video Capture Device'] settings updated: 
+17:52:03.255: 	video device: NDI Webcam Video 1
+17:52:03.255: 	video path: \\?\root#media#0003#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\vidsource0
+17:52:03.255: 	resolution: 1920x1080
+17:52:03.255: 	flip: 0
+17:52:03.255: 	fps: 29.97 (interval: 333667)
+17:52:03.255: 	format: YUY2
+17:52:03.255: 	buffering: disabled
+17:52:03.255: 	hardware decode: disabled
+17:52:03.433: ---------------------------------
+17:52:03.433: [DShow Device: 'Video Capture Device 2'] settings updated: 
+17:52:03.433: 	video device: EƖgato Virtual Camera
+17:52:03.433: 	video path: \\?\root#media#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{45ab5b3b-2e15-4452-a2cb-87e5fdd026fb}
+17:52:03.433: 	resolution: 1920x1080
+17:52:03.433: 	flip: 0
+17:52:03.433: 	fps: 60.00 (interval: 166666)
+17:52:03.433: 	format: NV12
+17:52:03.433: 	buffering: disabled
+17:52:03.433: 	hardware decode: disabled
+17:52:03.444: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:52:03.645: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+17:52:03.692: ---------------------------------
+17:52:03.693: [DShow Device: 'insta360'] settings updated: 
+17:52:03.693: 	video device: Insta360 Link
+17:52:03.693: 	video path: \\?\usb#vid_2e1a&pid_4c01&mi_00#7&3a8eb504&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+17:52:03.693: 	resolution: 1920x1080
+17:52:03.693: 	flip: 0
+17:52:03.693: 	fps: 30.00 (interval: 333333)
+17:52:03.693: 	format: MJPEG
+17:52:03.693: 	buffering: disabled
+17:52:03.693: 	hardware decode: disabled
+17:52:03.866: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1

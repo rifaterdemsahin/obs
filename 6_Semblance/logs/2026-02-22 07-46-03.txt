@@ -1,0 +1,729 @@
+07:46:03.031: CPU Name: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+07:46:03.031: CPU Speed: 2695MHz
+07:46:03.031: Physical Cores: 32, Logical Cores: 64
+07:46:03.031: Physical Memory: 65350MB Total, 18398MB Free
+07:46:03.031: Windows Version: 10.0 Build 26200 (release: 25H2; revision: 7840; 64-bit)
+07:46:03.031: Running as administrator: false
+07:46:03.031: Windows 10/11 Gaming Features:
+07:46:03.031: 	Game DVR: On
+07:46:03.031: 	Game Mode: Off
+07:46:03.032: Sec. Software Status:
+07:46:03.033: 	Microsoft Defender Antivirus: enabled (AV)
+07:46:03.034: 	Windows Firewall: disabled (FW)
+07:46:03.035: Current Date/Time: 2026-02-22, 07:46:03
+07:46:03.035: Browser Hardware Acceleration: true
+07:46:03.035: Hide OBS windows from screen capture: false
+07:46:03.035: Qt Version: 6.8.3 (runtime), 6.8.3 (compiled)
+07:46:03.035: Portable mode: false
+07:46:06.584: OBS 32.1.0-rc1 (64-bit, windows)
+07:46:06.584: ---------------------------------
+07:46:06.704: ---------------------------------
+07:46:06.704: audio settings reset:
+07:46:06.704: 	samples per sec: 48000
+07:46:06.704: 	speakers:        2
+07:46:06.704: 	max buffering:   960 milliseconds
+07:46:06.704: 	buffering type:  dynamically increasing
+07:46:06.707: ---------------------------------
+07:46:06.707: Initializing D3D11...
+07:46:06.707: Available Video Adapters: 
+07:46:06.722: 	Adapter 0: AMD Radeon RX 6900 XT
+07:46:06.722: 	  Dedicated VRAM: 17131868160 (16.0 GiB)
+07:46:06.722: 	  Shared VRAM:    34262315008 (31.9 GiB)
+07:46:06.722: 	  PCI ID:         1002:73bf
+07:46:06.722: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+07:46:06.722: 	  Driver Version: 32.0.21041.1000
+07:46:06.723: 	  output 0:
+07:46:06.723: 	    name=LG HDR 4K
+07:46:06.723: 	    pos={0, 0}
+07:46:06.723: 	    size={3840, 2160}
+07:46:06.723: 	    attached=true
+07:46:06.723: 	    refresh=59
+07:46:06.723: 	    bits_per_color=8
+07:46:06.723: 	    space=RGB_FULL_G22_NONE_P709
+07:46:06.723: 	    primaries=[r=(0.680664, 0.311523), g=(0.267578, 0.663086), b=(0.150391, 0.048828), wp=(0.312500, 0.329102)]
+07:46:06.723: 	    relative_gamut_area=[709=1.316109, P3=0.970197, 2020=0.696052]
+07:46:06.723: 	    sdr_white_nits=80
+07:46:06.723: 	    nit_range=[min=0.355400, max=343.000000, max_full_frame=343.000000]
+07:46:06.723: 	    dpi=120 (125%)
+07:46:06.723: 	    id=\\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:46:06.723: 	    alt_id=\\.\DISPLAY2
+07:46:06.725: 	  output 1:
+07:46:06.725: 	    name=ASUS VP28U
+07:46:06.725: 	    pos={3840, -405}
+07:46:06.725: 	    size={2160, 3840}
+07:46:06.725: 	    attached=true
+07:46:06.725: 	    refresh=60
+07:46:06.725: 	    bits_per_color=10
+07:46:06.725: 	    space=RGB_FULL_G22_NONE_P709
+07:46:06.725: 	    primaries=[r=(0.632812, 0.339844), g=(0.310547, 0.632812), b=(0.158203, 0.060547), wp=(0.313477, 0.329102)]
+07:46:06.725: 	    relative_gamut_area=[709=1.022104, P3=0.753465, 2020=0.540561]
+07:46:06.725: 	    sdr_white_nits=80
+07:46:06.725: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+07:46:06.725: 	    dpi=120 (125%)
+07:46:06.725: 	    id=\\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:46:06.725: 	    alt_id=\\.\DISPLAY1
+07:46:06.726: 	  output 2:
+07:46:06.726: 	    name=Kamvas 13
+07:46:06.726: 	    pos={6000, 1034}
+07:46:06.726: 	    size={1920, 1080}
+07:46:06.726: 	    attached=true
+07:46:06.726: 	    refresh=59
+07:46:06.726: 	    bits_per_color=10
+07:46:06.726: 	    space=RGB_FULL_G22_NONE_P709
+07:46:06.726: 	    primaries=[r=(0.679688, 0.309570), g=(0.206055, 0.693359), b=(0.151367, 0.054688), wp=(0.313477, 0.329102)]
+07:46:06.726: 	    relative_gamut_area=[709=1.443482, P3=1.064093, 2020=0.763416]
+07:46:06.726: 	    sdr_white_nits=80
+07:46:06.726: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+07:46:06.726: 	    dpi=120 (125%)
+07:46:06.726: 	    id=\\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:46:06.726: 	    alt_id=\\.\DISPLAY4
+07:46:06.726: 	Adapter 1: AMD Radeon RX 6900 XT
+07:46:06.726: 	  Dedicated VRAM: 17131868160 (16.0 GiB)
+07:46:06.726: 	  Shared VRAM:    34262315008 (31.9 GiB)
+07:46:06.726: 	  PCI ID:         1002:73bf
+07:46:06.726: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+07:46:06.726: 	  Driver Version: 32.0.21041.1000
+07:46:06.727: Loading up D3D11 on adapter AMD Radeon RX 6900 XT (0)
+07:46:06.795: D3D11 loaded successfully, feature level used: b000
+07:46:06.796: DXGI increase maximum frame latency success
+07:46:06.796: D3D11 GPU priority setup failed (not admin?)
+07:46:08.144: ---------------------------------
+07:46:08.144: video settings reset:
+07:46:08.144: 	base resolution:   1920x1080
+07:46:08.144: 	output resolution: 1920x1080
+07:46:08.144: 	downscale filter:  Bicubic
+07:46:08.144: 	fps:               60/1
+07:46:08.144: 	format:            NV12
+07:46:08.144: 	YUV mode:          Rec. 709/Partial
+07:46:08.144: NV12 texture support enabled
+07:46:08.144: P010 texture support not available
+07:46:08.145: Audio monitoring device:
+07:46:08.145: 	name: Default
+07:46:08.145: 	id: default
+07:46:08.282: ---------------------------------
+07:46:08.293: No AJA devices found, skipping loading AJA UI plugin
+07:46:08.293: Failed to initialize module 'aja-output-ui.dll'
+07:46:08.304: No AJA devices found, skipping loading AJA plugin
+07:46:08.304: Failed to initialize module 'aja.dll'
+07:46:08.304: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+07:46:08.352: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+07:46:08.353: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+07:46:08.356: Failed to load 'en-US' text for module: 'decklink-output-ui.dll'
+07:46:08.384: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+07:46:08.384: Failed to initialize module 'decklink.dll'
+07:46:08.436: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+07:46:08.437: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+07:46:08.438: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+07:46:08.453: [NVIDIA Audio Effects:] NVIDIA denoiser disabled, redistributable not found or could not be loaded.
+07:46:08.455: Failed to get NVVideoEffects.dll version info size
+07:46:08.458: [NVIDIA VIDEO FX]: FX disabled, redistributable not found or could not be loaded.
+07:46:08.541: [obs-browser]: Version 2.26.7
+07:46:08.541: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.145.7+g2b7d20b+chromium-127.0.6533.120 (compiled)
+07:46:08.841: LoadLibrary failed for 'nvEncodeAPI64.dll': The specified module could not be found.
+07:46:08.841:  (126)
+07:46:08.841: NVENC not supported
+07:46:08.841: Failed to initialize module 'obs-nvenc.dll'
+07:46:09.020: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+07:46:09.020: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.3 | Qt version (run-time): 6.8.3
+07:46:09.020: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+07:46:09.044: [obs-websocket] [obs_module_load] Module loaded.
+07:46:09.142: [vlc-video]: VLC 3.0.23 Vetinari found, VLC video source enabled
+07:46:09.423: Failed to load 'en-GB' text for module: 'StreamDeckPlugin.dll'
+07:46:09.423: <StreamDeck> Plugin version 5.5.4.2
+07:46:09.424: <StreamDeck> [Server] Listening on '127.0.0.1:28186'.
+07:46:09.425: ---------------------------------
+07:46:09.425:   Loaded Modules:
+07:46:09.425:     StreamDeckPlugin.dll
+07:46:09.425:     win-wasapi.dll
+07:46:09.425:     win-dshow.dll
+07:46:09.425:     win-capture.dll
+07:46:09.425:     vlc-video.dll
+07:46:09.425:     text-freetype2.dll
+07:46:09.425:     rtmp-services.dll
+07:46:09.425:     obs-x264.dll
+07:46:09.425:     obs-websocket.dll
+07:46:09.425:     obs-webrtc.dll
+07:46:09.425:     obs-vst.dll
+07:46:09.425:     obs-transitions.dll
+07:46:09.425:     obs-text.dll
+07:46:09.425:     obs-qsv11.dll
+07:46:09.425:     obs-outputs.dll
+07:46:09.425:     obs-filters.dll
+07:46:09.425:     obs-ffmpeg.dll
+07:46:09.425:     obs-browser.dll
+07:46:09.425:     nv-filters.dll
+07:46:09.425:     image-source.dll
+07:46:09.425:     frontend-tools.dll
+07:46:09.425:     decklink-output-ui.dll
+07:46:09.425:     decklink-captions.dll
+07:46:09.425:     coreaudio-encoder.dll
+07:46:09.425: ---------------------------------
+07:46:09.425: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+07:46:09.425: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+07:46:09.426: [obs-websocket] [WebSocketServer::ServerRunner] IO thread started.
+07:46:09.438: [obs-websocket] [WebSocketServer::Start] Server started successfully on port 4455. Possible connect address: 172.16.0.1
+07:46:09.440: ---------------------------------
+07:46:09.440: Available Encoders:
+07:46:09.440:   Video Encoders:
+07:46:09.440: 	- ffmpeg_svt_av1 (SVT-AV1)
+07:46:09.440: 	- ffmpeg_aom_av1 (AOM AV1)
+07:46:09.440: 	- h264_texture_amf (AMD HW H.264 (AVC))
+07:46:09.440: 	- h265_texture_amf (AMD HW H.265 (HEVC))
+07:46:09.440: 	- obs_x264 (x264)
+07:46:09.440:   Audio Encoders:
+07:46:09.440: 	- CoreAudio_AAC (CoreAudio AAC)
+07:46:09.440: 	- ffmpeg_aac (FFmpeg AAC)
+07:46:09.440: 	- ffmpeg_opus (FFmpeg Opus)
+07:46:09.440: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+07:46:09.440: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+07:46:09.440: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+07:46:09.440: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+07:46:09.440: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+07:46:09.440: ==== Startup complete ===============================================
+07:46:09.758: All scene data cleared
+07:46:09.758: ------------------------------------------------
+07:46:09.810: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+07:46:09.810: Deduplication logic is being applied to all monitored sources.
+07:46:09.810: [win-wasapi: 'Desktop Audio'] update settings:
+07:46:09.810: 	device id: default
+07:46:09.810: 	use device timing: 1
+07:46:09.812: [Loaded global audio device]: 'Desktop Audio'
+07:46:09.812: [win-wasapi: 'xlr'] update settings:
+07:46:09.812: 	device id: {0.0.1.00000000}.{c1deda98-992f-4c83-bd70-2227a1e9b6be}
+07:46:09.812: 	use device timing: 0
+07:46:09.812: [Loaded global audio device]: 'xlr'
+07:46:09.812: [win-wasapi: 'elgatoMicRight'] update settings:
+07:46:09.812: 	device id: {0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}
+07:46:09.812: 	use device timing: 0
+07:46:09.813: [Loaded global audio device]: 'elgatoMicRight'
+07:46:09.813: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}] Failed to enumerate device: 80070490
+07:46:09.813: WASAPI: Device '{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}' failed to start (source: elgatoMicRight)
+07:46:09.815: [duplicator-monitor-capture: 'SamsungTV'] update settings:
+07:46:09.815: 	display: ASUS VP28U (2160x3840)
+07:46:09.815: 	cursor: true
+07:46:09.815: 	method: DXGI
+07:46:09.815: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:46:09.815: 	alt_id: \\.\DISPLAY1
+07:46:09.815: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:46:09.815: 	force SDR: false
+07:46:09.841: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+07:46:09.841: Deduplication logic is being applied to all monitored sources.
+07:46:09.845: [duplicator-monitor-capture: 'prompter'] update settings:
+07:46:09.845: 	display:  (0x0)
+07:46:09.845: 	cursor: true
+07:46:09.845: 	method: WGC
+07:46:09.845: 	id: 
+07:46:09.845: 	alt_id: 
+07:46:09.845: 	setting_id: \\?\DISPLAY#IDI3311#a&3717ab59&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:46:09.845: 	force SDR: false
+07:46:09.845: Source ID 'source_record_filter' not found
+07:46:09.845: Failed to create source 'Source Record'!
+07:46:09.848: [duplicator-monitor-capture: 'lg'] update settings:
+07:46:09.848: 	display: LG HDR 4K (3840x2160)
+07:46:09.848: 	cursor: true
+07:46:09.848: 	method: DXGI
+07:46:09.848: 	id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:46:09.848: 	alt_id: \\.\DISPLAY2
+07:46:09.848: 	setting_id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:46:09.848: 	force SDR: false
+07:46:09.873: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' [48000 Hz] initialized (source: xlr)
+07:46:09.878: [Media Source 'Media Source']: settings:
+07:46:09.878: 	input:                   C:/projects/obs/loop_obs_ship_2025-06-03_10-03-19.mp4
+07:46:09.878: 	input_format:            (null)
+07:46:09.878: 	speed:                   100
+07:46:09.878: 	is_looping:              yes
+07:46:09.878: 	is_linear_alpha:         no
+07:46:09.878: 	is_hw_decoding:          yes
+07:46:09.878: 	is_clear_on_media_end:   yes
+07:46:09.878: 	restart_on_activate:     yes
+07:46:09.878: 	close_when_inactive:     no
+07:46:09.878: 	full_decode:             no
+07:46:09.878: 	ffmpeg_options:          
+07:46:09.889: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+07:46:09.889: [duplicator-monitor-capture: 'down'] update settings:
+07:46:09.889: 	display: ASUS VP28U (2160x3840)
+07:46:09.889: 	cursor: true
+07:46:09.889: 	method: DXGI
+07:46:09.889: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:46:09.889: 	alt_id: \\.\DISPLAY1
+07:46:09.889: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:46:09.889: 	force SDR: true
+07:46:09.898: [win-wasapi: 'Audio Output Capture 2'] update settings:
+07:46:09.898: 	device id: {0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}
+07:46:09.898: 	use device timing: 1
+07:46:09.899: [WASAPISource::TryInitialize]:[{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}] Failed to enumerate device: 80070490
+07:46:09.899: WASAPI: Device '{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}' failed to start (source: Audio Output Capture 2)
+07:46:09.899: [win-wasapi: 'elgato'] update settings:
+07:46:09.899: 	device id: {0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}
+07:46:09.899: 	use device timing: 0
+07:46:09.899: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}] Failed to enumerate device: 80070490
+07:46:09.899: WASAPI: Device '{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}' failed to start (source: elgato)
+07:46:09.900: [win-wasapi: 'Window Capture (Audio)'] update settings:
+07:46:09.900: 	executable: chrome.exe
+07:46:09.900: 	title: Instagram - Google Chrome
+07:46:09.900: 	class: Chrome_WidgetWin_1
+07:46:09.900: 	priority: 0
+07:46:09.900: [window-capture: 'Window Capture'] update settings:
+07:46:09.900: 	executable: chrome.exe
+07:46:09.900: 	method selected: Automatic
+07:46:09.900: 	method chosen: WGC
+07:46:09.900: 	force SDR: false
+07:46:09.905: Source ID 'source_record_filter' not found
+07:46:09.905: Failed to create source 'Source Record'!
+07:46:09.906: Source ID 'net.nagater.obs-color-monitor.falsecolor_filter' not found
+07:46:09.906: Failed to create source 'False Color'!
+07:46:09.908: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: xlr)
+07:46:09.908: 
+07:46:09.919: error:   Cannot load nvcuda.dll
+07:46:09.919: error:   Could not dynamically load CUDA
+07:46:09.927: Switched to scene 'Paw'
+07:46:09.928: ------------------------------------------------
+07:46:09.928: Loaded scenes:
+07:46:09.928: - scene 'insta':
+07:46:09.928:     - source: 'insta360' (dshow_input)
+07:46:09.928: - scene 'facecam':
+07:46:09.928:     - source: 'fc' (dshow_input)
+07:46:09.928:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+07:46:09.928: - scene 'zv1 not cut':
+07:46:09.928:     - source: 'zv1-sony' (dshow_input)
+07:46:09.928:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+07:46:09.928: - scene 'brio':
+07:46:09.928:     - source: 'sony brio' (dshow_input)
+07:46:09.928: - scene 'windowCapture':
+07:46:09.928:     - source: 'Window Capture' (window_capture)
+07:46:09.928: - scene '1080 draw':
+07:46:09.928:     - source: 'down' (monitor_capture)
+07:46:09.928:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+07:46:09.928:     - source: 'elgato' (wasapi_input_capture)
+07:46:09.928: - scene 'zv1 clean':
+07:46:09.928:     - source: 'zv1-sony' (dshow_input)
+07:46:09.928:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+07:46:09.928:     - source: 'Audio Output Capture 2' (wasapi_output_capture)
+07:46:09.928: - scene 'video player':
+07:46:09.928:     - source: 'Media Source' (ffmpeg_source)
+07:46:09.928: - scene 'green_screenscheck_false_color':
+07:46:09.928:     - source: 'zv1-sony' (dshow_input)
+07:46:09.928:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+07:46:09.928:     - filter: 'False Color' (net.nagater.obs-color-monitor.falsecolor_filter)
+07:46:09.928: - scene 'Samsung':
+07:46:09.928:     - source: 'SamsungTV' (monitor_capture)
+07:46:09.928:     - filter: 'Source Record' (source_record_filter)
+07:46:09.928: - scene 'Prompter':
+07:46:09.928:     - source: 'prompter' (monitor_capture)
+07:46:09.928:         - filter: 'Source Record' (source_record_filter)
+07:46:09.928: - scene 'blank':
+07:46:09.928: - scene 'Blan':
+07:46:09.928:     - source: 'blan' (dshow_input)
+07:46:09.928: - scene 'Paw':
+07:46:09.928:     - source: 'paw' (dshow_input)
+07:46:09.928:     - source: 'Text (GDI+)' (text_gdiplus_v3)
+07:46:09.928: - scene 'LG':
+07:46:09.928:     - source: 'lg' (monitor_capture)
+07:46:09.928: - scene 'phone apple tv wireless':
+07:46:09.928:     - source: 'phoneiphone' (dshow_input)
+07:46:09.928:         - monitoring: monitor only
+07:46:09.928: - scene 'iphone obs camera':
+07:46:09.928:     - source: 'Video Capture Device' (dshow_input)
+07:46:09.928: - scene 'vdopninja':
+07:46:09.928:     - source: 'Browser' (browser_source)
+07:46:09.928: - scene 'epoccam':
+07:46:09.928:     - source: 'Video Capture Device 2' (dshow_input)
+07:46:09.928: ------------------------------------------------
+07:46:09.980: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+07:46:09.995: WASAPI: Device '' failed to start (source: Window Capture (Audio))
+07:46:11.079: [obs-websocket] [WebSocketServer::onOpen] New WebSocket client has connected from [::ffff:127.0.0.1]:54599
+07:46:13.817: ---------------------------------
+07:46:13.817: [DShow Device: 'paw'] settings updated: 
+07:46:13.817: 	video device: Cam Link Pro HDMI-4
+07:46:13.817: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03404000226}
+07:46:13.817: 	resolution: 1920x1080
+07:46:13.817: 	flip: 0
+07:46:13.817: 	fps: 50.00 (interval: 200000)
+07:46:13.817: 	format: YUY2
+07:46:13.817: 	buffering: disabled
+07:46:13.817: 	hardware decode: disabled
+07:46:13.843: 	using video device audio: no
+07:46:13.843: 	separate audio filter
+07:46:13.843: 	sample rate: 48000
+07:46:13.843: 	channels: 2
+07:46:13.843: 	audio type: Capture
+07:46:13.862: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+07:46:13.940: ---------------------------------
+07:46:13.941: [DShow Device: 'blan'] settings updated: 
+07:46:13.941: 	video device: Cam Link Pro HDMI-3
+07:46:13.941: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03403000226}
+07:46:13.941: 	resolution: 1920x1080
+07:46:13.941: 	flip: 0
+07:46:13.941: 	fps: 50.00 (interval: 200000)
+07:46:13.941: 	format: YUY2
+07:46:13.941: 	buffering: disabled
+07:46:13.941: 	hardware decode: disabled
+07:46:13.977: 	using video device audio: no
+07:46:13.977: 	separate audio filter
+07:46:13.977: 	sample rate: 48000
+07:46:13.977: 	channels: 2
+07:46:13.977: 	audio type: Capture
+07:46:14.050: ---------------------------------
+07:46:14.050: [DShow Device: 'zv1-sony'] settings updated: 
+07:46:14.050: 	video device: Cam Link Pro HDMI-1 / Multiview
+07:46:14.050: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03401000226}
+07:46:14.050: 	resolution: 1920x1080
+07:46:14.050: 	flip: 0
+07:46:14.050: 	fps: 50.00 (interval: 200000)
+07:46:14.050: 	format: YUY2
+07:46:14.050: 	buffering: disabled
+07:46:14.050: 	hardware decode: disabled
+07:46:14.078: 	using video device audio: no
+07:46:14.078: 	separate audio filter
+07:46:14.078: 	sample rate: 48000
+07:46:14.078: 	channels: 2
+07:46:14.078: 	audio type: Capture
+07:46:14.087: ---------------------------------
+07:46:14.088: [DShow Device: 'phoneiphone'] settings updated: 
+07:46:14.088: 	video device: Cam Link Pro HDMI-2
+07:46:14.088: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03402000226}
+07:46:14.088: 	resolution: 1920x1080
+07:46:14.088: 	flip: 0
+07:46:14.088: 	fps: 50.00 (interval: 200000)
+07:46:14.088: 	format: YUY2
+07:46:14.088: 	buffering: disabled
+07:46:14.088: 	hardware decode: disabled
+07:46:14.118: 	using video device audio: no
+07:46:14.118: 	separate audio filter
+07:46:14.118: 	sample rate: 48000
+07:46:14.118: 	channels: 2
+07:46:14.118: 	audio type: Capture
+07:46:14.263: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+07:46:14.291: ---------------------------------
+07:46:14.291: [DShow Device: 'fc'] settings updated: 
+07:46:14.291: 	video device: Elgato Facecam
+07:46:14.291: 	video path: \\?\usb#vid_0fd9&pid_0078&mi_00#8&994727b&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+07:46:14.291: 	resolution: 1920x1080
+07:46:14.291: 	flip: 0
+07:46:14.291: 	fps: 60.00 (interval: 166666)
+07:46:14.291: 	format: UYVY
+07:46:14.291: 	buffering: disabled
+07:46:14.291: 	hardware decode: disabled
+07:46:14.358: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+07:46:14.455: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+07:46:14.531: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+07:46:14.640: ---------------------------------
+07:46:14.640: [DShow Device: 'Video Capture Device'] settings updated: 
+07:46:14.640: 	video device: NDI Webcam Video 1
+07:46:14.640: 	video path: \\?\root#media#0003#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\vidsource0
+07:46:14.640: 	resolution: 1920x1080
+07:46:14.640: 	flip: 0
+07:46:14.640: 	fps: 29.97 (interval: 333667)
+07:46:14.640: 	format: YUY2
+07:46:14.640: 	buffering: disabled
+07:46:14.640: 	hardware decode: disabled
+07:46:14.972: ---------------------------------
+07:46:14.972: [DShow Device: 'Video Capture Device 2'] settings updated: 
+07:46:14.972: 	video device: EƖgato Virtual Camera
+07:46:14.972: 	video path: \\?\root#media#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{45ab5b3b-2e15-4452-a2cb-87e5fdd026fb}
+07:46:14.972: 	resolution: 1920x1080
+07:46:14.972: 	flip: 0
+07:46:14.972: 	fps: 60.00 (interval: 166666)
+07:46:14.972: 	format: NV12
+07:46:14.972: 	buffering: disabled
+07:46:14.972: 	hardware decode: disabled
+07:46:15.022: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+07:46:15.367: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+07:46:15.451: ---------------------------------
+07:46:15.451: [DShow Device: 'insta360'] settings updated: 
+07:46:15.451: 	video device: Insta360 Link
+07:46:15.451: 	video path: \\?\usb#vid_2e1a&pid_4c01&mi_00#7&3a8eb504&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+07:46:15.451: 	resolution: 1920x1080
+07:46:15.451: 	flip: 0
+07:46:15.451: 	fps: 30.00 (interval: 333333)
+07:46:15.451: 	format: MJPEG
+07:46:15.451: 	buffering: disabled
+07:46:15.451: 	hardware decode: disabled
+07:46:15.742: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+07:46:26.751: User switched to scene 'brio'
+07:46:30.821: ---------------------------------
+07:46:30.821: [DShow Device: 'sony brio'] settings updated: 
+07:46:30.821: 	video device: BRIO 4K Stream Edition
+07:46:30.821: 	video path: \\?\usb#vid_046d&pid_086b&mi_00#8&23a1b4d2&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+07:46:30.821: 	resolution: 640x480
+07:46:30.821: 	flip: 0
+07:46:30.821: 	fps: 30.00 (interval: 333333)
+07:46:30.821: 	format: YUY2
+07:46:30.821: 	buffering: disabled
+07:46:30.821: 	hardware decode: disabled
+07:46:30.960: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+07:47:30.484: [win-wasapi: 'elgatoMicRight'] update settings:
+07:47:30.484: 	device id: {0.0.1.00000000}.{e85ac5b4-719b-4713-bd22-4e795f5def86}
+07:47:30.484: 	use device timing: 0
+07:47:30.492: Settings changed (audio)
+07:47:30.492: ------------------------------------------------
+07:47:30.924: WASAPI: Device 'Mic In (Elgato Wave:3)' [48000 Hz] initialized (source: elgatoMicRight)
+07:47:30.926: Device 'Mic In (Elgato Wave:3)' invalidated.  Retrying (source: elgatoMicRight)
+07:47:30.933: WASAPI: Device 'Mic In (Elgato Wave:3)' [48000 Hz] initialized (source: elgatoMicRight)
+07:47:33.388: [texture-amf-h264: 'advanced_video_recording'] settings:
+07:47:33.388: 	rate_control: CBR
+07:47:33.388: 	bitrate:      6000
+07:47:33.388: 	cqp:          20
+07:47:33.388: 	keyint:       250
+07:47:33.388: 	preset:       quality
+07:47:33.388: 	profile:      high
+07:47:33.388: 	level:        4.2
+07:47:33.388: 	b-frames:     2
+07:47:33.388: 	width:        1920
+07:47:33.388: 	height:       1080
+07:47:33.388: 	pre-analysis: false
+07:47:33.388: 	params:       (none)
+07:47:33.393: [CoreAudio AAC: 'Track1']: settings:
+07:47:33.393: 	mode:          AAC
+07:47:33.393: 	bitrate:       160
+07:47:33.393: 	sample rate:   48000
+07:47:33.393: 	cbr:           on
+07:47:33.393: 	output buffer: 1536
+07:47:33.422: ==== Recording Start ===============================================
+07:47:33.422: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file 'F:/recordings/2026-02-22/2026-02-22-07-47.mp4'...
+07:47:42.452: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+07:47:42.452: [mp4 muxer: 'adv_file_output'] Number of fragments: 3
+07:47:42.452: [mp4 muxer: 'adv_file_output'] Full moov size: 7 KiB
+07:47:42.452: [mp4 muxer: 'adv_file_output'] Final mdat size: 6703 KiB
+07:47:42.452: Output 'adv_file_output': stopping
+07:47:42.452: Output 'adv_file_output': Total frames output: 536
+07:47:42.452: Output 'adv_file_output': Total drawn frames: 541
+07:47:42.453: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+07:47:42.454: [mp4 output: 'adv_file_output'] File output complete. Finalization took 2 ms.
+07:47:42.454: ==== Recording Stop ================================================
+07:47:47.240: [texture-amf-h264: 'advanced_video_recording'] settings:
+07:47:47.240: 	rate_control: CBR
+07:47:47.240: 	bitrate:      6000
+07:47:47.240: 	cqp:          20
+07:47:47.240: 	keyint:       250
+07:47:47.240: 	preset:       quality
+07:47:47.240: 	profile:      high
+07:47:47.240: 	level:        4.2
+07:47:47.240: 	b-frames:     2
+07:47:47.240: 	width:        1920
+07:47:47.240: 	height:       1080
+07:47:47.240: 	pre-analysis: false
+07:47:47.240: 	params:       (none)
+07:47:47.244: [CoreAudio AAC: 'Track1']: settings:
+07:47:47.244: 	mode:          AAC
+07:47:47.244: 	bitrate:       160
+07:47:47.244: 	sample rate:   48000
+07:47:47.244: 	cbr:           on
+07:47:47.244: 	output buffer: 1536
+07:47:47.258: ==== Recording Start ===============================================
+07:47:47.259: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file 'F:/recordings/2026-02-22/2026-02-22-07-47.mp4'...
+07:48:38.416: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+07:48:38.416: [mp4 muxer: 'adv_file_output'] Number of fragments: 13
+07:48:38.416: [mp4 muxer: 'adv_file_output'] Full moov size: 38 KiB
+07:48:38.416: [mp4 muxer: 'adv_file_output'] Final mdat size: 38220 KiB
+07:48:38.416: Output 'adv_file_output': stopping
+07:48:38.416: Output 'adv_file_output': Total frames output: 3046
+07:48:38.416: Output 'adv_file_output': Total drawn frames: 3061 (3069 attempted)
+07:48:38.417: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 8 (0.3%)
+07:48:38.417: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+07:48:38.418: ==== Recording Stop ================================================
+07:48:38.418: [mp4 output: 'adv_file_output'] File output complete. Finalization took 2 ms.
+07:48:38.419: Video stopped, number of skipped frames due to encoding lag: 232/3068 (7.6%)
+08:36:41.759: [texture-amf-h264: 'advanced_video_recording'] settings:
+08:36:41.759: 	rate_control: CBR
+08:36:41.759: 	bitrate:      6000
+08:36:41.759: 	cqp:          20
+08:36:41.759: 	keyint:       250
+08:36:41.759: 	preset:       quality
+08:36:41.759: 	profile:      high
+08:36:41.759: 	level:        4.2
+08:36:41.759: 	b-frames:     2
+08:36:41.759: 	width:        1920
+08:36:41.759: 	height:       1080
+08:36:41.759: 	pre-analysis: false
+08:36:41.759: 	params:       (none)
+08:36:41.766: [CoreAudio AAC: 'Track1']: settings:
+08:36:41.766: 	mode:          AAC
+08:36:41.766: 	bitrate:       160
+08:36:41.766: 	sample rate:   48000
+08:36:41.766: 	cbr:           on
+08:36:41.766: 	output buffer: 1536
+08:36:41.782: ==== Recording Start ===============================================
+08:36:41.783: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file 'F:/recordings/2026-02-22/2026-02-22-08-36.mp4'...
+08:37:33.406: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+08:37:33.407: [mp4 muxer: 'adv_file_output'] Number of fragments: 13
+08:37:33.407: [mp4 muxer: 'adv_file_output'] Full moov size: 39 KiB
+08:37:33.407: [mp4 muxer: 'adv_file_output'] Final mdat size: 38774 KiB
+08:37:33.407: Output 'adv_file_output': stopping
+08:37:33.407: Output 'adv_file_output': Total frames output: 3090
+08:37:33.407: Output 'adv_file_output': Total drawn frames: 3098
+08:37:33.408: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+08:37:33.409: [mp4 output: 'adv_file_output'] File output complete. Finalization took 2 ms.
+08:37:33.410: ==== Recording Stop ================================================
+08:45:55.940: WASAPI: Default output device changed
+08:45:55.955: Device 'Speakers (4- Focusrite USB Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:45:56.355: WASAPI: Device 'WhatsApp (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:49:16.085: WASAPI: Default output device changed
+08:49:16.495: Device 'WhatsApp (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:49:16.531: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:49:22.351: WASAPI: Default output device changed
+08:49:22.356: Device 'Speakers (4- Focusrite USB Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:49:22.782: WASAPI: Device 'SPDIF Interface (Realtek USB2.0 Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:49:22.952: WASAPI: Default output device changed
+08:49:23.323: Device 'SPDIF Interface (Realtek USB2.0 Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:49:23.358: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:49:25.425: WASAPI: Default output device changed
+08:49:25.797: Device 'Speakers (4- Focusrite USB Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:49:25.899: WASAPI: Device 'CABLE-A Input (VB-Audio Cable A)' [48000 Hz] initialized (source: Desktop Audio)
+08:49:25.982: WASAPI: Default output device changed
+08:49:25.987: Device 'CABLE-A Input (VB-Audio Cable A)' invalidated.  Retrying (source: Desktop Audio)
+08:49:26.047: WASAPI: Device 'Elgato Wave:3 (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:49:26.725: WASAPI: Default output device changed
+08:49:26.940: Device 'Elgato Wave:3 (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:49:26.988: WASAPI: Device '5 - ASUS VP28U (AMD High Definition Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+08:49:27.258: WASAPI: Default output device changed
+08:49:27.261: Device '5 - ASUS VP28U (AMD High Definition Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+08:49:27.346: WASAPI: Device '1 - LG HDR 4K (AMD High Definition Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+08:49:27.856: WASAPI: Default output device changed
+08:49:28.033: Device '1 - LG HDR 4K (AMD High Definition Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+08:49:28.404: WASAPI: Device 'SPDIF Interface (Realtek USB2.0 Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:49:28.628: WASAPI: Default output device changed
+08:49:28.967: Device 'SPDIF Interface (Realtek USB2.0 Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:49:29.234: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:50:12.560: WASAPI: Default output device changed
+08:50:12.567: Device 'Speakers (4- Focusrite USB Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:50:12.828: WASAPI: Device 'Elgato Wave:3 (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:50:13.223: WASAPI: Default output device changed
+08:50:13.226: Device 'Elgato Wave:3 (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:50:13.587: WASAPI: Device 'CABLE-A Input (VB-Audio Cable A)' [48000 Hz] initialized (source: Desktop Audio)
+08:50:13.799: WASAPI: Default output device changed
+08:50:13.804: Device 'CABLE-A Input (VB-Audio Cable A)' invalidated.  Retrying (source: Desktop Audio)
+08:50:14.294: WASAPI: Default output device changed
+08:50:14.319: WASAPI: Device 'Elgato Wave:3 (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:50:14.572: Device 'Elgato Wave:3 (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:50:14.731: WASAPI: Device '5 - ASUS VP28U (AMD High Definition Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+08:50:14.839: WASAPI: Default output device changed
+08:50:14.844: Device '5 - ASUS VP28U (AMD High Definition Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+08:50:14.938: WASAPI: Device '1 - LG HDR 4K (AMD High Definition Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+08:50:15.344: WASAPI: Default output device changed
+08:50:15.350: Device '1 - LG HDR 4K (AMD High Definition Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+08:50:15.875: WASAPI: Device 'SPDIF Interface (Realtek USB2.0 Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:50:16.475: WASAPI: Default output device changed
+08:50:16.638: Device 'SPDIF Interface (Realtek USB2.0 Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:50:16.677: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:50:17.876: WASAPI: Default output device changed
+08:50:17.880: Device 'Speakers (4- Focusrite USB Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:50:18.687: WASAPI: Device 'Speakers (Steam Streaming Speakers)' [48000 Hz] initialized (source: Desktop Audio)
+08:50:19.091: WASAPI: Default output device changed
+08:50:19.141: Device 'Speakers (Steam Streaming Speakers)' invalidated.  Retrying (source: Desktop Audio)
+08:50:20.178: WASAPI: Default output device changed
+08:50:21.294: WASAPI: Default output device changed
+08:50:22.906: WASAPI: Device 'Speakers (Razer BlackShark V2 Pro)' [48000 Hz] initialized (source: Desktop Audio)
+08:50:22.912: Device 'Speakers (Razer BlackShark V2 Pro)' invalidated.  Retrying (source: Desktop Audio)
+08:50:22.950: WASAPI: Device 'WhatsApp (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:50:24.344: WASAPI: Default output device changed
+08:50:24.395: Device 'WhatsApp (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:50:24.900: WASAPI: Device 'Headphones (Elgato Wave:3)' [48000 Hz] initialized (source: Desktop Audio)
+08:50:32.382: WASAPI: Default output device changed
+08:50:32.482: Device 'Headphones (Elgato Wave:3)' invalidated.  Retrying (source: Desktop Audio)
+08:50:32.958: WASAPI: Device 'Elgato Wave:3 (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:20.671: WASAPI: Default output device changed
+08:51:20.784: Device 'Elgato Wave:3 (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:51:21.262: WASAPI: Default output device changed
+08:51:21.362: WASAPI: Device 'CABLE-A Input (VB-Audio Cable A)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:21.366: Device 'CABLE-A Input (VB-Audio Cable A)' invalidated.  Retrying (source: Desktop Audio)
+08:51:21.685: WASAPI: Device '5 - ASUS VP28U (AMD High Definition Audio Device)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:22.019: WASAPI: Default output device changed
+08:51:22.439: Device '5 - ASUS VP28U (AMD High Definition Audio Device)' invalidated.  Retrying (source: Desktop Audio)
+08:51:22.461: WASAPI: Default output device changed
+08:51:22.937: WASAPI: Device 'SPDIF Interface (Realtek USB2.0 Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:22.940: Device 'SPDIF Interface (Realtek USB2.0 Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:51:22.984: WASAPI: Device 'SPDIF Interface (Realtek USB2.0 Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:23.522: WASAPI: Default output device changed
+08:51:23.834: Device 'SPDIF Interface (Realtek USB2.0 Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:51:23.865: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:25.785: WASAPI: Default output device changed
+08:51:25.998: Device 'Speakers (4- Focusrite USB Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:51:26.188: WASAPI: Device 'Speakers (Steam Streaming Speakers)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:26.348: WASAPI: Default output device changed
+08:51:26.501: Device 'Speakers (Steam Streaming Speakers)' invalidated.  Retrying (source: Desktop Audio)
+08:51:26.537: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:27.773: WASAPI: Default output device changed
+08:51:28.177: Device 'Speakers (4- Focusrite USB Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:51:28.284: WASAPI: Device 'Speakers (Steam Streaming Speakers)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:29.000: WASAPI: Default output device changed
+08:51:29.003: Device 'Speakers (Steam Streaming Speakers)' invalidated.  Retrying (source: Desktop Audio)
+08:51:29.707: WASAPI: Device 'Speakers (Razer BlackShark V2 Pro)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:29.773: WASAPI: Default output device changed
+08:51:29.825: Device 'Speakers (Razer BlackShark V2 Pro)' invalidated.  Retrying (source: Desktop Audio)
+08:51:29.871: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio) (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:30.057: adding 106 milliseconds of audio buffering, total audio buffering is now 149 milliseconds (source: Desktop Audio)
+08:51:30.057: 
+08:51:31.776: WASAPI: Default output device changed
+08:51:31.779: Device 'Analogue 1 + 2 (4- Focusrite USB Audio) (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:51:32.195: WASAPI: Device 'WhatsApp (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:32.954: WASAPI: Default output device changed
+08:51:33.079: Device 'WhatsApp (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:51:33.121: WASAPI: Device 'Headphones (Elgato Wave:3)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:35.159: WASAPI: Default output device changed
+08:51:35.171: Device 'Headphones (Elgato Wave:3)' invalidated.  Retrying (source: Desktop Audio)
+08:51:35.283: WASAPI: Device 'WhatsApp (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:35.589: WASAPI: Default output device changed
+08:51:35.715: Device 'WhatsApp (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:51:35.749: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio) (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:35.964: WASAPI: Default output device changed
+08:51:35.992: Device 'Analogue 1 + 2 (4- Focusrite USB Audio) (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:51:36.617: WASAPI: Device 'Speakers (Razer BlackShark V2 Pro)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:37.294: WASAPI: Default output device changed
+08:51:37.336: Device 'Speakers (Razer BlackShark V2 Pro)' invalidated.  Retrying (source: Desktop Audio)
+08:51:37.394: WASAPI: Device 'Speakers (Steam Streaming Speakers)' [48000 Hz] initialized (source: Desktop Audio)
+08:51:38.246: WASAPI: Default output device changed
+08:51:38.254: Device 'Speakers (Steam Streaming Speakers)' invalidated.  Retrying (source: Desktop Audio)
+08:51:38.322: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:59:16.125: WASAPI: Default output device changed
+08:59:16.567: Device 'Speakers (4- Focusrite USB Audio)' invalidated.  Retrying (source: Desktop Audio)
+08:59:16.886: WASAPI: Device 'SFX (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+09:00:18.744: WASAPI: Default output device changed
+09:00:18.750: Device 'SFX (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+09:00:19.123: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio) (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+09:00:19.465: adding 64 milliseconds of audio buffering, total audio buffering is now 213 milliseconds (source: Desktop Audio)
+09:00:19.465: 
+09:00:25.513: WASAPI: Default output device changed
+09:00:25.517: Device 'Analogue 1 + 2 (4- Focusrite USB Audio) (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+09:00:25.699: WASAPI: Device 'CABLE-A Output (VB-Audio Cable A) (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+09:00:26.280: WASAPI: Default output device changed
+09:00:26.459: Device 'CABLE-A Output (VB-Audio Cable A) (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+09:00:26.664: WASAPI: Device 'Headphones (Elgato Wave:3)' [48000 Hz] initialized (source: Desktop Audio)
+09:00:26.918: WASAPI: Default output device changed
+09:00:27.107: Device 'Headphones (Elgato Wave:3)' invalidated.  Retrying (source: Desktop Audio)
+09:00:27.152: WASAPI: Device 'WhatsApp (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+09:00:27.478: WASAPI: Default output device changed
+09:00:27.512: Device 'WhatsApp (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+09:00:27.746: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio) (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+09:00:27.999: adding 21 milliseconds of audio buffering, total audio buffering is now 234 milliseconds (source: Desktop Audio)
+09:00:27.999: 
+09:00:28.790: WASAPI: Default output device changed
+09:00:28.874: Device 'Analogue 1 + 2 (4- Focusrite USB Audio) (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+09:00:29.211: WASAPI: Device 'Speakers (Steam Streaming Speakers)' [48000 Hz] initialized (source: Desktop Audio)
+09:00:33.548: WASAPI: Default output device changed
+09:00:33.554: Device 'Speakers (Steam Streaming Speakers)' invalidated.  Retrying (source: Desktop Audio)
+09:00:33.709: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+09:01:48.167: WASAPI: Default output device changed
+09:01:48.223: Device 'Speakers (4- Focusrite USB Audio)' invalidated.  Retrying (source: Desktop Audio)
+09:01:48.603: WASAPI: Device 'Speakers (Steam Streaming Speakers)' [48000 Hz] initialized (source: Desktop Audio)
+09:01:48.821: WASAPI: Default output device changed
+09:01:48.980: Device 'Speakers (Steam Streaming Speakers)' invalidated.  Retrying (source: Desktop Audio)
+09:01:49.137: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+09:01:53.597: WASAPI: Default output device changed
+09:01:53.788: Device 'Speakers (4- Focusrite USB Audio)' invalidated.  Retrying (source: Desktop Audio)
+09:01:53.828: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio) (Elgato Virtual Audio)' [48000 Hz] initialized (source: Desktop Audio)
+09:01:54.961: WASAPI: Default output device changed
+09:01:55.137: Device 'Analogue 1 + 2 (4- Focusrite USB Audio) (Elgato Virtual Audio)' invalidated.  Retrying (source: Desktop Audio)
+09:01:55.178: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+09:32:49.834: ==== Shutting down ==================================================
+09:32:49.878: Deduplication logic stopped.
+09:32:49.878: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' Terminated
+09:32:50.115: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' Terminated
+09:32:50.118: WASAPI: Device 'Mic In (Elgato Wave:3)' Terminated
+09:32:50.183: WASAPI: Device '' Terminated
+09:32:50.239: WASAPI: Device '' Terminated
+09:32:51.770: WASAPI: Device '[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]' Terminated
+09:32:51.771: Tried to sort VolumeControl for 'elgatoMicRight' but source is null
+09:32:51.771: Tried to sort VolumeControl for 'xlr' but source is null
+09:32:51.813: All scene data cleared
+09:32:51.813: ------------------------------------------------

@@ -1,0 +1,2254 @@
+08:36:05.583: CPU Name: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+08:36:05.583: CPU Speed: 2695MHz
+08:36:05.583: Physical Cores: 32, Logical Cores: 64
+08:36:05.583: Physical Memory: 65350MB Total, 32131MB Free
+08:36:05.583: Windows Version: 10.0 Build 26200 (release: 25H2; revision: 7840; 64-bit)
+08:36:05.583: Running as administrator: false
+08:36:05.583: Windows 10/11 Gaming Features:
+08:36:05.583: 	Game DVR: On
+08:36:05.583: 	Game Mode: Off
+08:36:05.584: Sec. Software Status:
+08:36:05.585: 	Microsoft Defender Antivirus: enabled (AV)
+08:36:05.586: 	Windows Firewall: disabled (FW)
+08:36:05.586: Current Date/Time: 2026-02-20, 08:36:05
+08:36:05.586: Browser Hardware Acceleration: true
+08:36:05.587: Hide OBS windows from screen capture: false
+08:36:05.587: Qt Version: 6.8.3 (runtime), 6.8.3 (compiled)
+08:36:05.587: Portable mode: false
+08:36:06.088: OBS 32.1.0-rc1 (64-bit, windows)
+08:36:06.088: ---------------------------------
+08:36:06.192: ---------------------------------
+08:36:06.192: audio settings reset:
+08:36:06.192: 	samples per sec: 48000
+08:36:06.192: 	speakers:        2
+08:36:06.192: 	max buffering:   960 milliseconds
+08:36:06.192: 	buffering type:  dynamically increasing
+08:36:06.194: ---------------------------------
+08:36:06.194: Initializing D3D11...
+08:36:06.194: Available Video Adapters: 
+08:36:06.210: 	Adapter 0: AMD Radeon RX 6900 XT
+08:36:06.210: 	  Dedicated VRAM: 17131868160 (16.0 GiB)
+08:36:06.210: 	  Shared VRAM:    34262315008 (31.9 GiB)
+08:36:06.210: 	  PCI ID:         1002:73bf
+08:36:06.210: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+08:36:06.210: 	  Driver Version: 32.0.21041.1000
+08:36:06.211: 	  output 0:
+08:36:06.211: 	    name=LG HDR 4K
+08:36:06.211: 	    pos={0, 0}
+08:36:06.211: 	    size={3840, 2160}
+08:36:06.211: 	    attached=true
+08:36:06.211: 	    refresh=59
+08:36:06.211: 	    bits_per_color=8
+08:36:06.211: 	    space=RGB_FULL_G22_NONE_P709
+08:36:06.211: 	    primaries=[r=(0.680664, 0.311523), g=(0.267578, 0.663086), b=(0.150391, 0.048828), wp=(0.312500, 0.329102)]
+08:36:06.211: 	    relative_gamut_area=[709=1.316109, P3=0.970197, 2020=0.696052]
+08:36:06.211: 	    sdr_white_nits=80
+08:36:06.211: 	    nit_range=[min=0.355400, max=343.000000, max_full_frame=343.000000]
+08:36:06.211: 	    dpi=120 (125%)
+08:36:06.211: 	    id=\\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+08:36:06.211: 	    alt_id=\\.\DISPLAY2
+08:36:06.212: 	  output 1:
+08:36:06.212: 	    name=ASUS VP28U
+08:36:06.212: 	    pos={3840, -405}
+08:36:06.212: 	    size={2160, 3840}
+08:36:06.212: 	    attached=true
+08:36:06.212: 	    refresh=60
+08:36:06.212: 	    bits_per_color=10
+08:36:06.212: 	    space=RGB_FULL_G22_NONE_P709
+08:36:06.212: 	    primaries=[r=(0.632812, 0.339844), g=(0.310547, 0.632812), b=(0.158203, 0.060547), wp=(0.313477, 0.329102)]
+08:36:06.212: 	    relative_gamut_area=[709=1.022104, P3=0.753465, 2020=0.540561]
+08:36:06.212: 	    sdr_white_nits=80
+08:36:06.212: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+08:36:06.212: 	    dpi=120 (125%)
+08:36:06.212: 	    id=\\?\DISPLAY#AUS28B1#7&68fe642&0&UID260#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+08:36:06.212: 	    alt_id=\\.\DISPLAY1
+08:36:06.213: 	  output 2:
+08:36:06.213: 	    name=Kamvas 13
+08:36:06.213: 	    pos={6000, 1034}
+08:36:06.213: 	    size={1920, 1080}
+08:36:06.213: 	    attached=true
+08:36:06.213: 	    refresh=59
+08:36:06.213: 	    bits_per_color=10
+08:36:06.213: 	    space=RGB_FULL_G22_NONE_P709
+08:36:06.213: 	    primaries=[r=(0.679688, 0.309570), g=(0.206055, 0.693359), b=(0.151367, 0.054688), wp=(0.313477, 0.329102)]
+08:36:06.213: 	    relative_gamut_area=[709=1.443482, P3=1.064093, 2020=0.763416]
+08:36:06.213: 	    sdr_white_nits=80
+08:36:06.213: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+08:36:06.213: 	    dpi=120 (125%)
+08:36:06.213: 	    id=\\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+08:36:06.213: 	    alt_id=\\.\DISPLAY4
+08:36:06.213: 	Adapter 1: AMD Radeon RX 6900 XT
+08:36:06.213: 	  Dedicated VRAM: 17131868160 (16.0 GiB)
+08:36:06.213: 	  Shared VRAM:    34262315008 (31.9 GiB)
+08:36:06.213: 	  PCI ID:         1002:73bf
+08:36:06.213: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+08:36:06.214: 	  Driver Version: 32.0.21041.1000
+08:36:06.214: Loading up D3D11 on adapter AMD Radeon RX 6900 XT (0)
+08:36:06.281: D3D11 loaded successfully, feature level used: b000
+08:36:06.281: DXGI increase maximum frame latency success
+08:36:06.281: D3D11 GPU priority setup failed (not admin?)
+08:36:07.459: ---------------------------------
+08:36:07.459: video settings reset:
+08:36:07.459: 	base resolution:   1920x1080
+08:36:07.459: 	output resolution: 1920x1080
+08:36:07.459: 	downscale filter:  Bicubic
+08:36:07.459: 	fps:               60/1
+08:36:07.459: 	format:            NV12
+08:36:07.459: 	YUV mode:          Rec. 709/Partial
+08:36:07.460: NV12 texture support enabled
+08:36:07.460: P010 texture support not available
+08:36:07.460: Audio monitoring device:
+08:36:07.460: 	name: Default
+08:36:07.460: 	id: default
+08:36:07.573: ---------------------------------
+08:36:07.584: No AJA devices found, skipping loading AJA UI plugin
+08:36:07.584: Failed to initialize module 'aja-output-ui.dll'
+08:36:07.594: No AJA devices found, skipping loading AJA plugin
+08:36:07.594: Failed to initialize module 'aja.dll'
+08:36:07.595: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+08:36:07.649: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+08:36:07.650: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+08:36:07.652: Failed to load 'en-US' text for module: 'decklink-output-ui.dll'
+08:36:07.671: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+08:36:07.671: Failed to initialize module 'decklink.dll'
+08:36:07.716: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+08:36:07.716: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+08:36:07.717: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+08:36:07.733: [NVIDIA Audio Effects:] NVIDIA denoiser disabled, redistributable not found or could not be loaded.
+08:36:07.734: Failed to get NVVideoEffects.dll version info size
+08:36:07.736: [NVIDIA VIDEO FX]: FX disabled, redistributable not found or could not be loaded.
+08:36:07.818: [obs-browser]: Version 2.26.7
+08:36:07.818: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.145.7+g2b7d20b+chromium-127.0.6533.120 (compiled)
+08:36:08.107: LoadLibrary failed for 'nvEncodeAPI64.dll': The specified module could not be found.
+08:36:08.107:  (126)
+08:36:08.107: NVENC not supported
+08:36:08.107: Failed to initialize module 'obs-nvenc.dll'
+08:36:08.274: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+08:36:08.274: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.3 | Qt version (run-time): 6.8.3
+08:36:08.274: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+08:36:08.286: [obs-websocket] [obs_module_load] Module loaded.
+08:36:08.366: [vlc-video]: VLC 3.0.23 Vetinari found, VLC video source enabled
+08:36:08.594: Failed to load 'en-GB' text for module: 'StreamDeckPlugin.dll'
+08:36:08.594: <StreamDeck> Plugin version 5.5.4.2
+08:36:08.596: <StreamDeck> [Server] Listening on '127.0.0.1:28186'.
+08:36:08.596: ---------------------------------
+08:36:08.596:   Loaded Modules:
+08:36:08.596:     StreamDeckPlugin.dll
+08:36:08.596:     win-wasapi.dll
+08:36:08.596:     win-dshow.dll
+08:36:08.596:     win-capture.dll
+08:36:08.596:     vlc-video.dll
+08:36:08.596:     text-freetype2.dll
+08:36:08.596:     rtmp-services.dll
+08:36:08.596:     obs-x264.dll
+08:36:08.596:     obs-websocket.dll
+08:36:08.596:     obs-webrtc.dll
+08:36:08.596:     obs-vst.dll
+08:36:08.596:     obs-transitions.dll
+08:36:08.596:     obs-text.dll
+08:36:08.596:     obs-qsv11.dll
+08:36:08.596:     obs-outputs.dll
+08:36:08.596:     obs-filters.dll
+08:36:08.596:     obs-ffmpeg.dll
+08:36:08.596:     obs-browser.dll
+08:36:08.596:     nv-filters.dll
+08:36:08.596:     image-source.dll
+08:36:08.596:     frontend-tools.dll
+08:36:08.596:     decklink-output-ui.dll
+08:36:08.596:     decklink-captions.dll
+08:36:08.596:     coreaudio-encoder.dll
+08:36:08.596: ---------------------------------
+08:36:08.596: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+08:36:08.596: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+08:36:08.598: [obs-websocket] [WebSocketServer::ServerRunner] IO thread started.
+08:36:08.608: [obs-websocket] [WebSocketServer::Start] Server started successfully on port 4455. Possible connect address: 172.16.0.1
+08:36:08.610: ---------------------------------
+08:36:08.610: Available Encoders:
+08:36:08.610:   Video Encoders:
+08:36:08.610: 	- ffmpeg_svt_av1 (SVT-AV1)
+08:36:08.610: 	- ffmpeg_aom_av1 (AOM AV1)
+08:36:08.610: 	- h264_texture_amf (AMD HW H.264 (AVC))
+08:36:08.610: 	- h265_texture_amf (AMD HW H.265 (HEVC))
+08:36:08.610: 	- obs_x264 (x264)
+08:36:08.610:   Audio Encoders:
+08:36:08.610: 	- CoreAudio_AAC (CoreAudio AAC)
+08:36:08.610: 	- ffmpeg_aac (FFmpeg AAC)
+08:36:08.610: 	- ffmpeg_opus (FFmpeg Opus)
+08:36:08.610: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+08:36:08.610: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+08:36:08.610: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+08:36:08.610: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+08:36:08.610: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+08:36:08.610: ==== Startup complete ===============================================
+08:36:08.883: All scene data cleared
+08:36:08.883: ------------------------------------------------
+08:36:08.921: [obs-websocket] [WebSocketServer::onOpen] New WebSocket client has connected from [::ffff:127.0.0.1]:51707
+08:36:08.938: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+08:36:08.938: Deduplication logic is being applied to all monitored sources.
+08:36:08.938: [win-wasapi: 'Desktop Audio'] update settings:
+08:36:08.938: 	device id: default
+08:36:08.938: 	use device timing: 1
+08:36:08.939: [Loaded global audio device]: 'Desktop Audio'
+08:36:08.939: [win-wasapi: 'xlr'] update settings:
+08:36:08.939: 	device id: {0.0.1.00000000}.{c1deda98-992f-4c83-bd70-2227a1e9b6be}
+08:36:08.939: 	use device timing: 0
+08:36:08.940: [Loaded global audio device]: 'xlr'
+08:36:08.940: [win-wasapi: 'elgatoMicRight'] update settings:
+08:36:08.940: 	device id: {0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}
+08:36:08.940: 	use device timing: 0
+08:36:08.941: [Loaded global audio device]: 'elgatoMicRight'
+08:36:08.941: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}] Failed to enumerate device: 80070490
+08:36:08.941: WASAPI: Device '{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}' failed to start (source: elgatoMicRight)
+08:36:08.947: [duplicator-monitor-capture: 'SamsungTV'] update settings:
+08:36:08.947: 	display: Kamvas 13 (1920x1080)
+08:36:08.947: 	cursor: true
+08:36:08.947: 	method: DXGI
+08:36:08.947: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+08:36:08.947: 	alt_id: \\.\DISPLAY4
+08:36:08.947: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+08:36:08.947: 	force SDR: false
+08:36:08.953: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+08:36:08.953: Deduplication logic is being applied to all monitored sources.
+08:36:08.966: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+08:36:08.975: [duplicator-monitor-capture: 'prompter'] update settings:
+08:36:08.975: 	display:  (0x0)
+08:36:08.975: 	cursor: true
+08:36:08.975: 	method: WGC
+08:36:08.975: 	id: 
+08:36:08.975: 	alt_id: 
+08:36:08.975: 	setting_id: \\?\DISPLAY#IDI3311#a&3717ab59&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+08:36:08.975: 	force SDR: false
+08:36:08.975: Source ID 'source_record_filter' not found
+08:36:08.976: Failed to create source 'Source Record'!
+08:36:08.980: [duplicator-monitor-capture: 'lg'] update settings:
+08:36:08.980: 	display: LG HDR 4K (3840x2160)
+08:36:08.980: 	cursor: true
+08:36:08.980: 	method: DXGI
+08:36:08.980: 	id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+08:36:08.980: 	alt_id: \\.\DISPLAY2
+08:36:08.980: 	setting_id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+08:36:08.980: 	force SDR: false
+08:36:08.994: [Media Source 'Media Source']: settings:
+08:36:08.994: 	input:                   C:/projects/obs/loop_obs_ship_2025-06-03_10-03-19.mp4
+08:36:08.994: 	input_format:            (null)
+08:36:08.994: 	speed:                   100
+08:36:08.994: 	is_looping:              yes
+08:36:08.994: 	is_linear_alpha:         no
+08:36:08.994: 	is_hw_decoding:          yes
+08:36:08.994: 	is_clear_on_media_end:   yes
+08:36:08.994: 	restart_on_activate:     yes
+08:36:08.994: 	close_when_inactive:     no
+08:36:08.994: 	full_decode:             no
+08:36:08.994: 	ffmpeg_options:          
+08:36:09.000: [duplicator-monitor-capture: 'down'] update settings:
+08:36:09.000: 	display: Kamvas 13 (1920x1080)
+08:36:09.000: 	cursor: true
+08:36:09.000: 	method: DXGI
+08:36:09.000: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+08:36:09.000: 	alt_id: \\.\DISPLAY4
+08:36:09.000: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+08:36:09.000: 	force SDR: true
+08:36:09.000: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' [48000 Hz] initialized (source: xlr)
+08:36:09.010: [win-wasapi: 'Audio Output Capture 2'] update settings:
+08:36:09.010: 	device id: {0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}
+08:36:09.010: 	use device timing: 1
+08:36:09.010: [WASAPISource::TryInitialize]:[{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}] Failed to enumerate device: 80070490
+08:36:09.010: WASAPI: Device '{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}' failed to start (source: Audio Output Capture 2)
+08:36:09.010: [win-wasapi: 'elgato'] update settings:
+08:36:09.010: 	device id: {0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}
+08:36:09.010: 	use device timing: 0
+08:36:09.011: [WASAPISource::TryInitialize]:[{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}] Failed to enumerate device: 80070490
+08:36:09.011: WASAPI: Device '{0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}' failed to start (source: elgato)
+08:36:09.011: [win-wasapi: 'Window Capture (Audio)'] update settings:
+08:36:09.011: 	executable: chrome.exe
+08:36:09.011: 	title: Instagram - Google Chrome
+08:36:09.011: 	class: Chrome_WidgetWin_1
+08:36:09.011: 	priority: 0
+08:36:09.011: [window-capture: 'Window Capture'] update settings:
+08:36:09.011: 	executable: chrome.exe
+08:36:09.011: 	method selected: Automatic
+08:36:09.011: 	method chosen: WGC
+08:36:09.011: 	force SDR: false
+08:36:09.017: Source ID 'source_record_filter' not found
+08:36:09.017: Failed to create source 'Source Record'!
+08:36:09.018: Source ID 'net.nagater.obs-color-monitor.falsecolor_filter' not found
+08:36:09.018: Failed to create source 'False Color'!
+08:36:09.037: error:   Cannot load nvcuda.dll
+08:36:09.047: Switched to scene '1080 draw'
+08:36:09.055: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: xlr)
+08:36:09.058: error:   Could not dynamically load CUDA
+08:36:09.055: 
+08:36:09.059: ------------------------------------------------
+08:36:09.059: Loaded scenes:
+08:36:09.059: - scene 'insta':
+08:36:09.059:     - source: 'insta360' (dshow_input)
+08:36:09.059: - scene 'facecam':
+08:36:09.059:     - source: 'fc' (dshow_input)
+08:36:09.059:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+08:36:09.059: - scene 'zv1 not cut':
+08:36:09.059:     - source: 'zv1-sony' (dshow_input)
+08:36:09.059:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+08:36:09.059: - scene 'brio':
+08:36:09.059:     - source: 'sony brio' (dshow_input)
+08:36:09.059: - scene 'windowCapture':
+08:36:09.059:     - source: 'Window Capture' (window_capture)
+08:36:09.059: - scene '1080 draw':
+08:36:09.059:     - source: 'down' (monitor_capture)
+08:36:09.059:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+08:36:09.059:     - source: 'elgato' (wasapi_input_capture)
+08:36:09.059: - scene 'zv1 clean':
+08:36:09.059:     - source: 'zv1-sony' (dshow_input)
+08:36:09.059:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+08:36:09.059:     - source: 'Audio Output Capture 2' (wasapi_output_capture)
+08:36:09.059: - scene 'video player':
+08:36:09.059:     - source: 'Media Source' (ffmpeg_source)
+08:36:09.059: - scene 'green_screenscheck_false_color':
+08:36:09.059:     - source: 'zv1-sony' (dshow_input)
+08:36:09.059:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+08:36:09.059:     - filter: 'False Color' (net.nagater.obs-color-monitor.falsecolor_filter)
+08:36:09.059: - scene 'Samsung':
+08:36:09.059:     - source: 'SamsungTV' (monitor_capture)
+08:36:09.059:     - filter: 'Source Record' (source_record_filter)
+08:36:09.059: - scene 'Prompter':
+08:36:09.059:     - source: 'prompter' (monitor_capture)
+08:36:09.059:         - filter: 'Source Record' (source_record_filter)
+08:36:09.059: - scene 'blank':
+08:36:09.059: - scene 'Blan':
+08:36:09.059:     - source: 'blan' (dshow_input)
+08:36:09.059: - scene 'Paw':
+08:36:09.059:     - source: 'paw' (dshow_input)
+08:36:09.059:     - source: 'Text (GDI+)' (text_gdiplus_v3)
+08:36:09.059: - scene 'LG':
+08:36:09.059:     - source: 'lg' (monitor_capture)
+08:36:09.059: - scene 'phone apple tv wireless':
+08:36:09.059:     - source: 'phoneiphone' (dshow_input)
+08:36:09.059:         - monitoring: monitor only
+08:36:09.059: - scene 'iphone obs camera':
+08:36:09.059:     - source: 'Video Capture Device' (dshow_input)
+08:36:09.059: - scene 'vdopninja':
+08:36:09.059:     - source: 'Browser' (browser_source)
+08:36:09.059: - scene 'epoccam':
+08:36:09.059:     - source: 'Video Capture Device 2' (dshow_input)
+08:36:09.059: ------------------------------------------------
+08:36:09.087: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+08:36:09.087: WASAPI: Device '' failed to start (source: Window Capture (Audio))
+08:36:12.758: ---------------------------------
+08:36:12.758: [DShow Device: 'paw'] settings updated: 
+08:36:12.758: 	video device: Cam Link Pro HDMI-4
+08:36:12.758: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03404000226}
+08:36:12.758: 	resolution: 1920x1080
+08:36:12.758: 	flip: 0
+08:36:12.758: 	fps: 60.00 (interval: 166666)
+08:36:12.758: 	format: YUY2
+08:36:12.758: 	buffering: disabled
+08:36:12.758: 	hardware decode: disabled
+08:36:12.781: 	using video device audio: no
+08:36:12.781: 	separate audio filter
+08:36:12.781: 	sample rate: 48000
+08:36:12.781: 	channels: 2
+08:36:12.781: 	audio type: Capture
+08:36:12.787: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+08:36:12.874: ---------------------------------
+08:36:12.874: [DShow Device: 'blan'] settings updated: 
+08:36:12.874: 	video device: Cam Link Pro HDMI-3
+08:36:12.874: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03403000226}
+08:36:12.874: 	resolution: 1920x1080
+08:36:12.874: 	flip: 0
+08:36:12.874: 	fps: 30.00 (interval: 333333)
+08:36:12.874: 	format: YUY2
+08:36:12.874: 	buffering: disabled
+08:36:12.874: 	hardware decode: disabled
+08:36:12.892: 	using video device audio: no
+08:36:12.892: 	separate audio filter
+08:36:12.892: 	sample rate: 48000
+08:36:12.892: 	channels: 2
+08:36:12.892: 	audio type: Capture
+08:36:12.957: ---------------------------------
+08:36:12.958: [DShow Device: 'zv1-sony'] settings updated: 
+08:36:12.958: 	video device: Cam Link Pro HDMI-1 / Multiview
+08:36:12.958: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03401000226}
+08:36:12.958: 	resolution: 1920x1080
+08:36:12.958: 	flip: 0
+08:36:12.958: 	fps: 50.00 (interval: 200000)
+08:36:12.958: 	format: YUY2
+08:36:12.958: 	buffering: disabled
+08:36:12.958: 	hardware decode: disabled
+08:36:12.985: 	using video device audio: no
+08:36:12.985: 	separate audio filter
+08:36:12.985: 	sample rate: 48000
+08:36:12.985: 	channels: 2
+08:36:12.985: 	audio type: Capture
+08:36:12.987: ---------------------------------
+08:36:12.987: [DShow Device: 'phoneiphone'] settings updated: 
+08:36:12.987: 	video device: Cam Link Pro HDMI-2
+08:36:12.987: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03402000226}
+08:36:12.987: 	resolution: 1920x1080
+08:36:12.987: 	flip: 0
+08:36:12.987: 	fps: 50.00 (interval: 200000)
+08:36:12.987: 	format: YUY2
+08:36:12.987: 	buffering: disabled
+08:36:12.987: 	hardware decode: disabled
+08:36:13.017: 	using video device audio: no
+08:36:13.017: 	separate audio filter
+08:36:13.017: 	sample rate: 48000
+08:36:13.017: 	channels: 2
+08:36:13.017: 	audio type: Capture
+08:36:13.144: ---------------------------------
+08:36:13.144: [DShow Device: 'fc'] settings updated: 
+08:36:13.144: 	video device: Elgato Facecam
+08:36:13.144: 	video path: \\?\usb#vid_0fd9&pid_0078&mi_00#8&994727b&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+08:36:13.144: 	resolution: 1920x1080
+08:36:13.144: 	flip: 0
+08:36:13.144: 	fps: 60.00 (interval: 166666)
+08:36:13.144: 	format: UYVY
+08:36:13.144: 	buffering: disabled
+08:36:13.144: 	hardware decode: disabled
+08:36:13.193: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+08:36:13.195: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+08:36:13.293: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+08:36:13.322: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+08:36:13.406: ---------------------------------
+08:36:13.407: [DShow Device: 'Video Capture Device'] settings updated: 
+08:36:13.407: 	video device: NDI Webcam Video 1
+08:36:13.407: 	video path: \\?\root#media#0003#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\vidsource0
+08:36:13.407: 	resolution: 1920x1080
+08:36:13.407: 	flip: 0
+08:36:13.407: 	fps: 29.97 (interval: 333667)
+08:36:13.407: 	format: YUY2
+08:36:13.407: 	buffering: disabled
+08:36:13.407: 	hardware decode: disabled
+08:36:13.600: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+08:36:13.607: ---------------------------------
+08:36:13.607: [DShow Device: 'Video Capture Device 2'] settings updated: 
+08:36:13.607: 	video device: EƖgato Virtual Camera
+08:36:13.607: 	video path: \\?\root#media#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{45ab5b3b-2e15-4452-a2cb-87e5fdd026fb}
+08:36:13.607: 	resolution: 1920x1080
+08:36:13.607: 	flip: 0
+08:36:13.607: 	fps: 60.00 (interval: 166666)
+08:36:13.607: 	format: NV12
+08:36:13.607: 	buffering: disabled
+08:36:13.607: 	hardware decode: disabled
+08:36:13.813: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+08:36:13.880: ---------------------------------
+08:36:13.880: [DShow Device: 'insta360'] settings updated: 
+08:36:13.880: 	video device: Insta360 Link
+08:36:13.880: 	video path: \\?\usb#vid_2e1a&pid_4c01&mi_00#7&3a8eb504&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+08:36:13.880: 	resolution: 1920x1080
+08:36:13.880: 	flip: 0
+08:36:13.880: 	fps: 30.00 (interval: 333333)
+08:36:13.880: 	format: MJPEG
+08:36:13.880: 	buffering: disabled
+08:36:13.880: 	hardware decode: disabled
+08:36:14.083: DShow: Elgato UVC device (PID = 0x008A) tonemapper enable=1
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.404: warning: dqt: 0 quant value
+08:36:15.405: warning: dqt: 0 quant value
+08:36:15.405: warning: dqt: 0 quant value
+08:36:15.405: warning: dqt: 0 quant value
+08:36:15.405: warning: dqt: 0 quant value
+08:36:15.405: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.426: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.427: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.459: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.460: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.492: warning: dqt: 0 quant value
+08:36:15.493: warning: dqt: 0 quant value
+08:36:15.493: warning: dqt: 0 quant value
+08:36:15.493: warning: dqt: 0 quant value
+08:36:15.493: warning: dqt: 0 quant value
+08:36:15.493: warning: dqt: 0 quant value
+08:36:15.493: warning: dqt: 0 quant value
+08:36:15.493: warning: dqt: 0 quant value
+08:36:15.493: warning: dqt: 0 quant value
+08:36:15.493: warning: dqt: 0 quant value
+08:36:15.493: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.528: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.560: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.561: warning: dqt: 0 quant value
+08:36:15.593: warning: dqt: 0 quant value
+08:36:15.593: warning: dqt: 0 quant value
+08:36:15.593: warning: dqt: 0 quant value
+08:36:15.593: warning: dqt: 0 quant value
+08:36:15.593: warning: dqt: 0 quant value
+08:36:15.593: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.594: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.628: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.629: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.660: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.661: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.694: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.695: warning: dqt: 0 quant value
+08:36:15.729: warning: dqt: 0 quant value
+08:36:15.729: warning: dqt: 0 quant value
+08:36:15.729: warning: dqt: 0 quant value
+08:36:15.729: warning: dqt: 0 quant value
+08:36:15.729: warning: dqt: 0 quant value
+08:36:15.729: warning: dqt: 0 quant value
+08:36:15.729: warning: dqt: 0 quant value
+08:36:15.729: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.730: warning: dqt: 0 quant value
+08:36:15.761: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.762: warning: dqt: 0 quant value
+08:36:15.792: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.793: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.794: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.824: warning: dqt: 0 quant value
+08:36:15.853: warning: dqt: 0 quant value
+08:36:15.853: warning: dqt: 0 quant value
+08:36:15.853: warning: dqt: 0 quant value
+08:36:15.853: warning: dqt: 0 quant value
+08:36:15.853: warning: dqt: 0 quant value
+08:36:15.853: warning: dqt: 0 quant value
+08:36:15.853: warning: dqt: 0 quant value
+08:36:15.853: warning: dqt: 0 quant value
+08:36:15.853: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.854: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.884: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.885: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.918: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.919: warning: dqt: 0 quant value
+08:36:15.951: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.952: warning: dqt: 0 quant value
+08:36:15.953: warning: dqt: 0 quant value
+08:36:15.953: warning: dqt: 0 quant value
+08:36:15.953: warning: dqt: 0 quant value
+08:36:15.985: warning: dqt: 0 quant value
+08:36:15.985: warning: dqt: 0 quant value
+08:36:15.985: warning: dqt: 0 quant value
+08:36:15.985: warning: dqt: 0 quant value
+08:36:15.985: warning: dqt: 0 quant value
+08:36:15.985: warning: dqt: 0 quant value
+08:36:15.985: warning: dqt: 0 quant value
+08:36:15.985: warning: dqt: 0 quant value
+08:36:15.985: warning: dqt: 0 quant value
+08:36:15.985: warning: dqt: 0 quant value
+08:36:15.985: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:15.986: warning: dqt: 0 quant value
+08:36:16.019: warning: dqt: 0 quant value
+08:36:16.019: warning: dqt: 0 quant value
+08:36:16.019: warning: dqt: 0 quant value
+08:36:16.019: warning: dqt: 0 quant value
+08:36:16.019: warning: dqt: 0 quant value
+08:36:16.019: warning: dqt: 0 quant value
+08:36:16.019: warning: dqt: 0 quant value
+08:36:16.019: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.020: warning: dqt: 0 quant value
+08:36:16.021: warning: dqt: 0 quant value
+08:36:16.021: warning: dqt: 0 quant value
+08:36:16.021: warning: dqt: 0 quant value
+08:36:16.021: warning: dqt: 0 quant value
+08:36:16.021: warning: dqt: 0 quant value
+08:36:16.021: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.052: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.053: warning: dqt: 0 quant value
+08:36:16.085: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.086: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.123: warning: dqt: 0 quant value
+08:36:16.124: warning: dqt: 0 quant value
+08:36:16.124: warning: dqt: 0 quant value
+08:36:16.124: warning: dqt: 0 quant value
+08:36:16.124: warning: dqt: 0 quant value
+08:36:16.124: warning: dqt: 0 quant value
+08:36:16.124: warning: dqt: 0 quant value
+08:36:16.152: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.153: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.186: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.187: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.224: warning: dqt: 0 quant value
+08:36:16.225: warning: dqt: 0 quant value
+08:36:16.225: warning: dqt: 0 quant value
+08:36:16.225: warning: dqt: 0 quant value
+08:36:16.253: warning: dqt: 0 quant value
+08:36:16.253: warning: dqt: 0 quant value
+08:36:16.253: warning: dqt: 0 quant value
+08:36:16.253: warning: dqt: 0 quant value
+08:36:16.253: warning: dqt: 0 quant value
+08:36:16.253: warning: dqt: 0 quant value
+08:36:16.253: warning: dqt: 0 quant value
+08:36:16.253: warning: dqt: 0 quant value
+08:36:16.253: warning: dqt: 0 quant value
+08:36:16.253: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.254: warning: dqt: 0 quant value
+08:36:16.286: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.287: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.324: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.325: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.354: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.387: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.388: warning: dqt: 0 quant value
+08:36:16.424: warning: dqt: 0 quant value
+08:36:16.424: warning: dqt: 0 quant value
+08:36:16.424: warning: dqt: 0 quant value
+08:36:16.424: warning: dqt: 0 quant value
+08:36:16.424: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.425: warning: dqt: 0 quant value
+08:36:16.426: warning: dqt: 0 quant value
+08:36:16.426: warning: dqt: 0 quant value
+08:36:16.426: warning: dqt: 0 quant value
+08:36:16.426: warning: dqt: 0 quant value
+08:36:16.426: warning: dqt: 0 quant value
+08:36:16.426: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.454: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.455: warning: dqt: 0 quant value
+08:36:16.487: warning: dqt: 0 quant value
+08:36:16.487: warning: dqt: 0 quant value
+08:36:16.487: warning: dqt: 0 quant value
+08:36:16.487: warning: dqt: 0 quant value
+08:36:16.487: warning: dqt: 0 quant value
+08:36:16.487: warning: dqt: 0 quant value
+08:36:16.487: warning: dqt: 0 quant value
+08:36:16.487: warning: dqt: 0 quant value
+08:36:16.487: warning: dqt: 0 quant value
+08:36:16.487: warning: dqt: 0 quant value
+08:36:16.487: warning: dqt: 0 quant value
+08:36:16.487: warning: dqt: 0 quant value
+08:36:16.487: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.488: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.525: warning: dqt: 0 quant value
+08:36:16.526: warning: dqt: 0 quant value
+08:36:16.526: warning: dqt: 0 quant value
+08:36:16.526: warning: dqt: 0 quant value
+08:36:16.526: warning: dqt: 0 quant value
+08:36:16.526: warning: dqt: 0 quant value
+08:36:16.526: warning: dqt: 0 quant value
+08:36:16.526: warning: dqt: 0 quant value
+08:36:16.526: warning: dqt: 0 quant value
+08:36:16.526: warning: dqt: 0 quant value
+08:36:16.554: warning: dqt: 0 quant value
+08:36:16.554: warning: dqt: 0 quant value
+08:36:16.554: warning: dqt: 0 quant value
+08:36:16.554: warning: dqt: 0 quant value
+08:36:16.554: warning: dqt: 0 quant value
+08:36:16.554: warning: dqt: 0 quant value
+08:36:16.554: warning: dqt: 0 quant value
+08:36:16.554: warning: dqt: 0 quant value
+08:36:16.554: warning: dqt: 0 quant value
+08:36:16.554: warning: dqt: 0 quant value
+08:36:16.554: warning: dqt: 0 quant value
+08:36:16.554: warning: dqt: 0 quant value
+08:36:16.554: warning: dqt: 0 quant value
+08:36:16.554: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.555: warning: dqt: 0 quant value
+08:36:16.587: warning: dqt: 0 quant value
+08:36:16.587: warning: dqt: 0 quant value
+08:36:16.587: warning: dqt: 0 quant value
+08:36:16.587: warning: dqt: 0 quant value
+08:36:16.587: warning: dqt: 0 quant value
+08:36:16.587: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.588: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.624: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.625: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.654: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.655: warning: dqt: 0 quant value
+08:36:16.677: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:36:16.678: warning: dqt: 0 quant value
+08:41:55.485: User switched to scene 'Paw'
+09:46:59.881: WASAPI: Default output device changed
+09:46:59.885: Device 'Speakers (4- Focusrite USB Audio)' invalidated.  Retrying (source: Desktop Audio)
+09:47:00.149: WASAPI: Device 'Headphones (Elgato Wave:3)' [48000 Hz] initialized (source: Desktop Audio)
+10:29:11.952: WASAPI: Default output device changed
+10:29:11.958: Device 'Headphones (Elgato Wave:3)' invalidated.  Retrying (source: Desktop Audio)
+10:29:12.094: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+11:11:17.130: User switched to scene 'Blan'
+12:43:07.006: User switched to scene 'Paw'
+12:43:16.322: [texture-amf-h264: 'advanced_video_recording'] settings:
+12:43:16.322: 	rate_control: CBR
+12:43:16.322: 	bitrate:      6000
+12:43:16.322: 	cqp:          20
+12:43:16.322: 	keyint:       250
+12:43:16.322: 	preset:       quality
+12:43:16.322: 	profile:      high
+12:43:16.322: 	level:        4.2
+12:43:16.322: 	b-frames:     2
+12:43:16.322: 	width:        1920
+12:43:16.322: 	height:       1080
+12:43:16.322: 	pre-analysis: false
+12:43:16.322: 	params:       (none)
+12:43:16.328: [CoreAudio AAC: 'Track1']: settings:
+12:43:16.328: 	mode:          AAC
+12:43:16.328: 	bitrate:       160
+12:43:16.328: 	sample rate:   48000
+12:43:16.328: 	cbr:           on
+12:43:16.328: 	output buffer: 1536
+12:43:16.346: ==== Recording Start ===============================================
+12:43:16.346: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file 'F:/recordings/2026-02-20/2026-02-20-12-43.mp4'...
+12:45:20.034: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+12:45:20.035: [mp4 muxer: 'adv_file_output'] Number of fragments: 30
+12:45:20.036: [mp4 muxer: 'adv_file_output'] Full moov size: 92 KiB
+12:45:20.036: [mp4 muxer: 'adv_file_output'] Final mdat size: 93009 KiB
+12:45:20.036: Output 'adv_file_output': stopping
+12:45:20.036: Output 'adv_file_output': Total frames output: 7413
+12:45:20.036: Output 'adv_file_output': Total drawn frames: 7421
+12:45:20.036: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+12:45:20.037: [mp4 output: 'adv_file_output'] File output complete. Finalization took 3 ms.
+12:45:20.038: ==== Recording Stop ================================================
+12:47:01.700: ==== Shutting down ==================================================
+12:47:01.756: Deduplication logic stopped.
+12:47:01.756: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' Terminated
+12:47:01.762: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' Terminated
+12:47:01.769: WASAPI: Device '' Terminated
+12:47:01.822: WASAPI: Device '' Terminated
+12:47:01.888: WASAPI: Device '' Terminated
+12:47:02.951: WASAPI: Device '[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]' Terminated
+12:47:02.951: Tried to sort VolumeControl for 'elgatoMicRight' but source is null
+12:47:02.951: Tried to sort VolumeControl for 'xlr' but source is null
+12:47:02.968: All scene data cleared
+12:47:02.968: ------------------------------------------------

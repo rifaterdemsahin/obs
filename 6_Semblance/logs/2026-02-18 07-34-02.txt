@@ -1,0 +1,1067 @@
+07:34:02.945: CPU Name: AMD Ryzen Threadripper PRO 3995WX 64-Cores     
+07:34:02.945: CPU Speed: 2695MHz
+07:34:02.946: Physical Cores: 32, Logical Cores: 64
+07:34:02.946: Physical Memory: 65350MB Total, 30749MB Free
+07:34:02.946: Windows Version: 10.0 Build 26200 (release: 25H2; revision: 7840; 64-bit)
+07:34:02.946: Running as administrator: false
+07:34:02.946: Windows 10/11 Gaming Features:
+07:34:02.946: 	Game DVR: On
+07:34:02.946: 	Game Mode: Off
+07:34:02.947: Sec. Software Status:
+07:34:02.948: 	Microsoft Defender Antivirus: enabled (AV)
+07:34:02.948: 	Windows Firewall: disabled (FW)
+07:34:02.949: Current Date/Time: 2026-02-18, 07:34:02
+07:34:02.949: Browser Hardware Acceleration: true
+07:34:02.949: Hide OBS windows from screen capture: false
+07:34:02.949: Qt Version: 6.8.3 (runtime), 6.8.3 (compiled)
+07:34:02.949: Portable mode: false
+07:34:03.473: OBS 32.1.0-rc1 (64-bit, windows)
+07:34:03.473: ---------------------------------
+07:34:03.729: ---------------------------------
+07:34:03.729: audio settings reset:
+07:34:03.729: 	samples per sec: 48000
+07:34:03.729: 	speakers:        2
+07:34:03.729: 	max buffering:   960 milliseconds
+07:34:03.729: 	buffering type:  dynamically increasing
+07:34:03.732: ---------------------------------
+07:34:03.732: Initializing D3D11...
+07:34:03.732: Available Video Adapters: 
+07:34:03.746: 	Adapter 0: AMD Radeon RX 6900 XT
+07:34:03.746: 	  Dedicated VRAM: 17131868160 (16.0 GiB)
+07:34:03.746: 	  Shared VRAM:    34262315008 (31.9 GiB)
+07:34:03.746: 	  PCI ID:         1002:73bf
+07:34:03.746: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+07:34:03.746: 	  Driver Version: 32.0.21041.1000
+07:34:03.748: 	  output 0:
+07:34:03.748: 	    name=LG HDR 4K
+07:34:03.748: 	    pos={0, 0}
+07:34:03.748: 	    size={3840, 2160}
+07:34:03.748: 	    attached=true
+07:34:03.748: 	    refresh=59
+07:34:03.748: 	    bits_per_color=8
+07:34:03.748: 	    space=RGB_FULL_G22_NONE_P709
+07:34:03.748: 	    primaries=[r=(0.680664, 0.311523), g=(0.267578, 0.663086), b=(0.150391, 0.048828), wp=(0.312500, 0.329102)]
+07:34:03.748: 	    relative_gamut_area=[709=1.316109, P3=0.970197, 2020=0.696052]
+07:34:03.748: 	    sdr_white_nits=80
+07:34:03.748: 	    nit_range=[min=0.355400, max=343.000000, max_full_frame=343.000000]
+07:34:03.748: 	    dpi=120 (125%)
+07:34:03.748: 	    id=\\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:34:03.748: 	    alt_id=\\.\DISPLAY2
+07:34:03.749: 	  output 1:
+07:34:03.749: 	    name=ASUS VP28U
+07:34:03.749: 	    pos={4864, -405}
+07:34:03.749: 	    size={1440, 2560}
+07:34:03.749: 	    attached=true
+07:34:03.749: 	    refresh=60
+07:34:03.749: 	    bits_per_color=10
+07:34:03.749: 	    space=RGB_FULL_G22_NONE_P709
+07:34:03.749: 	    primaries=[r=(0.632812, 0.339844), g=(0.310547, 0.632812), b=(0.158203, 0.060547), wp=(0.313477, 0.329102)]
+07:34:03.749: 	    relative_gamut_area=[709=1.022104, P3=0.753465, 2020=0.540561]
+07:34:03.749: 	    sdr_white_nits=80
+07:34:03.749: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+07:34:03.749: 	    dpi=120 (125%)
+07:34:03.749: 	    id=\\?\DISPLAY#AUS28B1#7&68fe642&0&UID260#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:34:03.749: 	    alt_id=\\.\DISPLAY1
+07:34:03.751: 	  output 2:
+07:34:03.751: 	    name=Kamvas 13
+07:34:03.751: 	    pos={10144, 1034}
+07:34:03.751: 	    size={1920, 1080}
+07:34:03.751: 	    attached=true
+07:34:03.751: 	    refresh=59
+07:34:03.751: 	    bits_per_color=10
+07:34:03.751: 	    space=RGB_FULL_G22_NONE_P709
+07:34:03.751: 	    primaries=[r=(0.679688, 0.309570), g=(0.206055, 0.693359), b=(0.151367, 0.054688), wp=(0.313477, 0.329102)]
+07:34:03.751: 	    relative_gamut_area=[709=1.443482, P3=1.064093, 2020=0.763416]
+07:34:03.751: 	    sdr_white_nits=80
+07:34:03.751: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+07:34:03.751: 	    dpi=120 (125%)
+07:34:03.751: 	    id=\\?\DISPLAY#HAT1333#7&68fe642&0&UID265#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:34:03.751: 	    alt_id=\\.\DISPLAY3
+07:34:03.752: 	  output 3:
+07:34:03.752: 	    name=SAMSUNG
+07:34:03.752: 	    pos={6304, -34}
+07:34:03.752: 	    size={3840, 2160}
+07:34:03.752: 	    attached=true
+07:34:03.752: 	    refresh=60
+07:34:03.752: 	    bits_per_color=8
+07:34:03.752: 	    space=RGB_FULL_G22_NONE_P709
+07:34:03.752: 	    primaries=[r=(0.640625, 0.330078), g=(0.300781, 0.600586), b=(0.150391, 0.060547), wp=(0.280273, 0.290039)]
+07:34:03.752: 	    relative_gamut_area=[709=1.000494, P3=0.737535, 2020=0.529132]
+07:34:03.752: 	    sdr_white_nits=80
+07:34:03.752: 	    nit_range=[min=0.010000, max=1499.000000, max_full_frame=799.000000]
+07:34:03.752: 	    dpi=120 (125%)
+07:34:03.752: 	    id=\\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:34:03.752: 	    alt_id=\\.\DISPLAY4
+07:34:03.753: 	  output 4:
+07:34:03.753: 	    name=Elgato Prom.
+07:34:03.753: 	    pos={3840, 1529}
+07:34:03.753: 	    size={1024, 600}
+07:34:03.753: 	    attached=true
+07:34:03.753: 	    refresh=60
+07:34:03.753: 	    bits_per_color=8
+07:34:03.753: 	    space=RGB_FULL_G22_NONE_P709
+07:34:03.753: 	    primaries=[r=(0.629883, 0.339844), g=(0.309570, 0.629883), b=(0.139648, 0.059570), wp=(0.269531, 0.330078)]
+07:34:03.753: 	    relative_gamut_area=[709=1.035083, P3=0.763034, 2020=0.547425]
+07:34:03.753: 	    sdr_white_nits=80
+07:34:03.753: 	    nit_range=[min=0.500000, max=270.000000, max_full_frame=270.000000]
+07:34:03.753: 	    dpi=120 (125%)
+07:34:03.753: 	    id=\\?\DISPLAY#IDI3311#a&3717ab59&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:34:03.753: 	    alt_id=\\.\DISPLAY8
+07:34:03.753: 	Adapter 1: AMD Radeon RX 6900 XT
+07:34:03.753: 	  Dedicated VRAM: 17131868160 (16.0 GiB)
+07:34:03.753: 	  Shared VRAM:    34262315008 (31.9 GiB)
+07:34:03.753: 	  PCI ID:         1002:73bf
+07:34:03.753: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+07:34:03.753: 	  Driver Version: 32.0.21041.1000
+07:34:03.754: Loading up D3D11 on adapter AMD Radeon RX 6900 XT (0)
+07:34:03.820: D3D11 loaded successfully, feature level used: b000
+07:34:03.820: DXGI increase maximum frame latency success
+07:34:03.820: D3D11 GPU priority setup failed (not admin?)
+07:34:05.100: ---------------------------------
+07:34:05.100: video settings reset:
+07:34:05.100: 	base resolution:   1920x1080
+07:34:05.100: 	output resolution: 1920x1080
+07:34:05.100: 	downscale filter:  Bicubic
+07:34:05.100: 	fps:               60/1
+07:34:05.100: 	format:            NV12
+07:34:05.100: 	YUV mode:          Rec. 709/Partial
+07:34:05.101: NV12 texture support enabled
+07:34:05.101: P010 texture support not available
+07:34:05.103: Audio monitoring device:
+07:34:05.103: 	name: Default
+07:34:05.103: 	id: default
+07:34:05.243: ---------------------------------
+07:34:05.258: No AJA devices found, skipping loading AJA UI plugin
+07:34:05.258: Failed to initialize module 'aja-output-ui.dll'
+07:34:05.274: No AJA devices found, skipping loading AJA plugin
+07:34:05.274: Failed to initialize module 'aja.dll'
+07:34:05.275: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+07:34:05.345: [CoreAudio encoder]: Adding CoreAudio AAC encoder
+07:34:05.347: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+07:34:05.349: Failed to load 'en-US' text for module: 'decklink-output-ui.dll'
+07:34:05.368: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+07:34:05.368: Failed to initialize module 'decklink.dll'
+07:34:05.418: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+07:34:05.418: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+07:34:05.419: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+07:34:05.438: [NVIDIA Audio Effects:] NVIDIA denoiser disabled, redistributable not found or could not be loaded.
+07:34:05.439: Failed to get NVVideoEffects.dll version info size
+07:34:05.441: [NVIDIA VIDEO FX]: FX disabled, redistributable not found or could not be loaded.
+07:34:05.524: [obs-browser]: Version 2.26.7
+07:34:05.524: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.145.7+g2b7d20b+chromium-127.0.6533.120 (compiled)
+07:34:05.845: LoadLibrary failed for 'nvEncodeAPI64.dll': The specified module could not be found.
+07:34:05.845:  (126)
+07:34:05.845: NVENC not supported
+07:34:05.845: Failed to initialize module 'obs-nvenc.dll'
+07:34:06.035: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.3 | RPC Version: 1)
+07:34:06.035: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.8.3 | Qt version (run-time): 6.8.3
+07:34:06.035: [obs-websocket] [obs_module_load] Linked ASIO Version: 103200
+07:34:06.047: [obs-websocket] [obs_module_load] Module loaded.
+07:34:06.164: [vlc-video]: VLC 3.0.23 Vetinari found, VLC video source enabled
+07:34:06.411: Failed to load 'en-GB' text for module: 'StreamDeckPlugin.dll'
+07:34:06.411: <StreamDeck> Plugin version 5.5.4.2
+07:34:06.412: <StreamDeck> [Server] Listening on '127.0.0.1:28186'.
+07:34:06.412: ---------------------------------
+07:34:06.412:   Loaded Modules:
+07:34:06.412:     StreamDeckPlugin.dll
+07:34:06.412:     win-wasapi.dll
+07:34:06.412:     win-dshow.dll
+07:34:06.412:     win-capture.dll
+07:34:06.412:     vlc-video.dll
+07:34:06.412:     text-freetype2.dll
+07:34:06.412:     rtmp-services.dll
+07:34:06.412:     obs-x264.dll
+07:34:06.412:     obs-websocket.dll
+07:34:06.412:     obs-webrtc.dll
+07:34:06.412:     obs-vst.dll
+07:34:06.412:     obs-transitions.dll
+07:34:06.412:     obs-text.dll
+07:34:06.412:     obs-qsv11.dll
+07:34:06.412:     obs-outputs.dll
+07:34:06.412:     obs-filters.dll
+07:34:06.412:     obs-ffmpeg.dll
+07:34:06.412:     obs-browser.dll
+07:34:06.412:     nv-filters.dll
+07:34:06.412:     image-source.dll
+07:34:06.413:     frontend-tools.dll
+07:34:06.413:     decklink-output-ui.dll
+07:34:06.413:     decklink-captions.dll
+07:34:06.413:     coreaudio-encoder.dll
+07:34:06.413: ---------------------------------
+07:34:06.413: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+07:34:06.413: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+07:34:06.414: [obs-websocket] [WebSocketServer::ServerRunner] IO thread started.
+07:34:06.425: [obs-websocket] [WebSocketServer::Start] Server started successfully on port 4455. Possible connect address: 172.16.0.1
+07:34:06.426: ---------------------------------
+07:34:06.426: Available Encoders:
+07:34:06.426:   Video Encoders:
+07:34:06.426: 	- ffmpeg_svt_av1 (SVT-AV1)
+07:34:06.426: 	- ffmpeg_aom_av1 (AOM AV1)
+07:34:06.426: 	- h264_texture_amf (AMD HW H.264 (AVC))
+07:34:06.426: 	- h265_texture_amf (AMD HW H.265 (HEVC))
+07:34:06.426: 	- obs_x264 (x264)
+07:34:06.426:   Audio Encoders:
+07:34:06.427: 	- CoreAudio_AAC (CoreAudio AAC)
+07:34:06.427: 	- ffmpeg_aac (FFmpeg AAC)
+07:34:06.427: 	- ffmpeg_opus (FFmpeg Opus)
+07:34:06.427: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+07:34:06.427: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+07:34:06.427: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+07:34:06.427: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+07:34:06.427: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+07:34:06.427: ==== Startup complete ===============================================
+07:34:06.721: All scene data cleared
+07:34:06.721: ------------------------------------------------
+07:34:06.769: [win-wasapi: 'xlr'] update settings:
+07:34:06.769: 	device id: {0.0.1.00000000}.{c1deda98-992f-4c83-bd70-2227a1e9b6be}
+07:34:06.769: 	use device timing: 0
+07:34:06.770: [Loaded global audio device]: 'xlr'
+07:34:06.784: [duplicator-monitor-capture: 'SamsungTV'] update settings:
+07:34:06.784: 	display: SAMSUNG (3840x2160)
+07:34:06.784: 	cursor: true
+07:34:06.784: 	method: DXGI
+07:34:06.784: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:34:06.784: 	alt_id: \\.\DISPLAY4
+07:34:06.784: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:34:06.784: 	force SDR: false
+07:34:06.818: [duplicator-monitor-capture: 'prompter'] update settings:
+07:34:06.818: 	display: Elgato Prom. (1024x600)
+07:34:06.818: 	cursor: true
+07:34:06.818: 	method: DXGI
+07:34:06.818: 	id: \\?\DISPLAY#IDI3311#a&3717ab59&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:34:06.818: 	alt_id: \\.\DISPLAY8
+07:34:06.818: 	setting_id: \\?\DISPLAY#IDI3311#a&3717ab59&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:34:06.818: 	force SDR: false
+07:34:06.818: Source ID 'source_record_filter' not found
+07:34:06.818: Failed to create source 'Source Record'!
+07:34:06.824: [duplicator-monitor-capture: 'lg'] update settings:
+07:34:06.824: 	display: LG HDR 4K (3840x2160)
+07:34:06.824: 	cursor: true
+07:34:06.824: 	method: DXGI
+07:34:06.824: 	id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:34:06.824: 	alt_id: \\.\DISPLAY2
+07:34:06.824: 	setting_id: \\?\DISPLAY#GSM774F#7&68fe642&0&UID256#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:34:06.824: 	force SDR: false
+07:34:06.888: [obs-websocket] [WebSocketServer::onOpen] New WebSocket client has connected from [::ffff:127.0.0.1]:50425
+07:34:07.181: [Media Source 'Media Source']: settings:
+07:34:07.181: 	input:                   C:/projects/obs/loop_obs_ship_2025-06-03_10-03-19.mp4
+07:34:07.181: 	input_format:            (null)
+07:34:07.181: 	speed:                   100
+07:34:07.181: 	is_looping:              yes
+07:34:07.181: 	is_linear_alpha:         no
+07:34:07.181: 	is_hw_decoding:          yes
+07:34:07.181: 	is_clear_on_media_end:   yes
+07:34:07.181: 	restart_on_activate:     yes
+07:34:07.181: 	close_when_inactive:     no
+07:34:07.181: 	full_decode:             no
+07:34:07.181: 	ffmpeg_options:          
+07:34:07.190: [duplicator-monitor-capture: 'down'] update settings:
+07:34:07.190: 	display: SAMSUNG (3840x2160)
+07:34:07.190: 	cursor: true
+07:34:07.190: 	method: DXGI
+07:34:07.190: 	id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:34:07.190: 	alt_id: \\.\DISPLAY4
+07:34:07.190: 	setting_id: \\?\DISPLAY#SAM0F0B#7&68fe642&0&UID264#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+07:34:07.190: 	force SDR: true
+07:34:07.192: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' [48000 Hz] initialized (source: xlr)
+07:34:07.204: [win-wasapi: 'Audio Output Capture 2'] update settings:
+07:34:07.204: 	device id: {0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}
+07:34:07.204: 	use device timing: 1
+07:34:07.204: [WASAPISource::TryInitialize]:[{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}] Failed to enumerate device: 80070490
+07:34:07.204: WASAPI: Device '{0.0.0.00000000}.{d760c5dc-8134-45c6-b6d1-8d407d352b43}' failed to start (source: Audio Output Capture 2)
+07:34:07.204: [win-wasapi: 'elgato'] update settings:
+07:34:07.204: 	device id: {0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}
+07:34:07.204: 	use device timing: 0
+07:34:07.205: [win-wasapi: 'Window Capture (Audio)'] update settings:
+07:34:07.205: 	executable: chrome.exe
+07:34:07.205: 	title: Instagram - Google Chrome
+07:34:07.205: 	class: Chrome_WidgetWin_1
+07:34:07.205: 	priority: 0
+07:34:07.205: [window-capture: 'Window Capture'] update settings:
+07:34:07.205: 	executable: chrome.exe
+07:34:07.205: 	method selected: Automatic
+07:34:07.205: 	method chosen: WGC
+07:34:07.205: 	force SDR: false
+07:34:07.211: Source ID 'source_record_filter' not found
+07:34:07.211: Failed to create source 'Source Record'!
+07:34:07.212: Source ID 'net.nagater.obs-color-monitor.falsecolor_filter' not found
+07:34:07.212: Failed to create source 'False Color'!
+07:34:07.224: error:   Cannot load nvcuda.dll
+07:34:07.224: error:   Could not dynamically load CUDA
+07:34:07.229: WASAPI: Device 'Mic In (Elgato Wave:3)' [48000 Hz] initialized (source: elgato)
+07:34:07.229: Switched to scene 'insta'
+07:34:07.229: ------------------------------------------------
+07:34:07.229: Loaded scenes:
+07:34:07.229: - scene 'insta':
+07:34:07.229:     - source: 'insta360' (dshow_input)
+07:34:07.229: - scene 'facecam':
+07:34:07.229:     - source: 'fc' (dshow_input)
+07:34:07.229:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+07:34:07.229: - scene 'zv1 not cut':
+07:34:07.229:     - source: 'zv1-sony' (dshow_input)
+07:34:07.229:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+07:34:07.229: - scene 'brio':
+07:34:07.229:     - source: 'sony brio' (dshow_input)
+07:34:07.229: - scene 'windowCapture':
+07:34:07.229:     - source: 'Window Capture' (window_capture)
+07:34:07.229: - scene '1080 draw':
+07:34:07.229:     - source: 'down' (monitor_capture)
+07:34:07.229:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+07:34:07.229:     - source: 'elgato' (wasapi_input_capture)
+07:34:07.229: - scene 'zv1 clean':
+07:34:07.229:     - source: 'zv1-sony' (dshow_input)
+07:34:07.229:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+07:34:07.229:     - source: 'Audio Output Capture 2' (wasapi_output_capture)
+07:34:07.229: - scene 'video player':
+07:34:07.229:     - source: 'Media Source' (ffmpeg_source)
+07:34:07.229: - scene 'green_screenscheck_false_color':
+07:34:07.229:     - source: 'zv1-sony' (dshow_input)
+07:34:07.229:         - filter: 'Chroma Key' (chroma_key_filter_v2)
+07:34:07.229:     - filter: 'False Color' (net.nagater.obs-color-monitor.falsecolor_filter)
+07:34:07.229: - scene 'Samsung':
+07:34:07.229:     - source: 'SamsungTV' (monitor_capture)
+07:34:07.229:     - filter: 'Source Record' (source_record_filter)
+07:34:07.229: - scene 'Prompter':
+07:34:07.229:     - source: 'prompter' (monitor_capture)
+07:34:07.229:         - filter: 'Source Record' (source_record_filter)
+07:34:07.229: - scene 'blank':
+07:34:07.229: - scene 'Blan':
+07:34:07.229:     - source: 'blan' (dshow_input)
+07:34:07.229: - scene 'Paw':
+07:34:07.229:     - source: 'paw' (dshow_input)
+07:34:07.230:     - source: 'Text (GDI+)' (text_gdiplus_v3)
+07:34:07.230: - scene 'LG':
+07:34:07.230:     - source: 'lg' (monitor_capture)
+07:34:07.230: - scene 'phone apple tv wireless':
+07:34:07.230:     - source: 'phoneiphone' (dshow_input)
+07:34:07.230:         - monitoring: monitor only
+07:34:07.230: - scene 'iphone obs camera':
+07:34:07.230:     - source: 'Video Capture Device' (dshow_input)
+07:34:07.230: - scene 'vdopninja':
+07:34:07.230:     - source: 'Browser' (browser_source)
+07:34:07.230: - scene 'epoccam':
+07:34:07.230:     - source: 'Video Capture Device 2' (dshow_input)
+07:34:07.230: ------------------------------------------------
+07:34:07.233: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: xlr)
+07:34:07.233: 
+07:34:07.250: [WASAPISource::TryInitialize]:[[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]] Failed to find window
+07:34:07.270: WASAPI: Device '' failed to start (source: Window Capture (Audio))
+07:34:12.027: fc: data.GetDevice failed
+07:34:12.028: fc: Video configuration failed
+07:34:13.085: ---------------------------------
+07:34:13.089: [DShow Device: 'paw'] settings updated: 
+07:34:13.089: 	video device: Cam Link Pro HDMI-4
+07:34:13.089: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03404000226}
+07:34:13.089: 	resolution: 1920x1080
+07:34:13.089: 	flip: 0
+07:34:13.089: 	fps: 60.00 (interval: 166666)
+07:34:13.089: 	format: YUY2
+07:34:13.089: 	buffering: disabled
+07:34:13.089: 	hardware decode: disabled
+07:34:13.111: 	using video device audio: no
+07:34:13.111: 	separate audio filter
+07:34:13.111: 	sample rate: 48000
+07:34:13.111: 	channels: 2
+07:34:13.111: 	audio type: Capture
+07:34:13.117: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+07:34:13.195: ---------------------------------
+07:34:13.195: [DShow Device: 'blan'] settings updated: 
+07:34:13.195: 	video device: Cam Link Pro HDMI-3
+07:34:13.195: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03403000226}
+07:34:13.195: 	resolution: 1920x1080
+07:34:13.195: 	flip: 0
+07:34:13.195: 	fps: 30.00 (interval: 333333)
+07:34:13.195: 	format: YUY2
+07:34:13.195: 	buffering: disabled
+07:34:13.195: 	hardware decode: disabled
+07:34:13.220: 	using video device audio: no
+07:34:13.220: 	separate audio filter
+07:34:13.221: 	sample rate: 48000
+07:34:13.221: 	channels: 2
+07:34:13.221: 	audio type: Capture
+07:34:13.287: ---------------------------------
+07:34:13.287: [DShow Device: 'zv1-sony'] settings updated: 
+07:34:13.287: 	video device: Cam Link Pro HDMI-1 / Multiview
+07:34:13.287: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03401000226}
+07:34:13.287: 	resolution: 1920x1080
+07:34:13.287: 	flip: 0
+07:34:13.287: 	fps: 50.00 (interval: 200000)
+07:34:13.287: 	format: YUY2
+07:34:13.287: 	buffering: disabled
+07:34:13.287: 	hardware decode: disabled
+07:34:13.313: 	using video device audio: no
+07:34:13.313: 	separate audio filter
+07:34:13.313: 	sample rate: 48000
+07:34:13.313: 	channels: 2
+07:34:13.313: 	audio type: Capture
+07:34:13.315: ---------------------------------
+07:34:13.315: [DShow Device: 'phoneiphone'] settings updated: 
+07:34:13.315: 	video device: Cam Link Pro HDMI-2
+07:34:13.315: 	video path: \\?\pci#ven_12ab&dev_0710&subsys_00111cfa&rev_00#4&39d11319&0&0019#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{6f814be9-9af6-43cf-9249-c03402000226}
+07:34:13.315: 	resolution: 1920x1080
+07:34:13.315: 	flip: 0
+07:34:13.315: 	fps: 50.00 (interval: 200000)
+07:34:13.315: 	format: YUY2
+07:34:13.315: 	buffering: disabled
+07:34:13.315: 	hardware decode: disabled
+07:34:13.342: 	using video device audio: no
+07:34:13.343: 	separate audio filter
+07:34:13.343: 	sample rate: 48000
+07:34:13.343: 	channels: 2
+07:34:13.343: 	audio type: Capture
+07:34:13.506: ---------------------------------
+07:34:13.506: [DShow Device: 'Video Capture Device'] settings updated: 
+07:34:13.506: 	video device: NDI Webcam Video 1
+07:34:13.506: 	video path: \\?\root#media#0003#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\vidsource0
+07:34:13.506: 	resolution: 1920x1080
+07:34:13.506: 	flip: 0
+07:34:13.506: 	fps: 29.97 (interval: 333667)
+07:34:13.506: 	format: YUY2
+07:34:13.506: 	buffering: disabled
+07:34:13.506: 	hardware decode: disabled
+07:34:13.517: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+07:34:13.615: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+07:34:13.713: DShow: Elgato GC4K60ProMK2 tonemapper enable=1
+07:34:13.726: ---------------------------------
+07:34:13.726: [DShow Device: 'Video Capture Device 2'] settings updated: 
+07:34:13.726: 	video device: EƖgato Virtual Camera
+07:34:13.726: 	video path: \\?\root#media#0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\{45ab5b3b-2e15-4452-a2cb-87e5fdd026fb}
+07:34:13.726: 	resolution: 1920x1080
+07:34:13.726: 	flip: 0
+07:34:13.726: 	fps: 60.00 (interval: 166666)
+07:34:13.726: 	format: NV12
+07:34:13.726: 	buffering: disabled
+07:34:13.726: 	hardware decode: disabled
+07:34:13.998: ---------------------------------
+07:34:13.998: [DShow Device: 'insta360'] settings updated: 
+07:34:13.998: 	video device: Insta360 Link
+07:34:13.998: 	video path: \\?\usb#vid_2e1a&pid_4c01&mi_00#7&3a8eb504&1&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+07:34:13.998: 	resolution: 1920x1080
+07:34:13.998: 	flip: 0
+07:34:13.998: 	fps: 30.00 (interval: 333333)
+07:34:13.998: 	format: MJPEG
+07:34:13.998: 	buffering: disabled
+07:34:13.998: 	hardware decode: disabled
+08:00:36.840: User switched to scene 'windowCapture'
+08:00:37.991: User switched to scene 'zv1 clean'
+08:00:38.770: User switched to scene 'video player'
+08:00:39.541: User switched to scene 'brio'
+08:00:40.778: User switched to scene '1080 draw'
+08:00:41.648: User switched to scene 'zv1 clean'
+08:00:44.289: User switched to scene 'video player'
+08:54:07.529: User switched to scene 'Paw'
+09:35:21.612: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' invalidated.  Retrying (source: xlr)
+09:35:24.787: [WASAPISource::TryInitialize]:[Analogue 1 + 2 (4- Focusrite USB Audio)] Failed to activate client context: 88890004
+09:35:28.135: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' [48000 Hz] initialized (source: xlr)
+09:35:49.901: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' invalidated.  Retrying (source: xlr)
+09:35:53.281: [WASAPISource::TryInitialize]:[Analogue 1 + 2 (4- Focusrite USB Audio)] Failed to activate client context: 88890004
+09:35:56.637: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' [48000 Hz] initialized (source: xlr)
+09:36:32.834: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+09:36:32.834: Deduplication logic is being applied to all monitored sources.
+09:36:32.834: [win-wasapi: 'Desktop Audio'] update settings:
+09:36:32.834: 	device id: default
+09:36:32.834: 	use device timing: 1
+09:36:32.853: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+09:36:32.853: Deduplication logic is being applied to all monitored sources.
+09:36:32.860: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+09:36:32.889: Settings changed (audio)
+09:36:32.889: ------------------------------------------------
+09:37:09.739: Deduplication logic stopped.
+09:37:09.739: [win-wasapi: 'Desktop Audio'] update settings:
+09:37:09.739: 	device id: {0.0.0.00000000}.{81a43a86-b8a1-4e1c-892d-7c543dea6496}
+09:37:09.739: 	use device timing: 1
+09:37:09.742: Device 'Speakers (4- Focusrite USB Audio)' invalidated.  Retrying (source: Desktop Audio)
+09:37:09.746: Settings changed (audio)
+09:37:09.746: ------------------------------------------------
+09:37:09.804: WASAPI: Device 'Headphones (Elgato Wave:3)' [48000 Hz] initialized (source: Desktop Audio)
+09:37:23.504: [win-wasapi: 'Desktop Audio'] update settings:
+09:37:23.504: 	device id: {0.0.0.00000000}.{0d88bb2d-cbdc-4374-aded-4d3f46929f57}
+09:37:23.504: 	use device timing: 1
+09:37:23.507: Device 'Headphones (Elgato Wave:3)' invalidated.  Retrying (source: Desktop Audio)
+09:37:23.512: Settings changed (audio)
+09:37:23.512: ------------------------------------------------
+09:37:23.530: WASAPI: Device 'CABLE-A Input (VB-Audio Cable A)' [48000 Hz] initialized (source: Desktop Audio)
+09:37:58.204: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+09:37:58.204: Deduplication logic is being applied to all monitored sources.
+09:37:58.204: [win-wasapi: 'Desktop Audio'] update settings:
+09:37:58.204: 	device id: {0.0.0.00000000}.{921dfdcc-fdba-47dd-889b-42108af6fc7f}
+09:37:58.204: 	use device timing: 1
+09:37:58.207: Device 'CABLE-A Input (VB-Audio Cable A)' invalidated.  Retrying (source: Desktop Audio)
+09:37:58.212: Settings changed (audio)
+09:37:58.212: ------------------------------------------------
+09:37:58.230: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+09:38:47.752: Deduplication logic stopped.
+09:38:47.752: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' Terminated
+09:38:47.759: Settings changed (audio)
+09:38:47.759: ------------------------------------------------
+09:39:44.128: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+09:39:44.128: Deduplication logic is being applied to all monitored sources.
+09:39:44.128: [win-wasapi: 'Desktop Audio'] update settings:
+09:39:44.128: 	device id: default
+09:39:44.128: 	use device timing: 1
+09:39:44.137: Settings changed (audio)
+09:39:44.137: ------------------------------------------------
+09:39:44.152: Device for 'Audio Output Capture' source Desktop Audio is also used for audio monitoring.
+09:39:44.152: Deduplication logic is being applied to all monitored sources.
+09:39:44.156: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' [48000 Hz] initialized (source: Desktop Audio)
+09:40:45.220: [win-wasapi: 'Mic/Aux 2'] update settings:
+09:40:45.220: 	device id: {0.0.1.00000000}.{3b3b683a-0d94-4556-8bdd-90ba246d4a28}
+09:40:45.220: 	use device timing: 0
+09:40:45.228: Settings changed (audio)
+09:40:45.228: ------------------------------------------------
+09:40:45.231: WASAPI: Device 'Mic In (Elgato Wave:3)' [48000 Hz] initialized (source: Mic/Aux 2)
+09:40:55.234: [texture-amf-h264: 'advanced_video_recording'] settings:
+09:40:55.234: 	rate_control: CBR
+09:40:55.234: 	bitrate:      6000
+09:40:55.234: 	cqp:          20
+09:40:55.234: 	keyint:       250
+09:40:55.234: 	preset:       quality
+09:40:55.234: 	profile:      high
+09:40:55.234: 	level:        4.2
+09:40:55.234: 	b-frames:     2
+09:40:55.234: 	width:        1920
+09:40:55.234: 	height:       1080
+09:40:55.234: 	pre-analysis: false
+09:40:55.234: 	params:       (none)
+09:40:55.240: [CoreAudio AAC: 'Track1']: settings:
+09:40:55.240: 	mode:          AAC
+09:40:55.240: 	bitrate:       160
+09:40:55.240: 	sample rate:   48000
+09:40:55.240: 	cbr:           on
+09:40:55.240: 	output buffer: 1536
+09:40:55.278: ==== Recording Start ===============================================
+09:40:55.278: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file 'F:/recordings/2026-02-18/2026-02-18-09-40.mp4'...
+09:41:01.030: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+09:41:01.035: [mp4 muxer: 'adv_file_output'] Number of fragments: 2
+09:41:01.035: [mp4 muxer: 'adv_file_output'] Full moov size: 5 KiB
+09:41:01.035: [mp4 muxer: 'adv_file_output'] Final mdat size: 4243 KiB
+09:41:01.035: Output 'adv_file_output': stopping
+09:41:01.035: Output 'adv_file_output': Total frames output: 340
+09:41:01.035: Output 'adv_file_output': Total drawn frames: 346
+09:41:01.035: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+09:41:01.036: [mp4 output: 'adv_file_output'] File output complete. Finalization took 6 ms.
+09:41:01.038: ==== Recording Stop ================================================
+09:50:28.134: [texture-amf-h264: 'advanced_video_recording'] settings:
+09:50:28.134: 	rate_control: CBR
+09:50:28.134: 	bitrate:      6000
+09:50:28.134: 	cqp:          20
+09:50:28.134: 	keyint:       250
+09:50:28.134: 	preset:       quality
+09:50:28.134: 	profile:      high
+09:50:28.134: 	level:        4.2
+09:50:28.134: 	b-frames:     2
+09:50:28.134: 	width:        1920
+09:50:28.134: 	height:       1080
+09:50:28.134: 	pre-analysis: false
+09:50:28.134: 	params:       (none)
+09:50:28.139: [CoreAudio AAC: 'Track1']: settings:
+09:50:28.139: 	mode:          AAC
+09:50:28.139: 	bitrate:       160
+09:50:28.139: 	sample rate:   48000
+09:50:28.139: 	cbr:           on
+09:50:28.139: 	output buffer: 1536
+09:50:28.153: ==== Recording Start ===============================================
+09:50:28.153: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file 'F:/recordings/2026-02-18/2026-02-18-09-50.mp4'...
+09:52:45.931: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+09:52:45.932: [mp4 muxer: 'adv_file_output'] Number of fragments: 33
+09:52:45.933: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+09:52:45.933: [mp4 muxer: 'adv_file_output'] Final mdat size: 103527 KiB
+09:52:45.933: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+09:52:45.934: [mp4 output: 'adv_file_output'] File split complete. Finalization took 2 ms.
+09:52:45.934: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-09-52.mp4'
+09:52:45.935: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+09:55:03.429: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+09:55:03.430: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+09:55:03.431: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+09:55:03.431: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+09:55:03.431: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+09:55:03.432: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+09:55:03.433: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-09-55.mp4'
+09:57:20.982: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+09:57:20.984: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+09:57:20.986: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+09:57:20.986: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+09:57:20.986: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+09:57:20.987: [mp4 output: 'adv_file_output'] File split complete. Finalization took 4 ms.
+09:57:20.987: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-09-57.mp4'
+09:57:20.988: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+09:59:38.497: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+09:59:38.501: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+09:59:38.503: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+09:59:38.503: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+09:59:38.503: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+09:59:38.504: [mp4 output: 'adv_file_output'] File split complete. Finalization took 6 ms.
+09:59:38.504: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-09-59.mp4'
+09:59:38.505: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+10:01:55.996: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:01:55.997: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:01:55.998: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:01:55.998: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:01:55.998: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:01:56.000: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+10:01:56.000: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-01.mp4'
+10:04:13.579: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:04:13.581: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:04:13.582: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:04:13.582: [mp4 muxer: 'adv_file_output'] Final mdat size: 103539 KiB
+10:04:13.582: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:04:13.583: [mp4 output: 'adv_file_output'] File split complete. Finalization took 4 ms.
+10:04:13.584: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-04.mp4'
+10:06:31.082: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:06:31.083: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:06:31.085: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:06:31.085: [mp4 muxer: 'adv_file_output'] Final mdat size: 103525 KiB
+10:06:31.085: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:06:31.087: [mp4 output: 'adv_file_output'] File split complete. Finalization took 4 ms.
+10:06:31.087: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-06.mp4'
+10:06:31.087: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+10:08:48.579: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:08:48.584: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:08:48.585: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:08:48.586: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:08:48.586: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:08:48.587: [mp4 output: 'adv_file_output'] File split complete. Finalization took 7 ms.
+10:08:48.588: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-08.mp4'
+10:11:06.079: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:11:06.081: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:11:06.082: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:11:06.082: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:11:06.082: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:11:06.083: [mp4 output: 'adv_file_output'] File split complete. Finalization took 4 ms.
+10:11:06.084: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-11.mp4'
+10:13:23.598: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:13:23.601: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:13:23.602: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:13:23.602: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:13:23.602: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:13:23.603: [mp4 output: 'adv_file_output'] File split complete. Finalization took 5 ms.
+10:13:23.603: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-13.mp4'
+10:15:41.082: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:15:41.084: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:15:41.085: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:15:41.085: [mp4 muxer: 'adv_file_output'] Final mdat size: 103527 KiB
+10:15:41.085: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:15:41.086: [mp4 output: 'adv_file_output'] File split complete. Finalization took 4 ms.
+10:15:41.087: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-15.mp4'
+10:17:58.584: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:17:58.585: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:17:58.586: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:17:58.586: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:17:58.586: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:17:58.588: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+10:17:58.588: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-17.mp4'
+10:20:16.100: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:20:16.102: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:20:16.103: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:20:16.103: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:20:16.103: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:20:16.104: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+10:20:16.104: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-20.mp4'
+10:22:33.580: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:22:33.582: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:22:33.583: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:22:33.583: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:22:33.583: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:22:33.584: [mp4 output: 'adv_file_output'] File split complete. Finalization took 4 ms.
+10:22:33.585: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-22.mp4'
+10:22:33.585: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+10:24:51.081: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:24:51.082: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:24:51.083: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:24:51.083: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:24:51.083: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:24:51.084: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+10:24:51.085: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-24.mp4'
+10:27:08.596: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:27:08.597: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:27:08.598: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:27:08.598: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:27:08.598: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:27:08.600: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+10:27:08.600: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-27.mp4'
+10:29:26.080: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:29:26.082: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:29:26.083: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:29:26.083: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:29:26.084: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:29:26.086: [mp4 output: 'adv_file_output'] File split complete. Finalization took 6 ms.
+10:29:26.087: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-29.mp4'
+10:29:26.087: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+10:31:33.011: Source 'Mic/Aux 2' renamed to 'elgatoMicRight'
+10:31:43.580: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:31:43.581: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:31:43.582: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:31:43.582: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:31:43.582: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:31:43.583: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+10:31:43.584: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-31.mp4'
+10:34:01.080: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:34:01.081: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:34:01.082: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:34:01.082: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:34:01.082: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:34:01.083: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+10:34:01.083: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-34.mp4'
+10:36:18.581: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:36:18.582: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:36:18.583: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:36:18.584: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:36:18.584: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:36:18.585: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+10:36:18.585: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-36.mp4'
+10:36:18.586: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+10:38:36.079: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:38:36.081: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:38:36.082: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:38:36.082: [mp4 muxer: 'adv_file_output'] Final mdat size: 103527 KiB
+10:38:36.082: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:38:36.083: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+10:38:36.083: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-38.mp4'
+10:40:53.583: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:40:53.586: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:40:53.587: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:40:53.587: [mp4 muxer: 'adv_file_output'] Final mdat size: 103525 KiB
+10:40:53.587: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:40:53.588: [mp4 output: 'adv_file_output'] File split complete. Finalization took 5 ms.
+10:40:53.589: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-40.mp4'
+10:43:11.083: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:43:11.084: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:43:11.085: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:43:11.085: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:43:11.085: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:43:11.086: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+10:43:11.087: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-43.mp4'
+10:43:11.087: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+10:45:28.583: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:45:28.585: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:45:28.586: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:45:28.586: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:45:28.586: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:45:28.587: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+10:45:28.587: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-45.mp4'
+10:47:24.619: User switched to scene 'Blan'
+10:47:46.080: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:47:46.081: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:47:46.082: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:47:46.082: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:47:46.082: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:47:46.084: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+10:47:46.084: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-47.mp4'
+10:50:03.595: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:50:03.596: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:50:03.598: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:50:03.598: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:50:03.598: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:50:03.599: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+10:50:03.599: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-50.mp4'
+10:52:21.083: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:52:21.087: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:52:21.088: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:52:21.088: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:52:21.088: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:52:21.090: [mp4 output: 'adv_file_output'] File split complete. Finalization took 6 ms.
+10:52:21.090: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-52.mp4'
+10:52:21.091: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+10:54:38.579: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:54:38.580: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:54:38.581: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:54:38.581: [mp4 muxer: 'adv_file_output'] Final mdat size: 103527 KiB
+10:54:38.581: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:54:38.582: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+10:54:38.582: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-54.mp4'
+10:56:56.095: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:56:56.097: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:56:56.098: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:56:56.098: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:56:56.098: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:56:56.100: [mp4 output: 'adv_file_output'] File split complete. Finalization took 4 ms.
+10:56:56.100: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-56.mp4'
+10:59:13.580: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+10:59:13.582: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+10:59:13.583: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+10:59:13.583: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+10:59:13.583: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+10:59:13.585: [mp4 output: 'adv_file_output'] File split complete. Finalization took 4 ms.
+10:59:13.585: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-10-59.mp4'
+10:59:13.586: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+11:01:31.080: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+11:01:31.081: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+11:01:31.082: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+11:01:31.082: [mp4 muxer: 'adv_file_output'] Final mdat size: 103525 KiB
+11:01:31.082: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+11:01:31.084: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+11:01:31.084: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-11-01.mp4'
+11:03:48.596: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+11:03:48.598: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+11:03:48.599: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+11:03:48.599: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+11:03:48.599: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+11:03:48.601: [mp4 output: 'adv_file_output'] File split complete. Finalization took 4 ms.
+11:03:48.601: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-11-03.mp4'
+11:04:49.579: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+11:04:49.580: [mp4 muxer: 'adv_file_output'] Number of fragments: 16
+11:04:49.581: [mp4 muxer: 'adv_file_output'] Full moov size: 46 KiB
+11:04:49.581: [mp4 muxer: 'adv_file_output'] Final mdat size: 45958 KiB
+11:04:49.581: Output 'adv_file_output': stopping
+11:04:49.581: Output 'adv_file_output': Total frames output: 267664
+11:04:49.581: Output 'adv_file_output': Total drawn frames: 267640 (267686 attempted)
+11:04:49.581: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 46 (0.0%)
+11:04:49.581: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+11:04:49.582: ==== Recording Stop ================================================
+11:04:49.582: [mp4 output: 'adv_file_output'] File output complete. Finalization took 3 ms.
+11:04:49.582: Video stopped, number of skipped frames due to encoding lag: 46/267685 (0.0%)
+11:26:02.363: User switched to scene 'Paw'
+13:21:35.474: [texture-amf-h264: 'advanced_video_recording'] settings:
+13:21:35.474: 	rate_control: CBR
+13:21:35.474: 	bitrate:      6000
+13:21:35.474: 	cqp:          20
+13:21:35.474: 	keyint:       250
+13:21:35.474: 	preset:       quality
+13:21:35.474: 	profile:      high
+13:21:35.474: 	level:        4.2
+13:21:35.474: 	b-frames:     2
+13:21:35.474: 	width:        1920
+13:21:35.474: 	height:       1080
+13:21:35.474: 	pre-analysis: false
+13:21:35.474: 	params:       (none)
+13:21:35.481: [CoreAudio AAC: 'Track1']: settings:
+13:21:35.481: 	mode:          AAC
+13:21:35.481: 	bitrate:       160
+13:21:35.481: 	sample rate:   48000
+13:21:35.481: 	cbr:           on
+13:21:35.481: 	output buffer: 1536
+13:21:35.504: ==== Recording Start ===============================================
+13:21:35.504: [mp4 output: 'adv_file_output'] Writing Hybrid MP4/MOV file 'F:/recordings/2026-02-18/2026-02-18-13-21.mp4'...
+13:23:53.196: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:23:53.198: [mp4 muxer: 'adv_file_output'] Number of fragments: 33
+13:23:53.199: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:23:53.199: [mp4 muxer: 'adv_file_output'] Final mdat size: 103527 KiB
+13:23:53.199: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:23:53.200: [mp4 output: 'adv_file_output'] File split complete. Finalization took 4 ms.
+13:23:53.201: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-23.mp4'
+13:26:10.709: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:26:10.712: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+13:26:10.714: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:26:10.714: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+13:26:10.714: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:26:10.715: [mp4 output: 'adv_file_output'] File split complete. Finalization took 5 ms.
+13:26:10.715: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-26.mp4'
+13:26:10.716: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+13:28:28.212: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:28:28.214: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+13:28:28.215: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:28:28.215: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+13:28:28.215: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:28:28.216: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+13:28:28.216: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-28.mp4'
+13:30:45.717: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:30:45.718: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+13:30:45.719: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:30:45.719: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+13:30:45.719: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:30:45.720: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+13:30:45.721: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-30.mp4'
+13:30:45.722: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+13:33:03.215: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:33:03.216: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+13:33:03.217: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:33:03.217: [mp4 muxer: 'adv_file_output'] Final mdat size: 103556 KiB
+13:33:03.217: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:33:03.218: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+13:33:03.218: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-33.mp4'
+13:35:20.717: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:35:20.720: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+13:35:20.721: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:35:20.721: [mp4 muxer: 'adv_file_output'] Final mdat size: 103508 KiB
+13:35:20.721: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:35:20.723: [mp4 output: 'adv_file_output'] File split complete. Finalization took 5 ms.
+13:35:20.723: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-35.mp4'
+13:37:38.218: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:37:38.220: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+13:37:38.221: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:37:38.222: [mp4 muxer: 'adv_file_output'] Final mdat size: 103539 KiB
+13:37:38.222: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:37:38.224: [mp4 output: 'adv_file_output'] File split complete. Finalization took 5 ms.
+13:37:38.224: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-37.mp4'
+13:37:38.225: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+13:39:55.713: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:39:55.714: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+13:39:55.715: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:39:55.715: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+13:39:55.716: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:39:55.716: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+13:39:55.717: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-39.mp4'
+13:39:55.718: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+13:42:13.229: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:42:13.230: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+13:42:13.231: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:42:13.233: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+13:42:13.233: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:42:13.234: [mp4 output: 'adv_file_output'] File split complete. Finalization took 5 ms.
+13:42:13.235: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-42.mp4'
+13:42:13.235: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+13:44:30.741: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:44:30.745: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+13:44:30.746: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:44:30.747: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+13:44:30.747: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:44:30.748: [mp4 output: 'adv_file_output'] File split complete. Finalization took 6 ms.
+13:44:30.749: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-44.mp4'
+13:44:30.750: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+13:46:48.229: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:46:48.230: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+13:46:48.231: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:46:48.231: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+13:46:48.231: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:46:48.232: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+13:46:48.232: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-46.mp4'
+13:49:05.728: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:49:05.730: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+13:49:05.731: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:49:05.731: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+13:49:05.731: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:49:05.734: [mp4 output: 'adv_file_output'] File split complete. Finalization took 5 ms.
+13:49:05.734: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-49.mp4'
+13:49:05.735: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+13:51:23.242: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:51:23.244: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+13:51:23.245: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:51:23.245: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+13:51:23.245: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:51:23.246: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+13:51:23.246: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-51.mp4'
+13:51:23.247: QThread::start: Failed to set thread priority (The parameter is incorrect.)
+13:53:40.732: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:53:40.735: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+13:53:40.736: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:53:40.736: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+13:53:40.736: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:53:40.737: [mp4 output: 'adv_file_output'] File split complete. Finalization took 5 ms.
+13:53:40.738: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-53.mp4'
+13:55:58.229: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:55:58.230: [mp4 muxer: 'adv_file_output'] Number of fragments: 34
+13:55:58.231: [mp4 muxer: 'adv_file_output'] Full moov size: 102 KiB
+13:55:58.231: [mp4 muxer: 'adv_file_output'] Final mdat size: 103526 KiB
+13:55:58.231: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:55:58.233: [mp4 output: 'adv_file_output'] File split complete. Finalization took 3 ms.
+13:55:58.234: [mp4 output: 'adv_file_output'] Changing output file to 'F:/recordings/2026-02-18\2026-02-18-13-55.mp4'
+13:58:01.398: [mp4 muxer: 'adv_file_output'] Flushing final fragment...
+13:58:01.399: [mp4 muxer: 'adv_file_output'] Number of fragments: 31
+13:58:01.400: [mp4 muxer: 'adv_file_output'] Full moov size: 91 KiB
+13:58:01.400: [mp4 muxer: 'adv_file_output'] Final mdat size: 92720 KiB
+13:58:01.400: Output 'adv_file_output': stopping
+13:58:01.400: Output 'adv_file_output': Total frames output: 131140
+13:58:01.400: Output 'adv_file_output': Total drawn frames: 131146 (131154 attempted)
+13:58:01.400: Output 'adv_file_output': Number of lagged frames due to rendering lag/stalls: 8 (0.0%)
+13:58:01.400: [mp4 output: 'adv_file_output'] Waiting for file writer to finish...
+13:58:01.401: ==== Recording Stop ================================================
+13:58:01.401: [mp4 output: 'adv_file_output'] File output complete. Finalization took 3 ms.
+13:58:01.401: Video stopped, number of skipped frames due to encoding lag: 8/131153 (0.0%)
+15:47:17.507: ==== Shutting down ==================================================
+15:47:17.634: Deduplication logic stopped.
+15:47:17.634: WASAPI: Device 'Speakers (4- Focusrite USB Audio)' Terminated
+15:47:17.643: WASAPI: Device 'Analogue 1 + 2 (4- Focusrite USB Audio)' Terminated
+15:47:17.652: WASAPI: Device 'Mic In (Elgato Wave:3)' Terminated
+15:47:17.718: WASAPI: Device '' Terminated
+15:47:17.863: WASAPI: Device 'Mic In (Elgato Wave:3)' Terminated
+15:47:18.210: WASAPI: Device '[VIRTUAL_AUDIO_DEVICE_PROCESS_LOOPBACK]' Terminated
+15:47:18.211: Tried to sort VolumeControl for 'xlr' but source is null
+15:47:18.212: Tried to sort VolumeControl for 'elgatoMicRight' but source is null
+15:47:18.233: All scene data cleared
+15:47:18.233: ------------------------------------------------
+15:47:18.478: Tried to call obs_frontend_remove_event_callback with no callbacks!
+15:47:18.684: Tried to call obs_frontend_remove_event_callback with no callbacks!
+15:47:18.689: [obs-websocket] [obs_module_unload] Shutting down...
+15:47:18.696: [obs-websocket] [WebSocketServer::onClose] WebSocket client `[::ffff:127.0.0.1]:50425` has disconnected with code `1001` and reason: Server stopping.
+15:47:18.696: [obs-websocket] [WebSocketServer::ServerRunner] IO thread exited.
+15:47:18.702: [obs-websocket] [WebSocketServer::Stop] Server stopped successfully
+15:47:18.703: Tried to call obs_frontend_remove_event_callback with no callbacks!
+15:47:18.703: [obs-websocket] [obs_module_unload] Finished shutting down.
+15:47:18.792: [Scripting] Total detached callbacks: 0
+15:47:18.818: Freeing OBS context data
+15:47:18.925: == Profiler Results =============================
+15:47:18.925: run_program_init: 5908.78 ms
+15:47:18.925:  ┣OBSApp::AppInit: 225.555 ms
+15:47:18.925:  ┃ ┗OBSApp::InitLocale: 60.074 ms
+15:47:18.925:  ┗OBSApp::OBSInit: 5622.01 ms
+15:47:18.925:    ┣obs_startup: 4.178 ms
+15:47:18.925:    ┗OBSBasic::OBSInit: 4951.68 ms
+15:47:18.925:      ┣OBSBasic::InitBasicConfig: 113.685 ms
+15:47:18.925:      ┣OBSBasic::ResetAudio: 0.243 ms
+15:47:18.925:      ┣OBSBasic::ResetVideo: 1373.87 ms
+15:47:18.925:      ┃ ┗obs_init_graphics: 1370.8 ms
+15:47:18.925:      ┃   ┗shader compilation: 1251.88 ms
+15:47:18.925:      ┣OBSBasic::InitOBSCallbacks: 0.007 ms
+15:47:18.925:      ┣OBSBasic::InitHotkeys: 0.162 ms
+15:47:18.925:      ┣obs_load_all_modules2: 1169.69 ms
+15:47:18.925:      ┃ ┣obs_init_module(aja-output-ui.dll): 1.011 ms
+15:47:18.925:      ┃ ┣obs_init_module(aja.dll): 0.979 ms
+15:47:18.925:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 59.839 ms
+15:47:18.925:      ┃ ┣obs_init_module(decklink-captions.dll): 0 ms
+15:47:18.925:      ┃ ┣obs_init_module(decklink-output-ui.dll): 0 ms
+15:47:18.925:      ┃ ┣obs_init_module(decklink.dll): 1.616 ms
+15:47:18.925:      ┃ ┣obs_init_module(frontend-tools.dll): 9.861 ms
+15:47:18.925:      ┃ ┣obs_init_module(image-source.dll): 0.01 ms
+15:47:18.925:      ┃ ┣obs_init_module(nv-filters.dll): 3.437 ms
+15:47:18.925:      ┃ ┣obs_init_module(obs-browser.dll): 1.105 ms
+15:47:18.925:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 241.766 ms
+15:47:18.925:      ┃ ┣obs_init_module(obs-filters.dll): 0.045 ms
+15:47:18.925:      ┃ ┣obs_init_module(obs-nvenc.dll): 1.389 ms
+15:47:18.925:      ┃ ┃ ┗nvenc_check: 1.376 ms
+15:47:18.925:      ┃ ┣obs_init_module(obs-outputs.dll): 0.012 ms
+15:47:18.925:      ┃ ┣obs_init_module(obs-qsv11.dll): 63.233 ms
+15:47:18.925:      ┃ ┣obs_init_module(obs-text.dll): 0.261 ms
+15:47:18.925:      ┃ ┣obs_init_module(obs-transitions.dll): 0.012 ms
+15:47:18.925:      ┃ ┣obs_init_module(obs-vst.dll): 0.012 ms
+15:47:18.925:      ┃ ┣obs_init_module(obs-webrtc.dll): 0.237 ms
+15:47:18.925:      ┃ ┣obs_init_module(obs-websocket.dll): 12.41 ms
+15:47:18.925:      ┃ ┣obs_init_module(obs-x264.dll): 0.002 ms
+15:47:18.925:      ┃ ┣obs_init_module(rtmp-services.dll): 23.39 ms
+15:47:18.925:      ┃ ┣obs_init_module(text-freetype2.dll): 0.372 ms
+15:47:18.925:      ┃ ┣obs_init_module(vlc-video.dll): 10.501 ms
+15:47:18.925:      ┃ ┣obs_init_module(win-capture.dll): 159.398 ms
+15:47:18.925:      ┃ ┣obs_init_module(win-dshow.dll): 1.768 ms
+15:47:18.925:      ┃ ┣obs_init_module(win-wasapi.dll): 18.074 ms
+15:47:18.925:      ┃ ┣obs_init_module(StreamDeckPlugin.dll): 13.752 ms
+15:47:18.925:      ┃ ┗reset_win32_symbol_paths: 0.273 ms
+15:47:18.925:      ┣OBSBasic::InitService: 14.306 ms
+15:47:18.925:      ┣OBSBasic::ResetOutputs: 16.98 ms
+15:47:18.925:      ┣OBSBasic::CreateHotkeys: 0.035 ms
+15:47:18.925:      ┣OBSBasic::InitPrimitives: 0.318 ms
+15:47:18.925:      ┗OBSBasic::Load: 765.644 ms
+15:47:18.925: obs_hotkey_thread(25 ms): min=0.003 ms, median=0.07 ms, max=249.5 ms, 99th percentile=2.286 ms, 99.9936% below 25 ms
+15:47:18.925: audio_thread(Audio): min=0.013 ms, median=0.317 ms, max=224.261 ms, 99th percentile=2.901 ms
+15:47:18.925:  ┗receive_audio: min=0.006 ms, median=0.405 ms, max=9.011 ms, 99th percentile=0.805 ms, 0.224818 calls per parent call
+15:47:18.925:    ┣buffer_audio: min=0 ms, median=0.002 ms, max=0.143 ms, 99th percentile=0.007 ms
+15:47:18.925:    ┗do_encode: min=0.207 ms, median=0.397 ms, max=8.996 ms, 99th percentile=0.789 ms
+15:47:18.925:      ┣encode(Track1): min=0.2 ms, median=0.377 ms, max=3.853 ms, 99th percentile=0.7 ms
+15:47:18.925:      ┗send_packet: min=0.001 ms, median=0.018 ms, max=8.473 ms, 99th percentile=0.089 ms
+15:47:18.925: obs_graphics_thread(16.6667 ms): min=0.071 ms, median=1.691 ms, max=250.048 ms, 99th percentile=5.913 ms, 99.9518% below 16.667 ms
+15:47:18.925:  ┣tick_sources: min=0.001 ms, median=0.039 ms, max=153.629 ms, 99th percentile=0.153 ms
+15:47:18.925:  ┣output_frame: min=0.067 ms, median=1.05 ms, max=232.182 ms, 99th percentile=3.829 ms
+15:47:18.925:  ┃ ┗gs_context(video->graphics): min=0.066 ms, median=1.048 ms, max=232.175 ms, 99th percentile=3.825 ms
+15:47:18.925:  ┃   ┣render_video: min=0.002 ms, median=0.884 ms, max=103.834 ms, 99th percentile=3.739 ms
+15:47:18.925:  ┃   ┃ ┣render_main_texture: min=0.001 ms, median=0.727 ms, max=103.827 ms, 99th percentile=3.358 ms
+15:47:18.925:  ┃   ┃ ┣render_convert_texture: min=0.007 ms, median=0.023 ms, max=0.517 ms, 99th percentile=0.101 ms, 0.224866 calls per parent call
+15:47:18.925:  ┃   ┃ ┗output_gpu_encoders: min=0 ms, median=0.095 ms, max=3.792 ms, 99th percentile=0.258 ms, 0.224866 calls per parent call
+15:47:18.925:  ┃   ┗gs_flush: min=0.001 ms, median=0.208 ms, max=231.612 ms, 99th percentile=0.465 ms
+15:47:18.925:  ┗render_displays: min=0 ms, median=0.366 ms, max=248.766 ms, 99th percentile=3.028 ms
+15:47:18.925: OBSBasicSettings::LoadThemeList: min=0.266 ms, median=0.279 ms, max=0.319 ms, 99th percentile=0.319 ms
+15:47:18.925: obs_gpu_encode_thread(16.6667 ms): min=0.165 ms, median=0.598 ms, max=28.707 ms, 99th percentile=6.151 ms, 99.711% below 16.667 ms
+15:47:18.925:  ┣gpu_encode_frame: min=0.159 ms, median=0.556 ms, max=28.692 ms, 99th percentile=5.568 ms
+15:47:18.925:  ┗send_packet: min=0.002 ms, median=0.023 ms, max=6.272 ms, 99th percentile=0.16 ms
+15:47:18.925: obs_gpu_encode_thread(16.6667 ms): min=0.112 ms, median=0.541 ms, max=64.59 ms, 99th percentile=1.403 ms, 99.9981% below 16.667 ms
+15:47:18.925:  ┣gpu_encode_frame: min=0.102 ms, median=0.515 ms, max=64.567 ms, 99th percentile=1.322 ms
+15:47:18.925:  ┗send_packet: min=0.002 ms, median=0.015 ms, max=8.814 ms, 99th percentile=0.087 ms
+15:47:18.925: obs_gpu_encode_thread(16.6667 ms): min=0.172 ms, median=0.566 ms, max=39.007 ms, 99th percentile=1.369 ms, 99.9985% below 16.667 ms
+15:47:18.926:  ┣gpu_encode_frame: min=0.163 ms, median=0.538 ms, max=38.975 ms, 99th percentile=1.275 ms
+15:47:18.926:  ┗send_packet: min=0.002 ms, median=0.016 ms, max=7.766 ms, 99th percentile=0.089 ms
+15:47:18.926: =================================================
+15:47:18.926: == Profiler Time Between Calls ==================
+15:47:18.926: obs_hotkey_thread(25 ms): min=23.596 ms, median=25.582 ms, max=274.811 ms, 44.3564% within ±2% of 25 ms (0.173761% lower, 55.4699% higher)
+15:47:18.926: obs_graphics_thread(16.6667 ms): min=0.854 ms, median=16.667 ms, max=250.082 ms, 58.0703% within ±2% of 16.667 ms (20.9595% lower, 20.9702% higher)
+15:47:18.926: obs_gpu_encode_thread(16.6667 ms): min=6.155 ms, median=16.684 ms, max=28.715 ms, 26.9565% within ±2% of 16.667 ms (36.5217% lower, 36.5217% higher)
+15:47:18.926: obs_gpu_encode_thread(16.6667 ms): min=0.118 ms, median=16.696 ms, max=144.922 ms, 30.5969% within ±2% of 16.667 ms (33.9512% lower, 35.4519% higher)
+15:47:18.926: obs_gpu_encode_thread(16.6667 ms): min=0.193 ms, median=16.67 ms, max=115.263 ms, 20.1743% within ±2% of 16.667 ms (40.219% lower, 39.6067% higher)
+15:47:18.926: =================================================
+15:47:19.342: Number of memory leaks: 2
