@@ -60,3 +60,6 @@
 
 
 Log location > C:\Users\Pexabo\AppData\Roaming\obs-studio\logs
+
+Script load location > 
+C:\Program Files\obs-studio\data\obs-plugins\frontend-tools\scripts

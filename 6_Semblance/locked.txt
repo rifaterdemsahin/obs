@@ -1,0 +1,16 @@
+This is VS Code running a **"File Rename" participant** — this happens when you rename a file and VS Code (or an extension) is processing all the related references/imports to update them across your project.
+
+It can get "stuck" or take a long time because:
+
+- A large codebase with many files to scan
+- A slow extension handling the rename (TypeScript language server, Pylance, etc.)
+- The extension is indexing or re-resolving all import paths
+
+**To see what's happening:**
+
+1. **Output panel** → `View > Output` → select the relevant language server (e.g. "TypeScript", "Pylance") from the dropdown
+2. **Extension Host logs** → `Help > Toggle Developer Tools` → Console tab — look for errors or hanging promises
+3. **Process Explorer** → `Help > Open Process Explorer` — see which process is eating CPU
+4. **Cancel and retry** — hit Cancel, then try the rename again; sometimes it's a one-off hang
+
+If it keeps locking up, the usual culprit is the **TypeScript/JS language server** struggling with a large project. You can try adding a `tsconfig.json` with `exclude` patterns to limit what it scans, or disable "Update imports on file move" in settings temporarily.
