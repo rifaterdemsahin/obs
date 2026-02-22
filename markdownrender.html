@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBS Docs</title>
+    <script>
+    /* Minimal Markdown → HTML renderer (no CDN required) */
+    var marked = (function () {
+        function esc(s) {
+            return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+        }
+        function inline(s) {
+            return s
+                // Code spans (preserve raw, no further processing)
+                .replace(/`([^`]+)`/g, function(_,c){ return '<code>'+esc(c)+'</code>'; })
+                // Bold+Italic
+                .replace(/\*\*\*(.+?)\*\*\*/g, '<strong><em>$1</em></strong>')
+                // Bold
+                .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+                .replace(/__(.+?)__/g, '<strong>$1</strong>')
+                // Italic (* always; _ only at word boundaries to avoid matching inside variable_names)
+                .replace(/\*(.+?)\*/g, '<em>$1</em>')
+                .replace(/(^|[\s(])_([^_\s][^_]*)_(?=[\s,.!?;:)$]|$)/g, '$1<em>$2</em>')
+                // Strikethrough
+                .replace(/~~(.+?)~~/g, '<del>$1</del>')
+                // Images
+                .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img alt="$1" src="$2">')
+                // Links
+                .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2">$1</a>')
+                // Auto links
+                .replace(/(https?:\/\/[^\s<>"]+)/g, '<a href="$1">$1</a>');
+        }
+        function parse(md) {
+            var lines = md.replace(/\r\n/g,'\n').replace(/\r/g,'\n').split('\n');
+            var html = '';
+            var i = 0;
+            var inFence = false, fenceLang = '', fenceContent = '';
+            var inUL = false, inOL = false, inBlockquote = false, inTable = false, tableHead = false;
+            function closeList() {
+                if (inUL) { html += '</ul>\n'; inUL = false; }
+                if (inOL) { html += '</ol>\n'; inOL = false; }
+            }
+            function closeBQ() { if (inBlockquote) { html += '</blockquote>\n'; inBlockquote = false; } }
+            function closeTable() { if (inTable) { html += '</tbody></table>\n'; inTable = false; tableHead = false; } }
+            while (i < lines.length) {
+                var line = lines[i];
+                // Fenced code block
+                if (/^```/.test(line)) {
+                    if (!inFence) {
+                        closeList(); closeBQ(); closeTable();
+                        fenceLang = line.slice(3).trim();
+                        fenceContent = '';
+                        inFence = true;
+                    } else {
+                        html += '<pre><code>' + esc(fenceContent) + '</code></pre>\n';
+                        inFence = false;
+                    }
+                    i++; continue;
+                }
+                if (inFence) { fenceContent += line + '\n'; i++; continue; }
+                // Blank line
+                if (!line.trim()) {
+                    closeList(); closeBQ(); closeTable();
+                    i++; continue;
+                }
+                // Headings
+                var hm = line.match(/^(#{1,6})\s+(.*)/);
+                if (hm) {
+                    closeList(); closeBQ(); closeTable();
+                    var lv = hm[1].length;
+                    html += '<h'+lv+'>'+inline(esc(hm[2]))+'</h'+lv+'>\n';
+                    i++; continue;
+                }
+                // HR
+                if (/^(-{3,}|\*{3,}|_{3,})$/.test(line.trim())) {
+                    closeList(); closeBQ(); closeTable();
+                    html += '<hr>\n'; i++; continue;
+                }
+                // Blockquote
+                var bqm = line.match(/^>\s?(.*)/);
+                if (bqm) {
+                    closeList(); closeTable();
+                    if (!inBlockquote) { html += '<blockquote>\n'; inBlockquote = true; }
+                    html += '<p>'+inline(esc(bqm[1]))+'</p>\n';
+                    i++; continue;
+                }
+                // Table (pipe lines)
+                if (/^\|/.test(line)) {
+                    closeList(); closeBQ();
+                    var cols = line.split('|').slice(1,-1).map(function(c){ return c.trim(); });
+                    if (!inTable) {
+                        // Peek ahead: if next line is separator (|---|), treat this as header
+                        var nextLine = lines[i+1] || '';
+                        if (/^\|[\s\-:|]+\|/.test(nextLine)) {
+                            html += '<table><thead><tr>';
+                            cols.forEach(function(c){ html += '<th>'+inline(esc(c))+'</th>'; });
+                            html += '</tr></thead><tbody>\n';
+                            inTable = true; tableHead = true;
+                            i += 2; continue; // skip separator
+                        } else {
+                            html += '<table><tbody>\n';
+                            inTable = true;
+                        }
+                    }
+                    html += '<tr>';
+                    cols.forEach(function(c){ html += '<td>'+inline(esc(c))+'</td>'; });
+                    html += '</tr>\n';
+                    i++; continue;
+                }
+                // Unordered list
+                var ulm = line.match(/^(\s*)[-*+]\s+(.*)/);
+                if (ulm) {
+                    closeBQ(); closeTable();
+                    if (!inUL) { closeList(); html += '<ul>\n'; inUL = true; }
+                    html += '<li>'+inline(esc(ulm[2]))+'</li>\n';
+                    i++; continue;
+                }
+                // Ordered list
+                var olm = line.match(/^(\s*)\d+\.\s+(.*)/);
+                if (olm) {
+                    closeBQ(); closeTable();
+                    if (!inOL) { closeList(); html += '<ol>\n'; inOL = true; }
+                    html += '<li>'+inline(esc(olm[2]))+'</li>\n';
+                    i++; continue;
+                }
+                // Paragraph
+                closeList(); closeBQ(); closeTable();
+                html += '<p>'+inline(esc(line))+'</p>\n';
+                i++;
+            }
+            closeList(); closeBQ(); closeTable();
+            if (inFence) html += '<pre><code>'+esc(fenceContent)+'</code></pre>\n';
+            return html;
+        }
+        return { parse: parse };
+    })();
+    </script>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --surface: #161b22;
+            --border: #30363d;
+            --text: #c9d1d9;
+            --text-muted: #8b949e;
+            --accent: #58a6ff;
+            --accent-hover: #79c0ff;
+            --green: #3fb950;
+            --sidebar-w: 260px;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            display: flex;
+            min-height: 100vh;
+        }
+
+        /* ── Sidebar ── */
+        #sidebar {
+            width: var(--sidebar-w);
+            min-width: var(--sidebar-w);
+            background: var(--surface);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            position: fixed;
+            top: 0; left: 0;
+            height: 100vh;
+            overflow-y: auto;
+            z-index: 100;
+        }
+
+        #sidebar .sidebar-header {
+            padding: 1.25rem 1rem 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        #sidebar .sidebar-header a {
+            color: var(--accent);
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+        }
+
+        #sidebar .sidebar-header a:hover { color: var(--accent-hover); }
+
+        #sidebar nav { padding: 0.75rem 0; flex: 1; }
+
+        #sidebar nav .group-label {
+            padding: 0.5rem 1rem 0.25rem;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--text-muted);
+        }
+
+        #sidebar nav a {
+            display: block;
+            padding: 0.4rem 1rem 0.4rem 1.25rem;
+            color: var(--text);
+            text-decoration: none;
+            font-size: 0.875rem;
+            border-left: 3px solid transparent;
+            transition: background 0.15s, border-color 0.15s;
+        }
+
+        #sidebar nav a:hover {
+            background: rgba(88,166,255,0.06);
+            color: var(--accent-hover);
+        }
+
+        #sidebar nav a.active {
+            border-left-color: var(--accent);
+            background: rgba(88,166,255,0.1);
+            color: var(--accent);
+        }
+
+        #sidebar nav a.sub {
+            padding-left: 2rem;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+        #sidebar nav a.sub:hover, #sidebar nav a.sub.active {
+            color: var(--accent-hover);
+        }
+
+        /* ── Main ── */
+        #main {
+            margin-left: var(--sidebar-w);
+            flex: 1;
+            padding: 2rem 2.5rem;
+            max-width: 900px;
+        }
+
+        /* ── Markdown styles ── */
+        #content h1 { font-size: 2rem; font-weight: 600; margin-bottom: 1rem; padding-bottom: 0.4rem; border-bottom: 1px solid var(--border); }
+        #content h2 { font-size: 1.4rem; font-weight: 600; margin: 2rem 0 0.75rem; padding-bottom: 0.3rem; border-bottom: 1px solid var(--border); }
+        #content h3 { font-size: 1.1rem; font-weight: 600; margin: 1.5rem 0 0.5rem; }
+        #content h4 { font-size: 1rem; font-weight: 600; margin: 1.25rem 0 0.4rem; color: var(--text-muted); }
+
+        #content p { margin-bottom: 1rem; }
+
+        #content a { color: var(--accent); text-decoration: none; }
+        #content a:hover { text-decoration: underline; }
+
+        #content ul, #content ol { margin: 0.5rem 0 1rem 1.5rem; }
+        #content li { margin-bottom: 0.25rem; }
+
+        #content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 0.5rem 1rem;
+            color: var(--text-muted);
+            background: rgba(88,166,255,0.05);
+            border-radius: 0 4px 4px 0;
+            margin: 1rem 0;
+        }
+
+        #content code {
+            background: rgba(110,118,129,0.2);
+            padding: 0.15rem 0.4rem;
+            border-radius: 4px;
+            font-family: 'Cascadia Code', 'Fira Code', Consolas, monospace;
+            font-size: 0.85em;
+        }
+
+        #content pre {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem 1.25rem;
+            overflow-x: auto;
+            margin: 0.75rem 0 1rem;
+        }
+
+        #content pre code {
+            background: none;
+            padding: 0;
+            font-size: 0.85rem;
+            line-height: 1.6;
+        }
+
+        #content table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+            margin: 1rem 0;
+        }
+
+        #content th, #content td {
+            text-align: left;
+            padding: 0.65rem 1rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        #content th {
+            background: rgba(88,166,255,0.08);
+            font-weight: 600;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-muted);
+        }
+
+        #content tr:last-child td { border-bottom: none; }
+        #content tr:hover td { background: rgba(88,166,255,0.04); }
+
+        #content hr {
+            border: none;
+            border-top: 1px solid var(--border);
+            margin: 1.5rem 0;
+        }
+
+        #content img { max-width: 100%; border-radius: 4px; }
+
+        /* Loading / error states */
+        #loading { color: var(--text-muted); padding: 2rem 0; }
+        #error { color: #f85149; padding: 1rem; background: rgba(248,81,73,0.1); border: 1px solid rgba(248,81,73,0.3); border-radius: 8px; }
+
+        /* Mobile */
+        @media (max-width: 700px) {
+            #sidebar { transform: translateX(-100%); transition: transform 0.25s; }
+            #sidebar.open { transform: translateX(0); }
+            #main { margin-left: 0; padding: 1rem; }
+            #menu-btn { display: flex; }
+        }
+
+        #menu-btn {
+            display: none;
+            position: fixed;
+            top: 0.75rem; left: 0.75rem;
+            z-index: 200;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            color: var(--text);
+            padding: 0.4rem 0.65rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+
+<button id="menu-btn" onclick="document.getElementById('sidebar').classList.toggle('open')">☰</button>
+
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <a href="index.html">⬅ OBS Studio Docs</a>
+    </div>
+    <nav>
+        <div class="group-label">Overview</div>
+        <a href="markdownrender.html?doc=README.md" data-doc="README.md">📄 README</a>
+
+        <div class="group-label">Knowledge System</div>
+        <a href="markdownrender.html?doc=1_Real_Unknown/README.md" data-doc="1_Real_Unknown/README.md">1️⃣ Real Unknown</a>
+        <a href="markdownrender.html?doc=2_Environment/README.md" data-doc="2_Environment/README.md">2️⃣ Environment</a>
+        <a href="markdownrender.html?doc=3_Simulation/README.md" data-doc="3_Simulation/README.md">3️⃣ Simulation</a>
+        <a href="markdownrender.html?doc=4_Formula/README.md" data-doc="4_Formula/README.md">4️⃣ Formula</a>
+        <a href="markdownrender.html?doc=5_Symbols/README.md" data-doc="5_Symbols/README.md">5️⃣ Symbols</a>
+        <a href="markdownrender.html?doc=5_Symbols/plugins/README.md" data-doc="5_Symbols/plugins/README.md" class="sub">↳ Plugins</a>
+        <a href="markdownrender.html?doc=6_Semblance/README.md" data-doc="6_Semblance/README.md">6️⃣ Semblance</a>
+        <a href="markdownrender.html?doc=6_Semblance/logs/REPORT.md" data-doc="6_Semblance/logs/REPORT.md" class="sub">↳ Report</a>
+        <a href="markdownrender.html?doc=6_Semblance/sanity-check-report.md" data-doc="6_Semblance/sanity-check-report.md" class="sub">↳ Sanity Check</a>
+        <a href="markdownrender.html?doc=7_Testing_Known/README.md" data-doc="7_Testing_Known/README.md">7️⃣ Testing Known</a>
+    </nav>
+</nav>
+
+<main id="main">
+    <div id="loading">Loading document…</div>
+    <div id="error" style="display:none"></div>
+    <div id="content" style="display:none"></div>
+</main>
+
+<script>
+    (function () {
+        const params = new URLSearchParams(window.location.search);
+        const rawDoc = params.get('doc') || 'README.md';
+
+        // Validate: reject paths with '..' or leading '/' to prevent directory traversal
+        const doc = (/\.\./.test(rawDoc) || /^\//.test(rawDoc)) ? 'README.md' : rawDoc;
+
+        // Highlight active sidebar link
+        document.querySelectorAll('#sidebar nav a[data-doc]').forEach(function (a) {
+            if (a.dataset.doc === doc) a.classList.add('active');
+        });
+
+        // Update page title
+        const name = doc.split('/').pop().replace(/\.md$/i, '');
+        document.title = name + ' — OBS Docs';
+
+        const loading = document.getElementById('loading');
+        const error   = document.getElementById('error');
+        const content = document.getElementById('content');
+
+        fetch(doc)
+            .then(function (res) {
+                if (!res.ok) throw new Error('HTTP ' + res.status + ' — ' + doc);
+                return res.text();
+            })
+            .then(function (md) {
+                loading.style.display = 'none';
+                content.style.display = '';
+                content.innerHTML = marked.parse(md);
+
+                // Make internal .md links open in markdownrender.html
+                content.querySelectorAll('a[href]').forEach(function (a) {
+                    const href = a.getAttribute('href');
+                    if (href && !href.startsWith('http') && !href.startsWith('#') && href.endsWith('.md')) {
+                        // Resolve relative path against current doc's directory then normalize '..' segments
+                        const base = doc.includes('/') ? doc.substring(0, doc.lastIndexOf('/') + 1) : '';
+                        const parts = (base + href).split('/');
+                        const norm = [];
+                        parts.forEach(function (p) { if (p === '..') norm.pop(); else if (p && p !== '.') norm.push(p); });
+                        a.href = 'markdownrender.html?doc=' + encodeURIComponent(norm.join('/'));
+                    }
+                });
+            })
+            .catch(function (err) {
+                loading.style.display = 'none';
+                error.style.display = '';
+                error.textContent = 'Could not load document: ' + err.message;
+            });
+    })();
+</script>
+</body>
+</html>

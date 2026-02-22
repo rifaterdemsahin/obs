@@ -237,6 +237,92 @@
 
         footer a:hover { text-decoration: underline; }
 
+        /* ── Top nav ── */
+        .topnav {
+            background: var(--surface);
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            z-index: 50;
+        }
+
+        .topnav-inner {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.25rem;
+            overflow-x: auto;
+            scrollbar-width: none;
+        }
+
+        .topnav-inner::-webkit-scrollbar { display: none; }
+
+        .topnav-inner a {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.6rem 0.75rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.85rem;
+            white-space: nowrap;
+            border-bottom: 2px solid transparent;
+            transition: color 0.15s, border-color 0.15s;
+        }
+
+        .topnav-inner a:hover {
+            color: var(--accent-hover);
+            border-bottom-color: var(--accent);
+        }
+
+        .topnav-inner a.home {
+            color: var(--accent);
+            font-weight: 600;
+            border-bottom-color: var(--accent);
+        }
+
+        /* ── Doc cards ── */
+        .doc-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 1rem;
+        }
+
+        .doc-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.1rem 1.25rem;
+            text-decoration: none;
+            color: var(--text);
+            transition: border-color 0.2s;
+            display: block;
+        }
+
+        .doc-card:hover { border-color: var(--accent); text-decoration: none; }
+
+        .doc-card .doc-num {
+            font-size: 0.75rem;
+            font-weight: 600;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+            margin-bottom: 0.3rem;
+        }
+
+        .doc-card h4 {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+        }
+
+        .doc-card p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
         @media (max-width: 600px) {
             .container { padding: 1rem; }
             header h1 { font-size: 1.6rem; }
@@ -244,6 +330,21 @@
     </style>
 </head>
 <body>
+
+<!-- Top navigation bar -->
+<nav class="topnav">
+    <div class="topnav-inner">
+        <a href="index.html" class="home">🏠 Home</a>
+        <a href="markdownrender.html?doc=README.md">📄 README</a>
+        <a href="markdownrender.html?doc=1_Real_Unknown/README.md">1️⃣ Real Unknown</a>
+        <a href="markdownrender.html?doc=2_Environment/README.md">2️⃣ Environment</a>
+        <a href="markdownrender.html?doc=3_Simulation/README.md">3️⃣ Simulation</a>
+        <a href="markdownrender.html?doc=4_Formula/README.md">4️⃣ Formula</a>
+        <a href="markdownrender.html?doc=5_Symbols/README.md">5️⃣ Symbols</a>
+        <a href="markdownrender.html?doc=6_Semblance/README.md">6️⃣ Semblance</a>
+        <a href="markdownrender.html?doc=7_Testing_Known/README.md">7️⃣ Testing Known</a>
+    </div>
+</nav>
 
 <div class="container">
 
@@ -365,6 +466,53 @@
                 <tr><td>Windows</td><td>10/11</td><td>Uses <code>%APPDATA%</code> paths</td></tr>
             </tbody>
         </table>
+    </section>
+
+    <!-- Documentation -->
+    <section>
+        <h2><span>#</span> Documentation</h2>
+        <div class="doc-grid">
+            <a class="doc-card" href="markdownrender.html?doc=1_Real_Unknown/README.md">
+                <div class="doc-num">1 — Real Unknown</div>
+                <h4>Define the Problem</h4>
+                <p>OKRs, goals, and key questions that drive this project.</p>
+            </a>
+            <a class="doc-card" href="markdownrender.html?doc=2_Environment/README.md">
+                <div class="doc-num">2 — Environment</div>
+                <h4>Read the Landscape</h4>
+                <p>Technology stack, constraints, use cases, and roadmap.</p>
+            </a>
+            <a class="doc-card" href="markdownrender.html?doc=3_Simulation/README.md">
+                <div class="doc-num">3 — Simulation</div>
+                <h4>Examples & Mockups</h4>
+                <p>Workflow diagrams, example JSON structures, and UX mockups.</p>
+            </a>
+            <a class="doc-card" href="markdownrender.html?doc=4_Formula/README.md">
+                <div class="doc-num">4 — Formula</div>
+                <h4>Step-by-Step Guide</h4>
+                <p>Recipe for building the IaC pipeline from scratch.</p>
+            </a>
+            <a class="doc-card" href="markdownrender.html?doc=5_Symbols/README.md">
+                <div class="doc-num">5 — Symbols</div>
+                <h4>Source Code</h4>
+                <p>Core implementation files, key functions, and data structures.</p>
+            </a>
+            <a class="doc-card" href="markdownrender.html?doc=6_Semblance/README.md">
+                <div class="doc-num">6 — Semblance</div>
+                <h4>Errors & Workarounds</h4>
+                <p>Known issues, root causes, and applied fixes.</p>
+            </a>
+            <a class="doc-card" href="markdownrender.html?doc=7_Testing_Known/README.md">
+                <div class="doc-num">7 — Testing Known</div>
+                <h4>Validation</h4>
+                <p>Test matrix proving the solution meets the original OKRs.</p>
+            </a>
+            <a class="doc-card" href="markdownrender.html?doc=README.md">
+                <div class="doc-num">Root</div>
+                <h4>Project README</h4>
+                <p>Full project overview with structure, plugins, and usage guide.</p>
+            </a>
+        </div>
     </section>
 
     <footer>
