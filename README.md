@@ -31,11 +31,12 @@ obs/
 ├── 2_Environment/              # Landscape, roadmap, constraints
 ├── 3_Simulation/               # Workflow diagrams & mockups
 ├── 4_Formula/                  # Step-by-step build guide
+│   └── RESETUP-STEPS.md        # Complete re-setup implementation guide
 ├── 5_Symbols/                  # Source code documentation
+│   └── plugins/
+│       └── projector-hotkeys.lua
 ├── 6_Semblance/                # Error log & workarounds
 ├── 7_Testing_Known/            # Test matrix & validation
-├── plugins/
-│   └── projector-hotkeys.lua   # Lua plugin for fullscreen projector hotkeys
 ├── obs-config-backup/          # Backed-up OBS Studio configuration
 │   ├── basic/
 │   │   ├── profiles/           # Streaming/recording profiles
@@ -54,6 +55,7 @@ obs/
 │   │       └── ...
 │   └── plugin_config/          # Plugin settings (browser, websocket, etc.)
 ├── backup-obs-config.ps1       # PowerShell script to back up OBS config
+├── restore-obs-config.ps1      # PowerShell script to restore OBS config
 ├── index.html                  # Project overview page
 ├── .gitignore
 └── README.md
@@ -79,11 +81,15 @@ An OBS Lua script that adds hotkeys to open fullscreen projectors. Features incl
 
 > **Note:** If scenes are added or renamed, the script must be reloaded.
 
-## Configuration Backup
+## Configuration Backup & Restore
 
 The `backup-obs-config.ps1` script copies your OBS configuration from `%APPDATA%\obs-studio` into the `obs-config-backup/` folder, skipping caches, logs, and crash dumps.
 
-### Usage
+The `restore-obs-config.ps1` script copies configuration from `obs-config-backup/` back into `%APPDATA%\obs-studio`, with optional path remapping for cross-machine restores.
+
+For a full re-setup guide, see [`4_Formula/RESETUP-STEPS.md`](4_Formula/RESETUP-STEPS.md).
+
+### Backup Usage
 
 ```powershell
 # Back up to the default location (obs-config-backup/)
@@ -91,6 +97,22 @@ The `backup-obs-config.ps1` script copies your OBS configuration from `%APPDATA%
 
 # Back up to a custom directory
 .\backup-obs-config.ps1 -BackupDir "C:\my-backups\obs"
+```
+
+### Restore Usage
+
+```powershell
+# Preview what will be restored (no changes made)
+.\restore-obs-config.ps1 -DryRun
+
+# Restore (auto-detects old username from global.ini)
+.\restore-obs-config.ps1
+
+# Restore with explicit path remapping (old username → current username)
+.\restore-obs-config.ps1 -OldUser "Pexabo"
+
+# Restore to a custom backup directory
+.\restore-obs-config.ps1 -BackupDir "C:\my-backups\obs" -OldUser "Pexabo"
 ```
 
 ### What Gets Backed Up
@@ -120,9 +142,10 @@ Caches, logs, crash dumps, profiler data, temp files, and browser storage.
 
 ## Requirements
 
-- **OBS Studio** 28+ (for Lua scripting and frontend API support)
-- **PowerShell** 5.1+ (for the backup script)
-- **Windows** (backup script uses `%APPDATA%` paths)
+- **OBS Studio** 28+ (for Lua scripting and frontend API support) — install stable, not RC
+- **PowerShell** 5.1+ (for the backup/restore scripts)
+- **Windows** (backup/restore scripts use `%APPDATA%` paths)
+- **Chocolatey** (optional, for `choco install obs-studio`)
 
 ## Credits
 

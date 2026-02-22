@@ -1,16 +1,36 @@
-This is VS Code running a **"File Rename" participant** — this happens when you rename a file and VS Code (or an extension) is processing all the related references/imports to update them across your project.
+## Locked Files During OBS Backup
 
-It can get "stuck" or take a long time because:
+When OBS Studio is running, the browser plugin keeps several files locked:
 
-- A large codebase with many files to scan
-- A slow extension handling the rename (TypeScript language server, Pylance, etc.)
-- The extension is indexing or re-resolving all import paths
+- `plugin_config/obs-browser/Network/Cookies`
+- `plugin_config/obs-browser/Network/Cookies-journal`
+- `plugin_config/obs-browser/first_party_sets.db`
+- `plugin_config/obs-browser/SharedStorage-wal`
+- `plugin_config/obs-browser/obs_profile_cookies_youtube/.../LOCK`
 
-**To see what's happening:**
+### Symptom
 
-1. **Output panel** → `View > Output` → select the relevant language server (e.g. "TypeScript", "Pylance") from the dropdown
-2. **Extension Host logs** → `Help > Toggle Developer Tools` → Console tab — look for errors or hanging promises
-3. **Process Explorer** → `Help > Open Process Explorer` — see which process is eating CPU
-4. **Cancel and retry** — hit Cancel, then try the rename again; sometimes it's a one-off hang
+`backup-obs-config.ps1` prints warnings like:
 
-If it keeps locking up, the usual culprit is the **TypeScript/JS language server** struggling with a large project. You can try adding a `tsconfig.json` with `exclude` patterns to limit what it scans, or disable "Update imports on file move" in settings temporarily.
+```
+Skipped (locked): plugin_config\obs-browser\Network\Cookies
+```
+
+### Cause
+
+OBS holds an exclusive file lock on browser cookie databases and LevelDB storage
+while it is running (via the Chromium Embedded Framework / CEF process).
+
+### Fix
+
+**Close OBS Studio before running the backup script** to allow a complete copy
+of all browser source state.
+
+If a partial backup (with locked files skipped) is acceptable, the script handles
+this gracefully with try/catch and reports the count of skipped files.
+
+### Impact
+
+Skipping these files means browser source cookies (e.g. YouTube login state) are
+not included in the backup. After a restore, you may need to re-authenticate in
+browser sources. All scene JSON files and profiles are unaffected.

@@ -45,7 +45,9 @@ $excludeCachePatterns = @(
     "*\blob_storage\*",
     "*\Session Storage\*",
     "*\Local Storage\*",
-    "*\Code Cache\*"
+    "*\Code Cache\*",
+    "*\models\*.bin",
+    "*\models\*.gguf"
 )
 
 Write-Host "============================================" -ForegroundColor Cyan

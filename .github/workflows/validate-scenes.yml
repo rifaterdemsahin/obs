@@ -1,0 +1,43 @@
+name: Validate OBS Scene JSON
+
+on: [push, pull_request]
+
+jobs:
+  validate-scenes:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate scene JSON files (obs-config-backup)
+        run: |
+          shopt -s nullglob
+          failed=0
+          files=(obs-config-backup/basic/scenes/*.json)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No JSON files found in obs-config-backup/basic/scenes/ — skipping"
+            exit 0
+          fi
+          for f in "${files[@]}"; do
+            python3 -m json.tool "$f" > /dev/null 2>&1 \
+              && echo "✓ $f" \
+              || { echo "✗ $f — INVALID JSON"; failed=1; }
+          done
+          exit $failed
+
+      - name: Validate scene JSON files (5_Symbols/Scenes)
+        run: |
+          shopt -s nullglob
+          failed=0
+          files=(5_Symbols/Scenes/*.json)
+          if [ ${#files[@]} -eq 0 ]; then
+            echo "No JSON files found in 5_Symbols/Scenes/ — skipping"
+            exit 0
+          fi
+          for f in "${files[@]}"; do
+            python3 -m json.tool "$f" > /dev/null 2>&1 \
+              && echo "✓ $f" \
+              || { echo "✗ $f — INVALID JSON"; failed=1; }
+          done
+          exit $failed
